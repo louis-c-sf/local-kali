@@ -1,0 +1,26 @@
+export const COMMON_TEST_IDS = {
+  whatsappTemplateSearchInput: 'whatsapp-template-search-input',
+  backgroundTaskManager: 'background-task-manager',
+  exceedDeviceLimitContinueHere: 'exceed-device-limit-continue-here',
+  exceedDeviceLimitContainer: 'exceed-device-limit-container',
+  accountSettingsMenuTrigger: 'account-settings-menu-trigger',
+  appUpdateDialog: 'app-update-dialog',
+  appUpdateDialogCloseButton: 'app-update-dialog-close-button',
+  globalSearchBarDialog: 'global-search-bar-dialog',
+  globalSearchBarInput: 'global-search-bar-input',
+  globalSearchBarButton: 'global-search-bar-button',
+  accountSettingsMenuGeneralList: 'account-settings-menu-general-list',
+  accountSettingsMenuPreferencesList: 'account-settings-menu-preferences-list',
+  backgroundTaskManagerClearCompletedCta:
+    'background-task-manager-clear-completed-cta',
+  backgroundTaskManagerTask: (id: number | string) =>
+    `background-task-manager-task_${id}`,
+  backgroundTaskManagerRegularTask: 'ImportContacts',
+  backgroundTaskManagerBulkRegularTask: 'BulkImportContacts',
+  dateCalendarPreviousMonthButton: 'date-calendar-previous-month-button',
+  dateCalendarNextMonthButton: 'date-calendar-next-month-button',
+  dateCalendarMonthSelect: 'date-calendar-month-select',
+  dateCalendarYearSelect: 'date-calendar-year-select',
+  dateCalendarDaySelect: (day: number) => `date-calendar-day-select-${day}`,
+  timePickerList: 'time-picker-list',
+} as const;

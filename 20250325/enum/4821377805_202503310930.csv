@@ -1,0 +1,72 @@
+﻿host,ip,port,protocol,title,domain,country,city,link,as_organization
+https://share.sleekflow.io,20.189.109.96,443,https,Your Azure Function App is up and running.,sleekflow.io,CN,Hong Kong,https://share.sleekflow.io,MICROSOFT-CORP-MSN-AS-BLOCK
+share.sleekflow.io,20.189.109.96,80,http,Your Azure Function App is up and running.,sleekflow.io,CN,Hong Kong,http://share.sleekflow.io,MICROSOFT-CORP-MSN-AS-BLOCK
+https://pay.sleekflow.io,20.205.69.84,443,https,Microsoft Azure Web App - Error 404,sleekflow.io,CN,Hong Kong,https://pay.sleekflow.io,MICROSOFT-CORP-MSN-AS-BLOCK
+uat2.sleekflow.io,18.173.121.44,80,http,,sleekflow.io,US,San Jose,http://uat2.sleekflow.io,
+https://sso-staging.sleekflow.io,104.19.153.19,443,https,,sleekflow.io,US,San Francisco,https://sso-staging.sleekflow.io,CLOUDFLARENET
+https://uat2.sleekflow.io,3.171.198.80,443,https,,sleekflow.io,US,Seattle,https://uat2.sleekflow.io,
+chat.sleekflow.io,13.33.183.10,80,http,Webpack App,sleekflow.io,IN,Chennai,http://chat.sleekflow.io,
+https://chat.sleekflow.io,13.33.183.10,443,https,Webpack App,sleekflow.io,IN,Chennai,https://chat.sleekflow.io,
+https://sleekflow.io.s3.amazonaws.com,3.5.9.161,443,https,,io.s3.amazonaws.com,US,Ashburn,https://sleekflow.io.s3.amazonaws.com,AMAZON-AES
+staging.sleekflow.io.s3.amazonaws.com,52.219.129.97,80,http,,io.s3.amazonaws.com,SG,Singapore,http://staging.sleekflow.io.s3.amazonaws.com,AMAZON-02
+https://staging.sleekflow.io.s3.amazonaws.com,3.5.149.155,443,https,,io.s3.amazonaws.com,SG,Singapore,https://staging.sleekflow.io.s3.amazonaws.com,AMAZON-02
+https://partner.sleekflow.io,76.76.21.93,443,https,,sleekflow.io,US,Walnut,https://partner.sleekflow.io,AMAZON-02
+partner.sleekflow.io,76.76.21.93,80,http,,sleekflow.io,US,Walnut,http://partner.sleekflow.io,AMAZON-02
+checkout.sleekflow.io,172.64.152.100,80,http,,sleekflow.io,US,San Francisco,http://checkout.sleekflow.io,CLOUDFLARENET
+https://checkout.sleekflow.io,104.18.35.156,443,https,,sleekflow.io,US,San Francisco,https://checkout.sleekflow.io,CLOUDFLARENET
+https://uat.sleekflow.io,18.160.18.37,443,https,,sleekflow.io,US,Dulles,https://uat.sleekflow.io,AMAZON-02
+uat.sleekflow.io,13.35.202.65,80,http,,sleekflow.io,IN,Hyderabad,http://uat.sleekflow.io,AMAZON-02
+v1.sleekflow.io,65.8.243.60,80,http,,sleekflow.io,US,Denver,http://v1.sleekflow.io,AMAZON-02
+https://v1.sleekflow.io,3.165.181.122,443,https,,sleekflow.io,US,Seattle,https://v1.sleekflow.io,
+https://preview.sleekflow.io,18.238.217.39,443,https,Webpack App,sleekflow.io,US,Seattle,https://preview.sleekflow.io,
+product.sleekflow.io,35.207.24.13,80,http,,sleekflow.io,US,North Charleston,http://product.sleekflow.io,GOOGLE
+https://product.sleekflow.io,35.207.24.13,443,https,What's new on SleekFlow,sleekflow.io,US,North Charleston,https://product.sleekflow.io,GOOGLE
+preview.sleekflow.io,13.35.93.106,80,http,Webpack App,sleekflow.io,US,New York City,http://preview.sleekflow.io,AMAZON-02
+affiliates.sleekflow.io,161.35.235.194,80,http,,sleekflow.io,US,Santa Clara,http://affiliates.sleekflow.io,DIGITALOCEAN-ASN
+backup-api.sleekflow.io,20.189.104.97,80,http,,sleekflow.io,CN,Hong Kong,http://backup-api.sleekflow.io,MICROSOFT-CORP-MSN-AS-BLOCK
+https://backup-api.sleekflow.io,20.189.104.97,443,https,,sleekflow.io,CN,Hong Kong,https://backup-api.sleekflow.io,MICROSOFT-CORP-MSN-AS-BLOCK
+affiliates.sleekflow.io:22,161.35.235.194,22,ssh,,sleekflow.io,US,Santa Clara,,DIGITALOCEAN-ASN
+pay-eus.sleekflow.io,20.119.8.54,80,http,Your Azure Function App is up and running.,sleekflow.io,US,Washington,http://pay-eus.sleekflow.io,MICROSOFT-CORP-MSN-AS-BLOCK
+https://pay-eus.sleekflow.io,20.119.8.54,443,https,Your Azure Function App is up and running.,sleekflow.io,US,Washington,https://pay-eus.sleekflow.io,MICROSOFT-CORP-MSN-AS-BLOCK
+https://pay-eas-dev.sleekflow.io,20.205.69.84,443,https,Your Azure Function App is up and running.,sleekflow.io,CN,Hong Kong,https://pay-eas-dev.sleekflow.io,MICROSOFT-CORP-MSN-AS-BLOCK
+pay-eas-dev.sleekflow.io,20.205.69.84,80,http,Your Azure Function App is up and running.,sleekflow.io,CN,Hong Kong,http://pay-eas-dev.sleekflow.io,MICROSOFT-CORP-MSN-AS-BLOCK
+https://pay-eas-staging.sleekflow.io,20.205.69.84,443,https,Your Azure Function App is up and running.,sleekflow.io,CN,Hong Kong,https://pay-eas-staging.sleekflow.io,MICROSOFT-CORP-MSN-AS-BLOCK
+pay-eas-staging.sleekflow.io,20.205.69.84,80,http,Your Azure Function App is up and running.,sleekflow.io,CN,Hong Kong,http://pay-eas-staging.sleekflow.io,MICROSOFT-CORP-MSN-AS-BLOCK
+https://pay-seas.sleekflow.io,20.212.64.9,443,https,Your Azure Function App is up and running.,sleekflow.io,SG,Singapore,https://pay-seas.sleekflow.io,MICROSOFT-CORP-MSN-AS-BLOCK
+pay-seas.sleekflow.io,20.212.64.9,80,http,Your Azure Function App is up and running.,sleekflow.io,SG,Singapore,http://pay-seas.sleekflow.io,MICROSOFT-CORP-MSN-AS-BLOCK
+https://pay-uaen.sleekflow.io,65.52.250.96,443,https,Your Azure Function App is up and running.,sleekflow.io,AE,Dubai,https://pay-uaen.sleekflow.io,MICROSOFT-CORP-MSN-AS-BLOCK
+pay-uaen.sleekflow.io,65.52.250.96,80,http,Your Azure Function App is up and running.,sleekflow.io,AE,Dubai,http://pay-uaen.sleekflow.io,MICROSOFT-CORP-MSN-AS-BLOCK
+click.sleekflow.io,13.248.241.119,80,http,,sleekflow.io,US,Seattle,http://click.sleekflow.io,AMAZON-02
+https://click.sleekflow.io,13.248.241.119,443,https,,sleekflow.io,US,Seattle,https://click.sleekflow.io,AMAZON-02
+pay-weu.sleekflow.io,20.105.224.35,80,http,,sleekflow.io,NL,Amsterdam,http://pay-weu.sleekflow.io,MICROSOFT-CORP-MSN-AS-BLOCK
+https://pay-weu.sleekflow.io,20.105.224.35,443,https,Your Azure Function App is up and running.,sleekflow.io,NL,Amsterdam,https://pay-weu.sleekflow.io,MICROSOFT-CORP-MSN-AS-BLOCK
+ebook.sleekflow.io,213.188.192.101,80,http,,sleekflow.io,NL,Amsterdam,http://ebook.sleekflow.io,FLY
+https://ebook.sleekflow.io,213.188.192.101,443,https,,sleekflow.io,NL,Amsterdam,https://ebook.sleekflow.io,FLY
+https://apidoc.sleekflow.io,104.18.24.178,443,https,SleekFlow | Stoplight,sleekflow.io,US,San Francisco,https://apidoc.sleekflow.io,CLOUDFLARENET
+sleekflow.io,76.76.21.21,80,http,,sleekflow.io,US,Walnut,http://sleekflow.io,AMAZON-02
+apidoc.sleekflow.io,104.18.24.178,80,http,SleekFlow | Stoplight,sleekflow.io,US,San Francisco,http://apidoc.sleekflow.io,CLOUDFLARENET
+perf.sleekflow.io,13.75.34.176,80,http,,sleekflow.io,CN,Hong Kong,http://perf.sleekflow.io,MICROSOFT-CORP-MSN-AS-BLOCK
+https://perf.sleekflow.io,13.75.34.176,443,https,,sleekflow.io,CN,Hong Kong,https://perf.sleekflow.io,MICROSOFT-CORP-MSN-AS-BLOCK
+https://uat-revamp.sleekflow.io,66.33.60.194,443,https,,sleekflow.io,CA,Etobicoke,https://uat-revamp.sleekflow.io,
+uat-revamp.sleekflow.io,66.33.60.194,80,http,,sleekflow.io,CA,Etobicoke,http://uat-revamp.sleekflow.io,
+https://sso.sleekflow.io,104.19.153.19,443,https,,sleekflow.io,US,San Francisco,https://sso.sleekflow.io,CLOUDFLARENET
+sso.sleekflow.io,104.19.153.19,80,http,,sleekflow.io,US,San Francisco,http://sso.sleekflow.io,CLOUDFLARENET
+beta.sleekflow.io,76.76.21.98,80,http,SleekFlow,sleekflow.io,US,Walnut,http://beta.sleekflow.io,AMAZON-02
+https://beta.sleekflow.io,76.76.21.164,443,https,SleekFlow,sleekflow.io,US,Walnut,https://beta.sleekflow.io,AMAZON-02
+https://referralpartner.sleekflow.io,35.158.87.123,443,https,Home,sleekflow.io,DE,Frankfurt am Main,https://referralpartner.sleekflow.io,AMAZON-02
+referralpartner.sleekflow.io,35.158.87.123,80,http,Home,sleekflow.io,DE,Frankfurt am Main,http://referralpartner.sleekflow.io,AMAZON-02
+app.sleekflow.io,76.76.21.93,80,http,SleekFlow,sleekflow.io,US,Walnut,http://app.sleekflow.io,AMAZON-02
+staging.sleekflow.io,76.76.21.98,80,http,SleekFlow,sleekflow.io,US,Walnut,http://staging.sleekflow.io,AMAZON-02
+https://app.sleekflow.io,76.76.21.142,443,https,SleekFlow,sleekflow.io,US,Walnut,https://app.sleekflow.io,AMAZON-02
+dev.sleekflow.io,76.76.21.22,80,http,SleekFlow,sleekflow.io,US,Walnut,http://dev.sleekflow.io,AMAZON-02
+https://dev.sleekflow.io,76.76.21.22,443,https,SleekFlow,sleekflow.io,US,Walnut,https://dev.sleekflow.io,AMAZON-02
+https://staging.sleekflow.io,76.76.21.22,443,https,SleekFlow,sleekflow.io,US,Walnut,https://staging.sleekflow.io,AMAZON-02
+https://sleekflow.io,76.76.21.21,443,https,,sleekflow.io,US,Walnut,https://sleekflow.io,AMAZON-02
+v1-staging.sleekflow.io,13.32.99.91,80,http,,sleekflow.io,DE,Frankfurt am Main,http://v1-staging.sleekflow.io,AMAZON-02
+https://v1-staging.sleekflow.io,13.32.99.91,443,https,,sleekflow.io,DE,Frankfurt am Main,https://v1-staging.sleekflow.io,AMAZON-02
+https://prospect.sleekflow.io,99.83.183.127,443,https,,sleekflow.io,US,Seattle,https://prospect.sleekflow.io,AMAZON-02
+prospect.sleekflow.io,15.197.246.237,80,http,,sleekflow.io,US,Seattle,http://prospect.sleekflow.io,AMAZON-02
+https://staging2.sleekflow.io,13.227.62.126,443,https,,sleekflow.io,JP,Tokyo,https://staging2.sleekflow.io,AMAZON-02
+staging2.sleekflow.io,13.227.62.95,80,http,,sleekflow.io,JP,Tokyo,http://staging2.sleekflow.io,AMAZON-02
+api.sleekflow.io,20.189.109.96,80,http,,sleekflow.io,CN,Hong Kong,http://api.sleekflow.io,MICROSOFT-CORP-MSN-AS-BLOCK
+https://api.sleekflow.io,20.189.109.96,443,https,,sleekflow.io,CN,Hong Kong,https://api.sleekflow.io,MICROSOFT-CORP-MSN-AS-BLOCK

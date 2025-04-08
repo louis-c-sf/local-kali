@@ -1,0 +1,1116 @@
+<html lang="en" data-overscroll="false"><head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width, height=device-height, shrink-to-fit=no, viewport-fit=cover">
+    <link rel="preconnect" href="https://assets.softr-files.com">
+    <script src="https://apis.google.com/_/scs/abc-static/_/js/k=gapi.lb.en.fwXSHnIYz-4.O/m=client/rt=j/sv=1/d=1/ed=1/rs=AHpOoo_SvulQ5pP6FvvJyrQeIOJ4MStGTQ/cb=gapi.loaded_0?le=scs" async=""></script><script>
+        const reactDefaultThemes = {defaultBaseTextSize: '18px',defaultBodyFont: 'Roboto Mono',defaultBodyFontWeight: '400',defaultBodyTextColor: '#333333',defaultButtonBackgroundColor: '#ffeab6',defaultButtonRoundness: '.5rem',defaultButtonTextColor: '#000000',defaultContainerStyle: 'container',defaultTitleFont: 'Raleway',defaultTitleFontWeight: '700',defaultTitleTextColor: '#333333',defaultSize: 'M',defaultBackgroundColor: '#ffffff',defaultShadow: true,defaultBackgroundStyle: 'HIGHLIGHTED'};
+    </script>
+        <script>window.isNavigationTransitionsEnabled = true; window.isViteBuildEnabled = false; </script>
+        <script src="https://assets.softr-files.com/softr-blocks/prod/libs/softr-page-renderer/softr-page-renderer.min.js"></script><style>
+      @view-transition {
+        navigation: auto;
+      }
+
+      @keyframes fade-out-with-delay {
+        0% {
+          opacity: 1;
+        }
+        /* delay the start of the animation
+         * If we start fading out immediately, the new sidebar/topbar will not be
+         * visible when we start fading out leading to
+         */
+        80% {
+          opacity: 1;
+        }
+        to {
+          opacity: 0;
+        }
+      }
+
+      @keyframes fade-in-with-delay {
+        0% {
+          opacity: 0;
+        }
+        10% {
+          opacity: 1;
+        }
+        to {
+          opacity: 1;
+        }
+      }
+
+
+      @keyframes fade-in {
+        0% {
+          opacity: 0;
+        }
+        100% {
+          opacity: 1;
+        }
+      }
+
+      @keyframes fade-out {
+        0% {
+          opacity: 1;
+        }
+        100% {
+          opacity: 0;
+        }
+      }
+
+      @keyframes fade-out-immediately {
+        from {
+          opacity: 0;
+        }
+        to {
+          opacity: 0;
+        }
+      }
+
+      #sidebar-root {
+        view-transition-name: sidebar;
+      }
+      
+          ::view-transition-group(sidebar) {
+            animation-duration: 1.5s;
+          }
+          ::view-transition-new(sidebar) {
+            animation-name: fade-in-with-delay;
+          }
+          ::view-transition-old(sidebar) {
+            animation-name: fade-out-with-delay;
+          }
+        
+
+      ::view-transition-group(sidebar) {
+          /* Chrome adds a slide-in-out animation by default which looks really bad
+           * because it makes the sidebar fly out of the frame in a weird way.
+           **/
+          animation-name: none;
+      }
+
+      ::view-transition-old(sidebar) {
+          width: unset;
+      }
+
+      #topbar-root {
+        view-transition-name: topbar;
+      }
+      
+          ::view-transition-group(topbar) {
+            animation-duration: 1.5s;
+          }
+          ::view-transition-new(topbar) {
+            animation-name: fade-in;
+          }
+          ::view-transition-old(topbar) {
+            animation-name: fade-out-with-delay;
+          }
+        
+
+
+    </style>
+
+<meta name="twitter:title" content="Login - made with Softr">
+<meta property="twitter:title" content="Login - made with Softr">
+<meta property="og:title" content="Login - made with Softr">
+<meta name="twitter:description" content="Made with Softr, the easiest way to turn your data into portals and internal tools.">
+<meta property="twitter:description" content="Made with Softr, the easiest way to turn your data into portals and internal tools.">
+<meta property="og:description" content="Made with Softr, the easiest way to turn your data into portals and internal tools.">
+<meta property="og:image" content="https://assets.softr-files.com/assets/images/random/og_default_image.png">
+<meta name="twitter:image" content="https://assets.softr-files.com/assets/images/random/og_default_image.png">
+<meta name="twitter:card" content="summary_large_image">
+<meta property="og:url" content="https://35.158.87.123/401">
+<meta property="twitter:url" content="https://35.158.87.123/401">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Team Wiki (1662110105)">
+
+<title>Login - made with Softr</title>
+<meta name="description" content="Made with Softr, the easiest way to turn your data into portals and internal tools.">
+
+
+<link rel="icon" type="image/x-icon" href="/favicon.ico">
+
+
+<link rel="canonical" href="https://35.158.87.123/401">
+<link href="https://fonts.softr-files.com/google/api/css?family=Raleway:100,200,300,400,500,600,700,800,900,100i,200i,300i,400i,500i,600i,700i,800i,900i&amp;display=swap" rel="stylesheet"><link href="https://fonts.softr-files.com/google/api/css?family=Roboto+Mono:100,200,300,400,500,600,700,100i,200i,300i,400i,500i,600i,700i&amp;display=swap" rel="stylesheet">
+
+<link href="https://assets.softr-files.com/libs/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet">
+<link href="https://assets.softr-files.com/libs/font-awesome/6.5.0/css/all.min.css" rel="stylesheet">
+
+
+<style type="text/css">
+
+    html {
+        scroll-behavior: smooth;
+        font-size: 18px;
+        overflow-x: hidden;
+        background-color: #ffffff;
+    }
+
+    body {
+        /* fallback for devices that do not support dvh units */
+        min-height: 100vh;
+        min-height: 100dvh;
+    }
+
+    /* on html for the old and on body for the new navigation layout */
+    html[data-overscroll="false"],
+    html[data-overscroll="false"] body {
+        overscroll-behavior: none;
+    }
+
+    .container {
+        max-width: 100%;
+    }
+
+    @media (min-width: 576px) {
+        .container {
+            max-width: 540px;
+        }
+    }
+
+    @media (max-width: 576px) {
+        .navbar-brand img {
+            max-width: 15rem !important;
+        }
+    }
+
+    @media (min-width: 768px) {
+        .container {
+            max-width: 720px;
+        }
+    }
+
+    @media (min-width: 992px) {
+        .container {
+            max-width: 960px;
+        }
+    }
+
+    @media (min-width: 1200px) {
+        .container {
+            max-width: 1140px;
+        }
+    }
+
+    p, h1, h2, h3, h4, h5, small {
+        white-space: pre-line;
+    }
+
+    @media screen and (max-width: 768px) {
+        input, select, textarea {
+            font-size: 16px !important;
+        }
+    }
+
+    h1.sw-font-family-default,
+    h2.sw-font-family-default,
+    h3.sw-font-family-default {
+        font-family: "Raleway";
+    }
+
+    h1.sw-font-weight-default,
+    h2.sw-font-weight-default,
+    h3.sw-font-family-default {
+        font-weight: 700;
+    }
+
+    h1.sw-text-color-default,
+    h2.sw-text-color-default,
+    h3.sw-font-family-default {
+        color: #333333;
+    }
+
+    section.sw-font-family-default,
+    header.sw-font-family-default,
+    nav.sw-font-family-default,
+    footer.sw-font-family-default,
+    div.sw-font-family-default,
+    span.sw-font-family-default,
+    small.sw-font-family-default,
+    pre.sw-font-family-default,
+    p.sw-font-family-default,
+    b.sw-font-family-default,
+    li.sw-font-family-default,
+    ul.sw-font-family-default,
+    a.sw-font-family-default,
+    h4.sw-font-family-default,
+    h5.sw-font-family-default,
+    h6.sw-font-family-default {
+        font-family: "Roboto Mono";
+    }
+
+    span.sw-font-weight-default,
+    li.sw-font-weight-default span,
+    small.sw-font-weight-default,
+    li.sw-font-weight-default small,
+    pre.sw-font-weight-default,
+    p.sw-font-weight-default,
+    h4.sw-font-weight-default,
+    h5.sw-font-weight-default,
+    h6.sw-font-weight-default {
+        font-weight: 400;
+    }
+
+    span.sw-text-color-default,
+    li.sw-text-color-default span,
+    small.sw-text-color-default,
+    li.sw-text-color-default small,
+    pre.sw-text-color-default,
+    p.sw-text-color-default,
+    div.sw-text-color-default,
+    h4.sw-text-color-default,
+    h5.sw-text-color-default,
+    h6.sw-text-color-default {
+        color: #333333;
+    }
+
+    input.sw-font-family-default,
+    textarea.sw-font-family-default {
+        font-family: "Roboto Mono";
+    }
+
+    input.sw-font-weight-default,
+    textarea.sw-font-weight-default {
+        font-weight: 400;
+    }
+
+    .sw-font-family-default::-webkit-input-placeholder,
+    .sw-font-family-default::-moz-placeholder,
+    .sw-font-family-default:-ms-input-placeholder,
+    .sw-font-family-default:-moz-placeholder {
+        font-family: "Roboto Mono";
+    }
+
+    .sw-font-family-default::-webkit-input-placeholder,
+    .sw-font-family-default::-moz-placeholder,
+    .sw-font-family-default:-ms-input-placeholder,
+    .sw-font-family-default:-moz-placeholder {
+        font-weight: 400;
+    }
+
+    .sw-text-color-default[data-element='button'] {
+        color: #000000;
+    }
+
+    .sw-background-color-default[data-element='button'] {
+        background-color: #ffeab6;
+    }
+
+    .sw-border-radius-default[data-element='button'] {
+        border-radius: .5rem;
+    }
+
+    /* Micromodal styles */
+    .sw-modal {
+        display: none;
+    }
+
+    .sw-modal.is-open {
+        display: block;
+    }
+
+    .sw-modal .sw-modal-overlay {
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background: rgba(0, 0, 0, 0.6);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        z-index: 9999;
+    }
+
+    .sw-modal .sw-modal-container {
+        background-color: #FFFFFF;
+        padding: 40px 10px 10px 10px;
+        overflow-y: auto;
+        box-sizing: border-box;
+        position: relative;
+        margin: auto;
+        border-radius: 16px;
+    }
+
+    .sw-modal #sw-modal-content {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .sw-modal .sw-modal-close {
+        background: transparent;
+        border: 0;
+        position: absolute;
+        right: 10px;
+        top: 10px;
+    }
+
+    .sw-modal-close:focus {
+        outline: none;
+    }
+
+    .sw-modal .sw-modal-iframe {
+        border: none;
+    }
+
+    .sw-modal-size-sm {
+        width: 464px;
+        height: 350px;
+        max-width: 95vw;
+        max-height: 95vh;
+    }
+
+
+    .sw-modal-size-md {
+        width: 755px;
+        height: 600px;
+        max-width: 95vw;
+        max-height: 95vh;
+    }
+
+    .sw-modal-size-lg {
+        width: 1196px;
+        height: 780px;
+        max-width: 95vw;
+        max-height: 95vh;
+    }
+
+    .sw-modal-size-xl {
+        width: 95vw;
+        height: 95vh;
+    }
+
+    .sw-modal-container > div, #sw-modal-content, #sw-modal-content iframe {
+        width: 100%;
+        height: 100%;
+    }
+
+    .sw-modal-close:before {
+        content: "\2715";
+    }
+
+    @keyframes rotation {
+        from {
+            transform: rotate(0deg);
+        }
+        to {
+            transform: rotate(359deg);
+        }
+    }
+
+
+</style>
+
+<link href="https://fonts.softr-files.com/google/api/css?family=Inter:500&amp;display=swap" rel="stylesheet">
+<style>
+    .made-with-softr {
+        position: fixed;
+        z-index: 9999999;
+        left: var(--made-with-softr-left, 20px);
+        bottom: var(--made-with-softr-bottom, 20px);
+    }
+
+    .made-with-softr a {
+        width: 125px;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 12px;
+        line-height: 16px;
+        box-shadow: 0 0 4px rgb(0 0 0 / 15%);
+        border-radius: 4px;
+        z-index: 9999999;
+        align-items: center;
+        padding: 6px 8px;
+        color: #1f2b3f;
+        background: #ffffff;
+        box-sizing: content-box;
+        text-decoration: none;
+        font-family: 'Inter';
+    }
+
+    .made-with-softr a .made-with {
+        margin-left: 4px;
+    }
+
+    .made-with-softr a img {
+        width: 16px;
+    }
+
+    .made-with-softr .softr-word {
+        color: #3b85db;
+        margin-left: 2px;
+    }
+
+    .made-with-softr .dark-theme {
+        color: #ffffff;
+        background: #1f2b3f;
+    }
+
+    .made-with-softr .dark-theme .softr-word {
+        color: #ffb30b;
+        margin-left: 2px;
+    }
+
+    /* Hide it when floating modal elements are open */
+    .made-with-softr[aria-hidden] {
+       display: none;
+    }
+</style>
+
+
+<!-- App Integrations -->
+
+<!-- End Integrations -->
+
+
+
+<script>window['application_context'] = {}; window['application_context']['policies'] ={"numberOfSupportedDomains":1,"canDisableSoftrBranding":false,"hasSoftrBrandingFooterBoundSupport":false,"numberOfDatasourceRecordsPerTable":1000,"numberOfInternalUsers":5,"numberOfExternalUsers":100,"supportedNumberOfMembershipUsers":100,"hasGoogleAuthenticationSupport":true,"hasSamlAuthenticationSupport":false,"hasOpenIdAuthenticationSupport":false,"hasUserLastSeenSupport":false,"hasUserAuthOneTimeCodeSupport":false,"numberOfDaysApplicationHistory":7,"hasCustomCodeSupport":false,"hasEmbedBlockSupport":false,"hasTransferApplicationsAcrossWorkspace":false,"hasPwaSupport":false,"hasSignatureFieldSupport":false,"hasFormConditionsSupport":false,"hasTransferOwnershipSupport":null,"hasActionButtonRecordLevelVisibilitySupport":false,"hasActionButtonCustomUserGroupVisibilitySupport":false,"numberOfUsersInWorkspace":null,"numberOfCustomUserGroups":null,"numberOfPublishedApplications":null,"restrictedDataSources":["MONDAY","SUPABASE","HUBSPOT","GOOGLE_BIGQUERY","MYSQL","POSTGRESQL","SQL_SERVER","MARIADB"],"restrictedBlocks":["calendar","chart","org-chart","inbox","kanban","signin-with-code","signin-with-phone"],"hasInlineEditingSupport":false,"hasFilteredUserSyncSupport":false,"restrictedActions":["TRIGGER_WEBHOOK"],"hasEditAddFormOptionFilterSupport":null,"hasCustomEmailSenderSupport":true,"hasSoftrApiSupport":false,"hasDomainRestrictedSignUpSupport":true,"supportedDataRestrictionOperations":["VIEW"],"hasHideBlockOnDetailsPageSupport":true,"hasOptionFilterSupport":null,"hasCustomDomainAddOnSupport":false,"hasUserAddOnSupport":false}; window['application_context']['date_and_time_settings'] = {"formatSettings":{"type":"LOCAL","localSettings":{"localizeDayAndMonth":true},"fixedSettings":null},"timezoneSettings":{"type":"LOCAL","fixedTimezone":null}}; window['application_context']['user_settings'] = {"authSettings":null,"autoInvite":false}; window['application_context']['user_connection'] = {}; window['application_context']['user_connection']['datasource'] = {}; window['application_context']['user_connection']['datasource']['id'] = '2fa8c549-e177-4ddc-8826-c258cea80124'; window['application_context']['user_connection']['datasource']['datasource_integration_type'] = 'AIRTABLE'; window['application_context']['user_connection']['attributes'] = {"nameFieldName":"Name","emailFieldName":"Email address","profilePictureFieldName":"Photo"}; </script>
+
+<style>
+ .sw-font-size-5xl {
+    font-size: 3rem;
+  }
+  .sw-font-size-4xl {
+    font-size: 2.25rem;
+  }
+</style>
+<script>
+  document.addEventListener("DOMContentLoaded", () => {
+    if($(window).width() < 768) {
+       $('h1.sw-font-size-10xl').removeClass('sw-font-size-10xl').addClass('sw-font-size-5xl');
+       $('h1.sw-font-size-9xl').removeClass('sw-font-size-9xl').addClass('sw-font-size-5xl');
+       $('h1.sw-font-size-8xl').removeClass('sw-font-size-8xl').addClass('sw-font-size-5xl');
+       $('h1.sw-font-size-7xl').removeClass('sw-font-size-7xl').addClass('sw-font-size-5xl');
+       $('h1.sw-font-size-6xl').removeClass('sw-font-size-6xl').addClass('sw-font-size-4xl');
+       $('h2.sw-font-size-10xl').removeClass('sw-font-size-10xl').addClass('sw-font-size-5xl');
+       $('h2.sw-font-size-9xl').removeClass('sw-font-size-9xl').addClass('sw-font-size-5xl');
+       $('h2.sw-font-size-8xl').removeClass('sw-font-size-8xl').addClass('sw-font-size-5xl');
+       $('h2.sw-font-size-7xl').removeClass('sw-font-size-7xl').addClass('sw-font-size-5xl');
+       $('h2.sw-font-size-6xl').removeClass('sw-font-size-6xl').addClass('sw-font-size-4xl');
+       $('div.sw-font-size-10xl').removeClass('sw-font-size-10xl').addClass('sw-font-size-5xl');
+       $('div.sw-font-size-9xl').removeClass('sw-font-size-9xl').addClass('sw-font-size-5xl');
+       $('div.sw-font-size-8xl').removeClass('sw-font-size-8xl').addClass('sw-font-size-5xl');
+       $('div.sw-font-size-7xl').removeClass('sw-font-size-7xl').addClass('sw-font-size-5xl');
+       $('div.sw-font-size-6xl').removeClass('sw-font-size-6xl').addClass('sw-font-size-4xl');
+       $('p.sw-font-size-10xl').removeClass('sw-font-size-10xl').addClass('sw-font-size-5xl');
+       $('p.sw-font-size-9xl').removeClass('sw-font-size-9xl').addClass('sw-font-size-5xl');
+       $('p.sw-font-size-8xl').removeClass('sw-font-size-8xl').addClass('sw-font-size-5xl');
+       $('p.sw-font-size-7xl').removeClass('sw-font-size-7xl').addClass('sw-font-size-5xl');
+       $('p.sw-font-size-6xl').removeClass('sw-font-size-6xl').addClass('sw-font-size-4xl');
+       $('span.sw-font-size-10xl').removeClass('sw-font-size-10xl').addClass('sw-font-size-5xl');
+       $('span.sw-font-size-9xl').removeClass('sw-font-size-9xl').addClass('sw-font-size-5xl');
+       $('span.sw-font-size-8xl').removeClass('sw-font-size-8xl').addClass('sw-font-size-5xl');
+       $('span.sw-font-size-7xl').removeClass('sw-font-size-7xl').addClass('sw-font-size-5xl');
+       $('span.sw-font-size-6xl').removeClass('sw-font-size-6xl').addClass('sw-font-size-4xl');
+    }
+  });
+</script>
+
+
+
+
+<script>window['is401Page'] = false; </script>
+
+
+<script>
+    const BlocksRenderedEventName = "@softr/page-content-loaded";
+</script>
+
+<!--Adds show-toolbar=true into action button query param only for softr.io templates preview flow. TODO uncomment after redirections are fixed-->
+<!--<script>-->
+<!--    setTimeout(() => {-->
+<!--        if (!window.location.href.includes('https://www.softr.io/templates')) {-->
+<!--            return;-->
+<!--        }-->
+<!--        const heroElement = document.getElementById('hero1');-->
+<!--        if (!heroElement) {-->
+<!--            return;-->
+<!--        }-->
+<!--        const links = heroElement.querySelectorAll('a');-->
+<!--        links.forEach(link => {-->
+<!--            const href = link.getAttribute('href');-->
+<!--            // if conditions:-->
+<!--            // 1. if href is not empty for a tag-->
+<!--            // 2. if href does not contain the softr.io dashboard link (hero "Use Template" button)-->
+<!--            // 3. if href does not already contain the show-toolbar=true query param-->
+<!--            // 4. if href contains http or https (that is if not the 'open-page' action when href is like href="/my-page", as it's handled from BE)-->
+<!--            if (href && !href.includes('https://studio.softr.io/dashboard') && !href.includes('show-toolbar=true') && (href.includes("https://") || href.includes("http://"))) {-->
+<!--                if (href.includes('?')) {-->
+<!--                    link.setAttribute('href', href + '&show-toolbar=true');-->
+<!--                } else {-->
+<!--                    link.setAttribute('href', href + '?show-toolbar=true');-->
+<!--                }-->
+<!--            }-->
+<!--        });-->
+<!--    }, 2000);-->
+<!--</script>-->
+
+<!-- This script synchronizes the query parameters and path of the top window with those of the iframe.
+     It updates the top window's URL, and include any query parameters from the iframe's URL
+     when the iframe's path is redirected. -->
+<script>
+    document.addEventListener("DOMContentLoaded", function() {
+        if (shouldNotReplaceTopWithCurrent()) {
+            return;
+        }
+        try {
+            const currentUrl = new URL(window.location.href);
+            const topUrl = new URL(window.top.location.href);
+
+            const currentParams = new URLSearchParams(currentUrl.search);
+            const topParams = new URLSearchParams(topUrl.search);
+
+            for (const [key, value] of topParams) {
+                // do not append duplicate query parameters
+                if (!currentParams.has(key) && !Array.from(currentParams).some(([k, v]) => k === key)) {
+                    currentParams.append(key, value);
+                }
+            }
+
+            currentUrl.search = currentParams.toString();
+            window.top.history.pushState(null, '', currentUrl.toString());
+        } catch (error) {
+            console.error("An error occurred while updating query parameters:", error);
+        }
+    });
+
+    function shouldNotReplaceTopWithCurrent() {
+        if (window.location.href.split('?')[0] === window.top.location.href.split('?')[0]) {
+            return true;
+        }
+
+        if ("false" !== "true" && !window.top.location.href.includes(".preview.")) {
+            return true;
+        }
+
+        if ("false" === "true" || window.location.href.includes("viewMode=modal") || window.location.href.includes("viewMode%3Dmodal")) {
+            return true;
+        }
+
+        return false;
+    }
+</script>
+
+<script>
+    /** Image lineup on mobile **/
+    window.addEventListener(BlocksRenderedEventName, function () {
+        function changeImageDirectionsOnMobile() {
+
+            const classListSection = $('body>div>section')?.attr('class')?.split(/\s+/);
+            const textClassSection = classListSection?.find(cls => cls.startsWith('feature'));
+
+            const classListHeader = $('body>div>header')?.attr('class')?.split(/\s+/);
+            const textClassHeader = classListHeader?.find(cls => cls.startsWith('hero'));
+
+            /*If FEATURE block*/
+            if (textClassSection) {
+                findRowsWidthImageAndReverse(textClassSection)
+            }
+
+            /*If HERO block*/
+            if (textClassHeader) {
+                findRowsWidthImageAndReverse(textClassHeader)
+            }
+        }
+
+        function findRowsWidthImageAndReverse(textClass) {
+            const rowsWithImages = $('.' + textClass + ' .row.align-items-center').has('img').toArray();
+            const rowsWithLeftSideImages = rowsWithImages.filter(row => {
+                return $(row).children().first().children().first().prop("tagName") === 'IMG';
+            });
+
+
+            rowsWithLeftSideImages.forEach(row => {
+                if ($(window).width() <= 768) {
+                    row.classList.add('flex-column-reverse')
+                }
+            });
+        }
+
+        if ($(window).width() <= 768) {
+            changeImageDirectionsOnMobile();
+        }
+
+        window.parent.postMessage({ name: 'previewIframeLoaded' }, '*');
+    });
+
+    /** BG Size on mobile **/
+    window.addEventListener(BlocksRenderedEventName, function () {
+        if ($(window).width() <= 768) {
+            var element = $('section.sw-background-size-auto, header.sw-background-size-auto');
+            element.removeClass('sw-background-size-auto');
+            element.css('background-size', 'cover');
+
+            $('section.sw-background-attachment-fixed, header.sw-background-attachment-fixed').removeClass('sw-background-attachment-fixed');
+        }
+    });
+
+    /** Disable zoom on mobile **/
+    window.addEventListener(BlocksRenderedEventName, function () {
+        if ($(window).width() <= 768) {
+            $('input.sw-font-size-s').removeClass('sw-font-size-s');
+            $('textarea.sw-font-size-s').removeClass('sw-font-size-s');
+            $('select.sw-font-size-s').removeClass('sw-font-size-s');
+        }
+    });
+
+    window.addEventListener('user-sign-out', (e) => {
+        const message = {
+            name: 'user-sign-out-triggered',
+        };
+
+        window.parent.postMessage(message, '*');
+    });
+
+    /** Disable overscroll **/
+    /** overscroll-behavior: none; doesn't work properly in Safari (it disables the scroll completely there) **/
+    if (!isSafari()) {
+        document.documentElement.setAttribute("data-overscroll", "false");
+    }
+
+    function isSafari() {
+        const chromeAgent = window.navigator.userAgent.includes("Chrome");
+        const safariAgent = window.navigator.userAgent.includes("Safari");
+
+        // Google Chrome also contains "Safari" user agent.
+        return safariAgent && !chromeAgent;
+    }
+</script>
+<style data-spr-role="head-styles-sentinel"></style><!--Stick footer to the bottom when the page content is smaller than the viewport--><style>
+        .spr-content-root {
+            background-color: #ffffff;
+        }
+
+        .spr-content-root .spr-hidden {
+            display: none;
+        }
+    
+            .spr-content-root {
+                display: flex;
+                flex-direction: column;
+                min-height: 100vh;
+                min-height: 100dvh;
+            }
+
+            /**
+             * Blocks have a data-block="blockname-vx-y-z" attribute,
+             * so the following will select all the footer blocks.
+             */
+            .spr-content-root > [data-block^="footer"] {
+                margin-top: auto;
+            }
+
+            .spr-content-root > .dynamic-height {
+                flex: 1;
+                display: flex;
+                flex-direction: column;
+            }
+
+            /**
+             * Hack for v2 header block
+             *
+             * It always has #vertical-holder and #data-content-vertical that
+             * should be displayed in a flex row
+             */
+            .spr-content-root:has(#vertical-holder) {
+                flex-direction: row;
+            }
+
+            /**
+             * Hack for fixed header + scroll to block:
+             * Fixed header should set --sticky-nav-height css variable, so scroll to block position correctly
+             */
+            .spr-content-root [data-block] {
+                scroll-margin-top: var(--sticky-nav-height, 0px);
+            }
+        </style><link type="text/css" rel="Stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/2.1.4/toastr.min.css"><script async="" type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/2.1.4/toastr.min.js"></script></head>
+
+<body>
+
+
+<div id="page-content" data-appsubdomain="bertram468.softr.app" data-appid="fe8ae22c-3849-4e59-9d9f-8f0338fada24" data-pageid="aed361b2-1a14-4c4d-b65a-9e0404cbcca6" data-workspaceid="1544ab2d-072a-47ae-b3ce-471b3163a5a6" data-paymentplan="" class="content spr-content-root" data-spr-role="content-root">
+
+<div data-spr-role="sentinel-start" data-spr-sentinel-start-for="58095267-4806-4477-a382-0ff646839083" data-spr-block-hrid="user-accounts2"></div><script src="https://apis.google.com/js/api:client.js" async="" gapi_processed="true"></script> <section id="user-accounts2" data-block-version="2.1.2" data-block-id="58095267-4806-4477-a382-0ff646839083" data-block-updated="Wed Jun 15 2022 16:03:01 GMT+0200 (Central European Summer Time)" class="signin2-58095267-4806-4477-a382-0ff646839083 sw-background-color-ffffff sw-padding-top-none sw-padding-bottom-none sw-border-top-style-none sw-border-top-width-xs sw-border-top-color-000000 sw-border-bottom-style-none sw-border-bottom-width-xs sw-border-bottom-color-000000 ">  <div class="container-fluid">   <div class="row vh-100 justify-content-center align-items-stretch sw-full-height   ">        <div class="image col-lg-6 px-5 d-flex flex-column justify-content-center align-items-stretch     sw-background-color-ffffff sw-border-top-style-none sw-border-top-width-xs sw-border-top-color-000000 sw-border-bottom-style-none sw-border-bottom-width-xs sw-border-bottom-color-000000 sw-padding-top-none sw-padding-bottom-none      sw-background-repeat-no-repeat sw-background-size-cover sw-background-position-left-bottom sw-background-attachment-scroll " style="background-image: url(https://assets.softr-files.com/applications/fe8ae22c-3849-4e59-9d9f-8f0338fada24/assets/273a6495-c358-4501-914c-cc3da2f193da.png);">          <h1 class="sw-font-size-5xl sw-text-color-default sw-font-family-default sw-font-weight-bold sw-text-align-center sw-padding-top-none sw-padding-bottom-4xs sw-letter-spacing-normal sw-line-height-normal ">      Team Wiki     </h1>                <p class="sw-font-size-l sw-text-color-default sw-font-family-default sw-font-weight-bold sw-text-align-center sw-padding-top-none sw-padding-bottom-4xs sw-letter-spacing-normal sw-line-height-normal ">      (For testing)
+Manager: ahanson@example.com
+Employee: jwang@example.com
+
+Password: 123456     </p>         </div>    <div class="col-lg-6 text-center d-flex flex-column justify-content-center align-items-center">     <div class="form sw-js-form" data-successurl="/">      <div id="signin" class="sw-js-signin col-12 text-left sw-background-color-ffffff sw-border-style-none sw-border-width-none sw-border-color-eaeced sw-border-radius-2xl sw-box-shadow-l ">        <!-- Logo -->              <div class="d-flex justify-content-center align-items-center">        <img class="mr-2 sw-width-6xs sw-padding-top-none sw-padding-bottom-xs " src="https://assets.softr-files.com/applications/fe8ae22c-3849-4e59-9d9f-8f0338fada24/assets/20f42c7c-4199-42aa-811d-6c9585469d88.png" alt="">       </div>                      <h1 class="text-center sw-font-size-2xl sw-text-color-default sw-font-family-default sw-font-weight-default sw-padding-top-none sw-padding-bottom-4xs sw-letter-spacing-normal sw-line-height-loose ">        Sign In       </h1>              <div class="row align-items-center">        <!-- Error Message -->        <div class="error-message login-error">         <img class="error-msg-icon" src="https://softr-assets-eu-shared.s3.eu-central-1.amazonaws.com/studio/blocks/assets/warning.svg">Invalid email or password</div>        <div class="error-message other-errors">         <img class="error-msg-icon" src="https://softr-assets-eu-shared.s3.eu-central-1.amazonaws.com/studio/blocks/assets/warning.svg">Something went wrong, please try again.</div>         <div class="col-12 text-center">         <input class="sw-background-color-FAFAFC hover:sw-background-color-FAFAFC sw-font-size-s sw-text-color-212121 sw-font-family-default sw-border-radius-l sw-padding-top-5xs sw-padding-bottom-5xs sw-margin-top-6xs sw-margin-bottom-6xs sw-border-style-solid sw-border-width-xs sw-border-color-F0F0F4 sw-box-shadow-none sw-display-inline-block sw-padding-left-4xs sw-outline-none sw-width-full hover:sw-border-color-AEAEB5 active:sw-border-color-AEAEB5" id="sw-form-capture-email-input" type="email" name="email" required="true" placeholder="Email">        </div>        <div class="col-12">         <div class="col-12 m-0 p-0 text-center password position-relative d-inline-flex align-items-center sw-background-color-FAFAFC hover:sw-background-color-FAFAFC sw-font-size-s sw-text-color-AEAEB5 sw-font-family-default sw-border-radius-l sw-padding-top-5xs sw-padding-bottom-5xs sw-margin-top-6xs sw-margin-bottom-6xs sw-border-style-solid sw-border-width-xs sw-border-color-F0F0F4 hover:sw-border-style-solid hover:sw-border-width-xs hover:sw-border-color-AEAEB5 sw-box-shadow-none sw-padding-left-4xs sw-outline-none sw-width-full">          <input class="" id="sw-form-password-input" style="background-color: transparent" type="password" name="password" required="true" placeholder="Password">          <i class="fa fa-eye-slash show-password"></i>         </div>        </div>        <div class="col-md-12 text-center d-flex flex-column">         <a data-element="button" id="sw-sign-in-submit-btn" class="w-100 d-flex justify-content-center align-items-center sw-font-size-m sw-text-color-default sw-font-family-default sw-font-weight-default sw-border-radius-default sw-background-color-default hover:sw-background-color-default hover:sw-box-shadow-s sw-padding-left-xs sw-padding-right-xs sw-padding-top-5xs sw-padding-bottom-5xs sw-margin-top-6xs sw-margin-bottom-6xs sw-border-style-none sw-border-width-xs sw-border-color-000000 hover:sw-border-style-none hover:sw-border-width-xs hover:sw-border-color-000000 sw-letter-spacing-normal sw-text-decoration-no-underline hover:sw-text-decoration-no-underline" href="javascript:void(0);">          Sign In          <div class="spinner-border sw-btn-spinner d-none text-light" role="status">           <span class="sr-only">Loading...</span>          </div>          <i class="fa fa-fw fa-check d-none" aria-hidden="true"></i>         </a>                    <a href="/forgot-password" class="d-inline-block text-center sw-font-size-s sw-text-color-007bff hover:sw-text-color-007bff sw-font-family-default sw-font-weight-medium sw-padding-top-4xs sw-padding-bottom-4xs sw-letter-spacing-normal hover:sw-text-decoration-no-underline" target="">          Forgot your password?         </a>        </div>               </div>      </div>     </div>    </div>           </div>  </div> </section> <style>.sw-font-size-m { font-size: 1rem!important; } .sw-text-color-default {  } .sw-font-family-default {  } .sw-font-weight-default {  } .sw-border-radius-default {  } .sw-background-color-default {  } @media (hover: hover) { .hover\:sw-background-color-default:hover {  } } @media (hover: hover) { .hover\:sw-box-shadow-s:hover { box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06)!important; } } .sw-padding-left-xs { padding-left: 2rem!important; } .sw-padding-right-xs { padding-right: 2rem!important; } .sw-padding-top-5xs { padding-top: 0.75rem!important; } .sw-padding-bottom-5xs { padding-bottom: 0.75rem!important; } .sw-margin-top-6xs { margin-top: 0.5rem!important; } .sw-margin-bottom-6xs { margin-bottom: 0.5rem!important; } .sw-border-style-none { border-style: none!important; } .sw-border-width-xs { border-width: 1px!important; } .sw-border-color-000000 { border-color: #000000!important; } @media (hover: hover) { .hover\:sw-border-style-none:hover { border-style: none!important; } } @media (hover: hover) { .hover\:sw-border-width-xs:hover { border-width: 1px!important; } } @media (hover: hover) { .hover\:sw-border-color-000000:hover { border-color: #000000!important; } } .sw-letter-spacing-normal { letter-spacing: 0rem!important; } .sw-text-decoration-no-underline { text-decoration: none!important; } @media (hover: hover) { .hover\:sw-text-decoration-no-underline:hover { text-decoration: none!important; } } .sw-background-color-ffffff { background-color: #ffffff!important; } .sw-padding-top-none { padding-top: 0rem!important; } .sw-padding-bottom-none { padding-bottom: 0rem!important; } .sw-border-top-style-none { border-top-style: none!important; } .sw-border-top-width-xs { border-top-width: 1px!important; } .sw-border-top-color-000000 { border-top-color: #000000!important; } .sw-border-bottom-style-none { border-bottom-style: none!important; } .sw-border-bottom-width-xs { border-bottom-width: 1px!important; } .sw-border-bottom-color-000000 { border-bottom-color: #000000!important; } .sw-width-6xs { width: 7rem!important; } .sw-padding-bottom-xs { padding-bottom: 2rem!important; } .sw-font-weight-medium { font-weight: 500!important; } .sw-border-radius-l { border-radius: 0.5rem!important; } @media (hover: hover) { .hover\:sw-box-shadow-none:hover { box-shadow: none!important; } } .sw-border-style-solid { border-style: solid!important; } .sw-border-color-E5E5EA { border-color: #E5E5EA!important; } @media (hover: hover) { .hover\:sw-border-style-solid:hover { border-style: solid!important; } } @media (hover: hover) { .hover\:sw-border-color-212121:hover { border-color: #212121!important; } } .sw-font-size-2xl { font-size: 1.5rem!important; } .sw-padding-bottom-4xs { padding-bottom: 1rem!important; } .sw-line-height-loose { line-height: 2!important; } .sw-background-repeat-no-repeat { background-repeat: no-repeat!important; } .sw-background-size-cover { background-size: cover!important; } .sw-background-position-left-bottom { background-position: left bottom!important; } .sw-background-attachment-scroll { background-attachment: scroll!important; } .sw-font-size-s { font-size: 0.875rem!important; } .sw-text-color-007bff { color: #007bff!important; } @media (hover: hover) { .hover\:sw-text-color-007bff:hover { color: #007bff!important; } } .sw-padding-top-4xs { padding-top: 1rem!important; } .sw-background-color-FAFAFC { background-color: #FAFAFC!important; } @media (hover: hover) { .hover\:sw-background-color-FAFAFC:hover { background-color: #FAFAFC!important; } } .sw-text-color-212121 { color: #212121!important; } .sw-border-color-F0F0F4 { border-color: #F0F0F4!important; } .sw-box-shadow-none { box-shadow: none!important; } .sw-display-inline-block { display: inline-block!important; } .sw-padding-left-4xs { padding-left: 1rem!important; } .sw-outline-none { outline: none!important; } .sw-width-full { width: 100%!important; } @media (hover: hover) { .hover\:sw-border-color-AEAEB5:hover { border-color: #AEAEB5!important; } } .active\:sw-border-color-AEAEB5:active { border-color: #AEAEB5!important; } .sw-text-color-AEAEB5 { color: #AEAEB5!important; } .sw-border-width-none { border-width: 0px!important; } .sw-border-color-eaeced { border-color: #eaeced!important; } .sw-border-radius-2xl { border-radius: 1rem!important; } .sw-box-shadow-l { box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05)!important; } .sw-text-color-383B3D { color: #383B3D!important; } @media (hover: hover) { .hover\:sw-background-color-ffffff:hover { background-color: #ffffff!important; } } .sw-margin-bottom-none { margin-bottom: 0rem!important; } .sw-font-size-5xl { font-size: 3rem!important; } .sw-font-weight-bold { font-weight: 700!important; } .sw-text-align-center { text-align: center!important; } .sw-line-height-normal { line-height: 1.5!important; } .sw-font-size-l { font-size: 1.125rem!important; }  #user-accounts2 #sw-form-terms-input, #user-accounts2 #sw-form-remember-input{    width: 16px;    height: 16px;    border-radius: 0;    margin-right: 10px;   }  #user-accounts2 .sw-btn-success {      background: #22bc66 !important;      color: #fff !important;     } #user-accounts2 .error-message  {      display: none;      color: #5A5D63;      right: 0;      justify-content: center;      padding: 5px;      width: 100%;      text-align: center;      font-style: normal;      font-weight: 500;      font-size: 11px;      line-height: 19px;     }  #user-accounts2 .error-msg-icon {      margin: 0 2%;     }  #user-accounts2 .link  {      cursor: pointer;     } #user-accounts2 .form  {      width: 450px;     } #user-accounts2 #signin  {      padding: 42px 42px 36px;     }  #user-accounts2 .link a {      color: #0061ff !important;     }  #user-accounts2 .loginSignUpSeparator,     #user-accounts2 .loginSignUpSeparator-google{       position: relative;       margin: 20px 20px 0;       text-align: center;       width: 100%;      }  #user-accounts2 .loginSignUpSeparator-google {      margin: 30px 0 10px;     }  #user-accounts2 .loginSignUpSeparator .textInSeparator,     #user-accounts2 .loginSignUpSeparator-google .textInSeparator{       background-color: #fff;       padding: 0 .5em;       position: relative;       color: #6c7378;       top: -.9em;      }  #user-accounts2 .sw-btn-success .fa-check {      display: inline-block !important;      color: #fff !important;      position: relative !important;      left: 0.5rem !important;     }  #user-accounts2 .sw-input-invalid {      border: 1px solid #E25B5B !important;     }  #user-accounts2 .sw-btn-spinner {      width: 1rem !important;      height: 1rem !important;      margin-left: 0.5rem !important;     } #user-accounts2 .password i{      position: relative;      cursor: pointer;      color: #00000056;      right: 15px;     } #user-accounts2 .password input{      width: 100%;      padding: 0;      margin: 0;      border: 0;     } #user-accounts2 .password input:focus{      outline: none;     } #user-accounts2 .password i.active{      color: #000000;     } #user-accounts2 input:-webkit-autofill {      animation-name: onAutoFillStart;      transition: background-color 50000s ease-in-out 0s;     } #user-accounts2 input:not(:-webkit-autofill) {      animation-name: onAutoFillCancel;     } #user-accounts2 .loginSignUpSeparator-google {  margin: 30px 15px 10px; }  @keyframes onAutoFillStart {  from {/**/}  to {/**/} }  @keyframes onAutoFillCancel {  from {/**/}  to {/**/} } @media (max-width: 991px) {  #user-accounts2 .left {       flex-flow: wrap-reverse!important;      } #user-accounts2 .image{      margin-bottom: 30px;      } #user-accounts2 .full-height-block{      height: inherit!important;     } }  @media (max-width: 576px) {  #user-accounts2 .form  {       width: 340px;      } #user-accounts2 #signin {    padding: 25px 15px 25px;     } }  #toast-container{   bottom: 56px!important; }  div#toast-container> div.toast-error {   background-color: #FCEFEF;   background-image: url('https://softr-assets-eu-shared.s3.eu-central-1.amazonaws.com/studio/blocks/assets/toaster-close-icon.svg')!important;   color: #383B3D;   max-width: 400px!important;   width: 400px!important;   border-radius: 12px;   opacity: 1;   border: 0; } #toast-container> div {   border-right: 12px;   opacity: 1;   box-shadow: none!important; } #toast-container>.toast-error .toast-message{   max-width: 300px!important;   width: 300px!important; } #toast-container>.toast-error .toast-progress{   display: none; } #toast-container>.toast-error .toast-close-button{   color: #383B3D;   font-size: 15px;   font-weight: 500; } </style><!--compiled_script for 58095267-4806-4477-a382-0ff646839083--><script async="">;(function () {   const onlyRegisteredUsersCanSignIn = ('false' == 'true');  const emailInputSelector = '#user-accounts2 #sw-form-capture-email-input';  const passwordInputSelector = '#user-accounts2 #sw-form-password-input';  const submitButtonSelector = '#user-accounts2 #sw-sign-in-submit-btn';  const showPassword = '#user-accounts2 .show-password';  const passwordBox = '#user-accounts2 .password';  const errorMessage1 = '#user-accounts2 .login-error';  const errorMessage2 = '#user-accounts2 .other-errors';   const googleSingInErrorMessage = '#user-accounts2 .google-signin-error';   const appId = $('body > div.content').attr('data-appid');  const successUrl = $('#user-accounts2 .sw-js-form').attr('data-successUrl');   appendStyle('https://cdnjs.cloudflare.com/ajax/libs/toastr.js/2.1.4/toastr.min.css');  appendScript('https://cdnjs.cloudflare.com/ajax/libs/toastr.js/2.1.4/toastr.min.js');   if(isInStudio()){   $('#user-accounts2 .sw-full-height').removeClass('vh-100');   $('#user-accounts2 .sw-full-height').height(950);  } else {   if($(window).width() < 1024){    $('#user-accounts2 .sw-full-height').removeClass('vh-100');   }    $(window).resize(() => {   if($(window).width() < 1024){     $('#user-accounts2 .sw-full-height').removeClass('vh-100');   }else {     $('#user-accounts2 .sw-full-height').addClass('vh-100');   }    });  }     function isEmail(email) {   const emailReg = /^(([^<>()[\]\\.,;:\s@\"]+(\.[^<>()[\]\\.,;:\s@\"]+)*)|(\".+\"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;   return email && emailReg.test(email);  }   $('#user-accounts2 input').keyup((evt) => {   if ( evt.which == 13 ) {    evt.preventDefault();    $(submitButtonSelector).click();   }  });   function isEmpty(value) {   return !value;  }   function handleSuccess(data) {   setCookie('jwtToken', data.jwt, 90);    setTimeout(function () {    /* when page includes login and after login it remains in same page */    /* when sign in block in 401 page, after login reload the page as 401 page's url is same */    if(window.location.pathname == successUrl || window.is401Page) {     window.location.reload();    }else {     window.location.href = successUrl;    }    $(emailInputSelector).val('');    $(passwordInputSelector).val('');   }, 200);  }   function handleFailure(data) {   $(submitButtonSelector + ' .sw-btn-spinner').addClass('d-none');   if (data && data.responseJSON && data.responseJSON.code === 'exceeds_limit') {    showErrorToastr(data.responseJSON.message);    return;   }    if(data.status === 401) {    $(errorMessage1).addClass('d-block');    $(errorMessage2).removeClass('d-block');   }else {    $(errorMessage1).removeClass('d-block');    $(errorMessage2).addClass('d-block');   }   $(emailInputSelector).addClass('sw-input-invalid');   $(passwordBox).addClass('sw-input-invalid');  }   var initGoogleSignInButton = function() {   gapi.load('auth2', function(){    auth2 = gapi.auth2.init({     client_id: window.google_client_id,     cookiepolicy: 'single_host_origin',     fetch_basic_profile: true,     scope: 'profile email',     plugin_name: 'softr_gpl_fix'    });    attachSignInButton(document.getElementById('sw-go-to-google-sign-in-btn'));   });  };   function attachSignInButton(buttonElement) {   auth2.attachClickHandler(    buttonElement,    {},    function (googleUser) {     var googleUserData = {      email: googleUser.getBasicProfile().getEmail(),      name: googleUser.getBasicProfile().getName(),      token: googleUser.getAuthResponse().id_token,      provider: googleUser.getAuthResponse().idpId     };     makeGoogleSignInRequest(googleUserData, handleGoogleSignInSuccess, handleGoogleSignInFailure);    },    function (error) {     handleGoogleSignInFailure(error);    });  }   function makeSigninRequest(email, password, successCallback, errorCallback) {   clearToasterError();   const apiBaseUrl = getApiBaseUrl();    const url = apiBaseUrl + '/v1/applications/' + appId + '/users/tokens';   $.ajax({    url: url,    type: 'POST',    data: JSON.stringify({email: email, password: password}),    contentType: 'application/json; charset=utf-8',    dataType: 'json',    success: function (data) {     console.log(data);     successCallback(data);    },    error: function (error) {     console.log(error);     errorCallback(error);    }   });  }   function handleGoogleSignInSuccess(data) {   setCookie('jwtToken', data.jwt, 90);   setTimeout(function () {    /* when page includes login and after login it remains in same page */    /* when sign in block in 401 page, after login reload the page as 401 page's url is same */    if(window.location.pathname == successUrl || window.is401Page) {     window.location.reload();    }else {     window.location.href = successUrl;    }   }, 100);  }   function handleGoogleSignInFailure(data) {   /* Google error, case when user manually closes google sign-in popup */   if(data.error && data.error.indexOf('popup_closed_by_user') !== -1) {    return;   }    /* Softr errors */   if((data.status === 400 || data.status === 401) && data.responseJSON && data.responseJSON.message) {    if(data.responseJSON.code === 'exceeds_limit') {     showErrorToastr(data.responseJSON.message);     return;    }    $(googleSingInErrorMessage).innerHTML = data.responseJSON.message;   }   $(googleSingInErrorMessage).addClass('d-block');  }   function makeGoogleSignInRequest(googleUserData, successCallback, errorCallback) {   clearToasterError();   const apiBaseUrl = getApiBaseUrl();   const url = apiBaseUrl + '/v1/applications/' + appId + '/users/social?only_registered_users_can_sign_in='    + onlyRegisteredUsersCanSignIn;   console.log("social login url = " + url);   $.ajax({    url: url,    type: 'POST',    data: JSON.stringify({     credentials: {      email: googleUserData.email,      token: googleUserData.token     },     full_name: googleUserData.name,     provider: googleUserData.provider    }),    contentType: 'application/json; charset=utf-8',    dataType: 'json',    success: function (data) {     console.log(data);     successCallback(data);    },    error: function (error) {     console.log(error);     errorCallback(error);    }   });  }   $(submitButtonSelector).click(function (e) {   e.preventDefault();   const email = $(emailInputSelector).val().trim();   const password = $(passwordInputSelector).val().trim();    $(errorMessage1).removeClass('d-block');   /* validate the input */   $(emailInputSelector).removeClass('sw-input-invalid');   if (!isEmail(email)) {    $(errorMessage1).addClass('d-block');    $(emailInputSelector).addClass('sw-input-invalid');   }    /* validate the input */   $(passwordBox).removeClass('sw-input-invalid');   if (isEmpty(password)) {    $(errorMessage1).addClass('d-block');    $(passwordBox).addClass('sw-input-invalid');   }    if (!isEmail(email) || isEmpty(password)) {    return;   }    $(submitButtonSelector + ' .sw-btn-spinner').removeClass('d-none');   makeSigninRequest(email, password, handleSuccess, handleFailure);   });   $(showPassword).click(function () {   let password = $('#user-accounts2 #sw-form-password-input');   if (password.attr('type') === 'password') {    password.attr('type', 'text');    $(this).addClass('active fa-eye');    $(this).removeClass('fa-eye-slash');   } else {    password.attr('type', 'password');    $(this).removeClass('active fa-eye');    $(this).addClass('fa-eye-slash');   }  });   /* 'or' separator bg color*/  const formBgColor = window.getComputedStyle(document.querySelector('#user-accounts2 #signin'), null).getPropertyValue('background-color');  $('.textInSeparator').css({   backgroundColor: formBgColor  });   function getApiBaseUrl() {   if(window.location.href.startsWith('file:///') ||    window.location.href.startsWith('https://localhost:')) {    return 'https://localhost:8081';   } else {    return 'https://' + window.location.hostname;   }  }   function setCookie(name, value, days) {   var date = new Date();   date.setTime(date.getTime() + (days * 24 * 60 * 60 * 1000));   var expires = "expires="+ date.toUTCString();   document.cookie = name + "=" + value + ";" + expires + ";path=/;" + 'SameSite=None; Secure';  }   if(window.google_client_id){   initGoogleSignInButton();  }   function isInStudio() {   return window.location.href.startsWith('https://localhost:') ||    window.location.href.includes('https://studio-staging') ||    window.location.href.startsWith('https://studio.softr.io/')  }   function clearToasterError() {   toastr.clear();  }   function showErrorToastr(msg) {   toastr.options = {    "closeButton": true,    "debug": false,    "newestOnTop": false,    "progressBar": true,    "positionClass": "toast-bottom-left",    "preventDuplicates": true,    "onclick": null,    "showDuration": "300",    "hideDuration": "1000",    "timeOut": "45000",    "extendedTimeOut": "90000",    "showEasing": "swing",    "hideEasing": "linear",    "showMethod": "fadeIn",    "hideMethod": "fadeOut"   };   toastr["error"](msg, "Something went wrong!")  }   function appendScript(filepath, callback) {  if ($('head script[src="' + filepath + '"]').length > 0)    return;  const script = document.createElement('script');  if (callback) {    script.onload = callback;  }  script.async = true;  script.type = 'text/javascript';  script.src = filepath;  document.head.appendChild(script);   }    function appendStyle(filepath) {  if ($('head link[href="' + filepath + '"]').length > 0)    return;   const ele = document.createElement('link');  ele.setAttribute("type", "text/css");  ele.setAttribute("rel", "Stylesheet");  ele.setAttribute("href", filepath);  $('head').append(ele);   }  })(); </script><div data-spr-role="sentinel-end" data-spr-sentinel-end-for="58095267-4806-4477-a382-0ff646839083" data-spr-block-hrid="user-accounts2"></div></div>
+
+    <div class="made-with-softr">
+        <a href="https://www.softr.io/?via=madewithbadge" target="_blank" title="Client Portal | Internal Tools | Web App Builder | Free Website Builder" class="dark-theme">
+            <img src="https://assets.softr-files.com/assets/images/softr_logo/softr_logo_icon_only.svg" alt="Client Portal | Internal Tools | Web App Builder | Free Website Builder">
+            <span class="made-with">Made with</span>
+            <span class="softr-word">Softr</span>
+        </a>
+    </div>
+<script>
+    (() => {
+        function createBudgetWrapperDivEl() {
+            const divEl = document.createElement("div");
+            divEl.setAttribute("class", "made-with-softr");
+
+            divEl.innerHTML = `
+                           <a href="https://www.softr.io/?via=madewithbadge" target="_blank" title="Client Portal | Internal Tools | Web App Builder | Free Website Builder">
+                              <img src="https://assets.softr-files.com/assets/images/softr_logo/softr_logo_icon_only.svg" alt="Client Portal | Internal Tools | Web App Builder | Free Website Builder">
+                              <span class="made-with">Made with</span>
+                              <span class="softr-word">Softr</span>
+                            </a>`;
+
+            document.body.appendChild(divEl);
+        }
+
+        function isInCurrentSection(elTop, elBottom) {
+            const innerHeight = window.innerHeight - 30;
+            return elTop < innerHeight && elBottom > innerHeight;
+        }
+
+            function setRightTheme(sections, softrEl) {
+                sections.forEach(item => {
+                    const elementTop = item.getBoundingClientRect().top;
+                    const elementBottom = item.getBoundingClientRect().bottom;
+
+                    if (isInCurrentSection(elementTop, elementBottom)) {
+                        const documentBodyColor = window
+                            .getComputedStyle(item)
+                            .getPropertyValue("background-color");
+
+                        const bgColor = lightOrDark(rgb2hex(documentBodyColor));
+
+                        if (bgColor === "light") {
+                            softrEl.classList.add("dark-theme");
+                        } else {
+                            softrEl.classList.remove("dark-theme");
+                        }
+                    }
+                });
+            }
+
+            function lightOrDark(color) {
+                // Variables for red, green, blue values
+                let r, g, b, hsp;
+
+                // Check the format of the color, HEX or RGB?
+                if (color.match(/^rgb/)) {
+                    // If RGB --> store the red, green, blue values in separate variables
+                    color = color.match(
+                        /^rgba?\((\d+),\s*(\d+),\s*(\d+)(?:,\s*(\d+(?:\.\d+)?))?\)$/
+                    );
+
+                    r = color[1];
+                    g = color[2];
+                    b = color[3];
+                } else {
+                    // If hex --> Convert it to RGB: http://gist.github.com/983661
+                    color = +(
+                        "0x" + color.slice(1).replace(color.length < 5 && /./g, "$&$&")
+                    );
+
+                    r = color >> 16;
+                    g = (color >> 8) & 255;
+                    b = color & 255;
+                }
+
+                // HSP (Highly Sensitive Poo) equation from http://alienryderflex.com/hsp.html
+                hsp = Math.sqrt(0.299 * (r * r) + 0.587 * (g * g) + 0.114 * (b * b));
+
+                // Using the HSP value, determine whether the color is light or dark
+                if (hsp > 127.5) {
+                    return "light";
+                } else {
+                    return "dark";
+                }
+            }
+
+        function rgb2hex(orig) {
+            const rgb = orig.replace(/\s/g, "").match(/^rgba?\((\d+),(\d+),(\d+)/i);
+            return rgb && rgb.length === 4
+                ? "#" +
+                ("0" + parseInt(rgb[1], 10).toString(16)).slice(-2) +
+                ("0" + parseInt(rgb[2], 10).toString(16)).slice(-2) +
+                ("0" + parseInt(rgb[3], 10).toString(16)).slice(-2)
+                : orig;
+        }
+
+            function isHidden(el) {
+                if (!el) {
+                    return true;
+                }
+                if (el.ariaHidden) {
+                    return false;
+                }
+                const style = window.getComputedStyle(el);
+                return (style.display === 'none');
+            }
+
+            function init() {
+                const madeWithSoftrEl = document.querySelector(".made-with-softr");
+                const softrEl = document.querySelector(".made-with-softr a");
+
+                if (!madeWithSoftrEl) {
+                    createBudgetWrapperDivEl();
+                }
+
+                if (!softrEl && madeWithSoftrEl) {
+                    madeWithSoftrEl.remove();
+                    createBudgetWrapperDivEl();
+                }
+
+                if (isHidden(madeWithSoftrEl) || isHidden(softrEl)) {
+                    madeWithSoftrEl.remove();
+                    createBudgetWrapperDivEl();
+                }
+
+                const headers = document.querySelectorAll("header");
+                const sections = document.querySelectorAll("section");
+                const footers = document.querySelectorAll("footer");
+                const allSections = [...headers, ...sections, ...footers]
+
+                setRightTheme(allSections, softrEl);
+                function onScroll() {
+                    setRightTheme(allSections, softrEl);
+                }
+                document.addEventListener("scroll", onScroll);
+
+                function onBlocksRendered() {
+                    moveBadgeToTheRightIfHeaderIsVertical();
+                }
+                window.addEventListener(BlocksRenderedEventName, onBlocksRendered);
+
+                moveBadgeToTheRightIfHeaderIsVertical();
+
+                return function cleanup() {
+                    document.removeEventListener("scroll", onScroll);
+                    document.removeEventListener(BlocksRenderedEventName, onBlocksRendered);
+                }
+            }
+
+        function moveBadgeToTheRightIfHeaderIsVertical () {
+            const madeWithSoftrEl = document.querySelector(".made-with-softr");
+            const allBlocks = document.querySelector('[data-appid]').children;
+            let headers = [...allBlocks].filter((block)=>{
+                if (block.hasAttribute('category')){
+                    return block.getAttribute('category') === 'Header';
+                }
+            });
+            if (headers.length === 0) { return false;}
+            if(headers.length > 0) {
+                [...headers].map((header)=>{
+                    let blockHrId = header.getAttribute('id');
+                    if (isReactBlock(header)) {
+                        setTimeout(()=>{
+                            window.addEventListener('block-loaded-' + blockHrId, function () {
+                                if(isVerticalHeader(header)){
+                                    madeWithSoftrEl.style.left='320px';
+                                }
+                            }, 2500);
+
+                            if(isVerticalHeader(header)){
+                                madeWithSoftrEl.style.left='320px';
+                            }
+                        })
+                    } else {
+                        if(isVerticalHeader(header)){
+                            madeWithSoftrEl.style.left='320px';
+                        }
+                    }
+                })
+            }
+        }
+
+        function isVerticalHeader (block){
+            //react vertical header structure is:  div > div
+            //react horizontal header structure is:  div > header
+            //non react vertical header structure is:  div > nav
+            //non react horizontal header structure is:  nav
+            if(block.hasAttribute('category')){
+                if (block.getAttribute('category') !== 'Header'){
+                    return false;
+                }
+            }
+            if (block.tagName.toLowerCase() === 'nav'){
+                return false;
+            }
+
+            if(block.tagName.toLowerCase() === 'section') {
+                return false;
+            }
+
+            let firstElementChild = block.firstElementChild;
+            return firstElementChild && (firstElementChild.tagName.toLowerCase() === 'div' || firstElementChild.tagName.toLowerCase() === 'nav');
+        }
+
+        function isReactBlock (block) {
+            return block.tagName.toLowerCase() === 'div';
+        }
+
+
+        let cleanup = init();
+        setInterval(() => {
+            cleanup();
+            cleanup = init();
+        }, (Math.floor(2 + Math.random() * 5)) * 1000);
+        })();
+    </script>
+
+
+<!-- Scripts -->
+<script src="https://assets.softr-files.com/libs/jquery/3.7.0/jquery.min.js"></script>
+<script src="https://assets.softr-files.com/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+<script src="https://assets.softr-files.com/libs/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+<script src="https://assets.softr-files.com/libs/micromodal/0.4.10/micromodal.min.js"></script>
+
+<script>
+    /** this function is called from list blocks (do not delete) **/
+    function openSwModal(url, size) {
+        MicroModal.init({
+            disableScroll: true,
+            awaitOpenAnimation: true,
+            awaitCloseAnimation: true
+        });
+
+        MicroModal.show("sw-modal");
+
+        const iframeElem = document.querySelector(".sw-modal-iframe");
+        const modalContainer = document.querySelector(".sw-modal-container");
+
+        const viewModeParam = "viewMode=modal";
+        const urlIsLocal = url.startsWith('#') || url.startsWith('/') || url.startsWith(window.location.origin);
+        const modalUrl = urlIsLocal ? (url.indexOf("?") !== -1 ? url + "&" + viewModeParam : url + "?" + viewModeParam) : url;
+        iframeElem.setAttribute("src", modalUrl);
+
+        modalContainer.classList.remove('sw-modal-size-sm', 'sw-modal-size-md', 'sw-modal-size-lg', 'sw-modal-size-xl');
+        modalContainer.classList.add('sw-modal-size-' + size);
+
+        setTimeout(() => {
+            // Add event listener to detect when the modal is closed
+            const closeButton = document.querySelector('.sw-modal-close');
+            const backdrop = document.querySelector('.sw-modal-overlay');
+
+            closeButton.addEventListener('click', resetIframe);
+            backdrop.addEventListener('click', resetIframe);
+        }, 1000)
+
+    }
+
+    const resetIframe = () => {
+        const iframeElem = document.querySelector('.sw-modal-iframe');
+        iframeElem.removeAttribute('src');
+    }
+</script>
+
+<script>
+    /** Bugfix on multiple ?recordId= issue **/
+    setInterval(function () {
+        $('section a').each(function () {
+            const href = $(this).attr('href');
+            if (href && href.includes('?recordId=')) {
+                const countOfRecords = (href.match(/\?recordId=/g) || []).length;
+                if (countOfRecords > 1) {
+                    const index = href.lastIndexOf('?recordId=');
+                    const cleanedHref = href.substring(0, index);
+                    $(this).attr('href', cleanedHref);
+                }
+            }
+        });
+    }, 1000);
+</script>
+
+<script type="text/javascript">
+    if (window.jQuery && window.jQuery.ajaxSetup) {
+        window.jQuery.ajaxSetup({
+            beforeSend: function (xhr, settings) {
+                if (settings && settings.url && (
+                    settings.url.includes('/integrations/airtable/')
+                    || settings.url.includes('/v1/applications/fe8ae22c-3849-4e59-9d9f-8f0338fada24')
+                    || settings.url.includes('/v1/comments')
+                    || settings.url.includes('/forms/form-to-email'))
+                ) {
+                    xhr.setRequestHeader('softr-page-id', 'aed361b2-1a14-4c4d-b65a-9e0404cbcca6');
+                }
+            }
+        });
+    }
+
+    window['user-accounts2'] = {}; const block_5809526748064477a3820ff646839083_defJson = {"id":"58095267-4806-4477-a382-0ff646839083","version":"2.1.2","hrid":"user-accounts2","name":"signin2","title":"Signin with side image","image":"https://softr-assets-eu-shared.s3.eu-central-1.amazonaws.com/studio/blocks/assets/sign-in2.png","category":"User Accounts","keywords":"contact form, simple","elements":{"selectedFormPosition":"RIGHT","definitions":{"button":{"tag":"a","type":"button","primaryStyles":[{"name":"size-color","label":"Text Size/Color","isPrimary":true,"classes":["sw-font-size-m","sw-text-color-default"]},{"name":"font-family","label":"Font family","isPrimary":true,"classes":["sw-font-family-default"]},{"name":"font-weight","label":"Font weight","isPrimary":true,"classes":["sw-font-weight-default"]},{"name":"border-radius","label":"Roundness","isPrimary":true,"classes":["sw-border-radius-default"]},{"name":"background-color","label":"Background color","isPrimary":true,"classes":["sw-background-color-default"]},{"name":"hover-background-color","label":"Hover Background color/ Box shadow","isPrimary":true,"classes":["hover:sw-background-color-default","hover:sw-box-shadow-s"]},{"name":"padding-left-right","label":"Padding left/right","isPrimary":true,"classes":["sw-padding-left-xs","sw-padding-right-xs"]},{"name":"padding-top-bottom","label":"Padding top/bottom","isPrimary":true,"classes":["sw-padding-top-5xs","sw-padding-bottom-5xs"]},{"name":"margin-top-bottom","label":"Margin top/bottom","isPrimary":true,"classes":["sw-margin-top-6xs","sw-margin-bottom-6xs"]},{"name":"border","label":"Border","isPrimary":true,"classes":["sw-border-style-none","sw-border-width-xs","sw-border-color-000000"]},{"name":"hover-border","label":"Hover Border","isPrimary":true,"classes":["hover:sw-border-style-none","hover:sw-border-width-xs","hover:sw-border-color-000000"]},{"name":"letter-spacing","label":"Letter spacing","isPrimary":true,"classes":["sw-letter-spacing-normal"]}],"otherStyles":[{"name":"others","label":"Others","isPrimary":true,"classes":["sw-text-decoration-no-underline","hover:sw-text-decoration-no-underline"]}],"label":"Button label","action":{"type":"navigate","options":{"url":{"destination":"","target":""}}}}},"container":{"tag":"section","type":"container","primaryStyles":[{"name":"background-color","label":"Background color","classes":["sw-background-color-ffffff"]},{"name":"padding-top","label":"Padding top","classes":["sw-padding-top-none"]},{"name":"padding-bottom","label":"Padding bottom","classes":["sw-padding-bottom-none"]},{"name":"border-top","label":"Border top","classes":["sw-border-top-style-none","sw-border-top-width-xs","sw-border-top-color-000000"]},{"name":"border-bottom","label":"Border bottom","classes":["sw-border-bottom-style-none","sw-border-bottom-width-xs","sw-border-bottom-color-000000"]}],"otherStyles":[]},"logo":{"tag":"img","type":"image-with-link","primaryStyles":[{"name":"width","label":"Width","isPrimary":true,"classes":["sw-width-6xs"]},{"name":"padding-top-bottom","label":"Padding top/bottom","isPrimary":true,"classes":["sw-padding-top-none","sw-padding-bottom-xs"]}],"src":"https://assets.softr-files.com/applications/fe8ae22c-3849-4e59-9d9f-8f0338fada24/assets/20f42c7c-4199-42aa-811d-6c9585469d88.png","alt":""},"googleSignIn":{"label":"Sign in with Google","tag":"span","type":"toggle","primaryStyles":[{"name":"size-color","label":"Text Size/Color","isPrimary":true,"classes":["sw-font-size-m","sw-text-color-default"]},{"name":"font-family","label":"Font family","isPrimary":true,"classes":["sw-font-family-default"]},{"name":"font-weight","label":"Font weight","isPrimary":true,"classes":["sw-font-weight-medium"]},{"name":"border-radius","label":"Roundness","isPrimary":true,"classes":["sw-border-radius-l"]},{"name":"background-color","label":"Background color","isPrimary":true,"classes":["sw-background-color-ffffff"]},{"name":"hover-background-color","label":"Hover Box shadow","isPrimary":true,"classes":["hover:sw-box-shadow-none"]},{"name":"padding-left-right","label":"Padding left/right","isPrimary":true,"classes":["sw-padding-left-xs","sw-padding-right-xs"]},{"name":"padding-top-bottom","label":"Padding top/bottom","isPrimary":true,"classes":["sw-padding-top-5xs","sw-padding-bottom-5xs"]},{"name":"margin-top-bottom","label":"Margin top/bottom","isPrimary":true,"classes":["sw-margin-top-6xs","sw-margin-bottom-6xs"]},{"name":"border","label":"Border","isPrimary":true,"classes":["sw-border-style-solid","sw-border-width-xs","sw-border-color-E5E5EA"]},{"name":"hover-border","label":"Hover Border","isPrimary":true,"classes":["hover:sw-border-style-solid","hover:sw-border-width-xs","hover:sw-border-color-212121"]},{"name":"letter-spacing","label":"Letter spacing","isPrimary":true,"classes":["sw-letter-spacing-normal"]}],"otherStyles":[{"name":"others","label":"Others","isPrimary":true,"classes":["sw-text-decoration-no-underline","hover:sw-text-decoration-no-underline"]}],"enabled":false,"onlyRegisteredUsersCanSignIn":false},"title":{"tag":"h2","type":"text","primaryStyles":[{"name":"size-color","label":"Text Size/Color","classes":["sw-font-size-2xl","sw-text-color-default"]},{"name":"font-family","label":"Font family","classes":["sw-font-family-default"]},{"name":"font-weight","label":"Font weight","classes":["sw-font-weight-default"]},{"name":"padding-top-bottom","label":"Padding top/bottom","isPrimary":true,"classes":["sw-padding-top-none","sw-padding-bottom-4xs"]},{"name":"letter-spacing","label":"Letter spacing","isPrimary":true,"classes":["sw-letter-spacing-normal"]},{"name":"line-height","label":"Line height","isPrimary":true,"classes":["sw-line-height-loose"]}],"otherStyles":[],"value":"Sign In"},"backgroundImage":{"tag":"img","primaryStyles":[{"name":"background-repeat","label":"Repeat","isPrimary":true,"classes":["sw-background-repeat-no-repeat"]},{"name":"background-size","label":"Size","isPrimary":true,"classes":["sw-background-size-cover"]},{"name":"background-position","label":"Position","isPrimary":true,"classes":["sw-background-position-left-bottom"]},{"name":"background-attachment","label":"Behaviour","isPrimary":true,"classes":["sw-background-attachment-scroll"]}],"otherStyles":[],"src":"https://assets.softr-files.com/applications/fe8ae22c-3849-4e59-9d9f-8f0338fada24/assets/273a6495-c358-4501-914c-cc3da2f193da.png"},"forgotPasswordButton":{"tag":"a","type":"link","primaryStyles":[{"name":"size-color","label":"Text Size/Color","classes":["sw-font-size-s","sw-text-color-007bff"]},{"name":"hover-text-color","label":"Hover Text color","isPrimary":true,"classes":["hover:sw-text-color-007bff"]},{"name":"font-family","label":"Font family","classes":["sw-font-family-default"]},{"name":"font-weight","label":"Font weight","classes":["sw-font-weight-medium"]},{"name":"padding-top-bottom","label":"Padding top/bottom","isPrimary":true,"classes":["sw-padding-top-4xs","sw-padding-bottom-4xs"]},{"name":"letter-spacing","label":"Letter spacing","isPrimary":true,"classes":["sw-letter-spacing-normal"]}],"otherStyles":[{"name":"others","label":"Others","isPrimary":true,"classes":["hover:sw-text-decoration-no-underline"]}],"label":"Forgot your password?","action":{"type":"navigate","options":{"url":{"destination":"/forgot-password","target":""}},"action":"Open page > Forgot Password"}},"form":{"type":"form_capture","emailInput":{"tag":"input","type":"text","format":"email","primaryStyles":[{"name":"background-color","label":"Background color","isPrimary":true,"classes":["sw-background-color-FAFAFC"]},{"name":"hover-background-color","label":"Hover Background color","isPrimary":true,"classes":["hover:sw-background-color-FAFAFC"]},{"name":"size-color","label":"Text Size/Color","isPrimary":true,"classes":["sw-font-size-s","sw-text-color-212121"]},{"name":"font-family","label":"Font family","isPrimary":true,"classes":["sw-font-family-default"]},{"name":"border-radius","label":"Roundness","isPrimary":true,"classes":["sw-border-radius-l"]},{"name":"padding-top-bottom","label":"Padding top/bottom","isPrimary":true,"classes":["sw-padding-top-5xs","sw-padding-bottom-5xs"]},{"name":"margin-top-bottom","label":"Margin top/bottom","isPrimary":true,"classes":["sw-margin-top-6xs","sw-margin-bottom-6xs"]},{"name":"border","label":"Border","isPrimary":true,"classes":["sw-border-style-solid","sw-border-width-xs","sw-border-color-F0F0F4"]},{"name":"shadow","label":"Shadow","isPrimary":true,"classes":["sw-box-shadow-none"]}],"otherStyles":[{"name":"others","label":"Others","isPrimary":true,"classes":["sw-display-inline-block","sw-padding-left-4xs","sw-outline-none","sw-width-full","hover:sw-border-color-AEAEB5","active:sw-border-color-AEAEB5"]}],"placeholder":"Email"},"passwordInput":{"tag":"input","type":"password","format":"password","primaryStyles":[{"name":"background-color","label":"Background color","isPrimary":true,"classes":["sw-background-color-FAFAFC"]},{"name":"hover-background-color","label":"Hover Background color","isPrimary":true,"classes":["hover:sw-background-color-FAFAFC"]},{"name":"size-color","label":"Text Size/Color","isPrimary":true,"classes":["sw-font-size-s","sw-text-color-AEAEB5"]},{"name":"font-family","label":"Font family","isPrimary":true,"classes":["sw-font-family-default"]},{"name":"border-radius","label":"Roundness","isPrimary":true,"classes":["sw-border-radius-l"]},{"name":"padding-top-bottom","label":"Padding top/bottom","isPrimary":true,"classes":["sw-padding-top-5xs","sw-padding-bottom-5xs"]},{"name":"margin-top-bottom","label":"Margin top/bottom","isPrimary":true,"classes":["sw-margin-top-6xs","sw-margin-bottom-6xs"]},{"name":"border","label":"Border","isPrimary":true,"classes":["sw-border-style-solid","sw-border-width-xs","sw-border-color-F0F0F4"]},{"name":"hover-border","label":"Hover Border","isPrimary":true,"classes":["hover:sw-border-style-solid","hover:sw-border-width-xs","hover:sw-border-color-AEAEB5"]},{"name":"shadow","label":"Shadow","isPrimary":true,"classes":["sw-box-shadow-none"]}],"otherStyles":[{"name":"others","label":"Others","isPrimary":true,"classes":["sw-padding-left-4xs","sw-outline-none","sw-width-full"]}],"placeholder":"Password"},"successUrl":"/"},"formBox":{"tag":"div","type":"container","primaryStyles":[{"name":"background-color","label":"Background color","isPrimary":true,"classes":["sw-background-color-ffffff"]},{"name":"border","label":"Border","isPrimary":true,"classes":["sw-border-style-none","sw-border-width-none","sw-border-color-eaeced"]},{"name":"border-radius","label":"Roundness","isPrimary":true,"classes":["sw-border-radius-2xl"]},{"name":"shadow","label":"Shadow","isPrimary":true,"classes":["sw-box-shadow-l"]}],"otherStyles":[{"name":"others","label":"Others","classes":[]}]},"signUpButton":{"tag":"a","type":"button","primaryStyles":[{"name":"size-color","label":"Text Size/Color","isPrimary":true,"classes":["sw-font-size-m","sw-text-color-383B3D"]},{"name":"font-family","label":"Font family","isPrimary":true,"classes":["sw-font-family-default"]},{"name":"font-weight","label":"Font weight","isPrimary":true,"classes":["sw-font-weight-default"]},{"name":"border-radius","label":"Roundness","isPrimary":true,"classes":["sw-border-radius-default"]},{"name":"background-color","label":"Background color","isPrimary":true,"classes":["sw-background-color-ffffff"]},{"name":"hover-background-color","label":"Hover Background color/ Box shadow","isPrimary":true,"classes":["hover:sw-background-color-ffffff","hover:sw-box-shadow-none"]},{"name":"padding-left-right","label":"Padding left/right","isPrimary":true,"classes":["sw-padding-left-xs","sw-padding-right-xs"]},{"name":"padding-top-bottom","label":"Padding top/bottom","isPrimary":true,"classes":["sw-padding-top-5xs","sw-padding-bottom-5xs"]},{"name":"margin-top-bottom","label":"Margin top/bottom","isPrimary":true,"classes":["sw-margin-top-6xs","sw-margin-bottom-none"]},{"name":"border","label":"Border","isPrimary":true,"classes":["sw-border-style-solid","sw-border-width-xs","sw-border-color-F0F0F4"]},{"name":"hover-border","label":"Hover Border","isPrimary":true,"classes":["hover:sw-border-style-solid","hover:sw-border-width-xs","hover:sw-border-color-212121"]},{"name":"letter-spacing","label":"Letter spacing","isPrimary":true,"classes":["sw-letter-spacing-normal"]}],"otherStyles":[{"name":"others","label":"Others","isPrimary":true,"classes":["sw-text-decoration-no-underline","hover:sw-text-decoration-no-underline"]},{"name":"others","label":"Others","isPrimary":true,"classes":[]}],"label":"Sign Up","action":{"type":"navigate","options":{"url":{"destination":"","target":""}}},"enabled":false},"signInButton":{"tag":"a","type":"button","primaryStyles":[{"name":"size-color","label":"Text Size/Color","isPrimary":true,"classes":["sw-font-size-m","sw-text-color-default"]},{"name":"font-family","label":"Font family","isPrimary":true,"classes":["sw-font-family-default"]},{"name":"font-weight","label":"Font weight","isPrimary":true,"classes":["sw-font-weight-default"]},{"name":"border-radius","label":"Roundness","isPrimary":true,"classes":["sw-border-radius-default"]},{"name":"background-color","label":"Background color","isPrimary":true,"classes":["sw-background-color-default"]},{"name":"hover-background-color","label":"Hover Background color/ Box shadow","isPrimary":true,"classes":["hover:sw-background-color-default","hover:sw-box-shadow-s"]},{"name":"padding-left-right","label":"Padding left/right","isPrimary":true,"classes":["sw-padding-left-xs","sw-padding-right-xs"]},{"name":"padding-top-bottom","label":"Padding top/bottom","isPrimary":true,"classes":["sw-padding-top-5xs","sw-padding-bottom-5xs"]},{"name":"margin-top-bottom","label":"Margin top/bottom","isPrimary":true,"classes":["sw-margin-top-6xs","sw-margin-bottom-6xs"]},{"name":"border","label":"Border","isPrimary":true,"classes":["sw-border-style-none","sw-border-width-xs","sw-border-color-000000"]},{"name":"hover-border","label":"Hover Border","isPrimary":true,"classes":["hover:sw-border-style-none","hover:sw-border-width-xs","hover:sw-border-color-000000"]},{"name":"letter-spacing","label":"Letter spacing","isPrimary":true,"classes":["sw-letter-spacing-normal"]}],"otherStyles":[{"name":"others","label":"Others","isPrimary":true,"classes":["sw-text-decoration-no-underline","hover:sw-text-decoration-no-underline"]},{"name":"others","label":"Others","isPrimary":true,"classes":[]}],"label":"Sign In","action":{"type":"navigate","options":{"url":{"destination":"","target":""}}}},"sideImage":{"container":{"tag":"dev","type":"container","primaryStyles":[{"name":"background-color","label":"Background color","classes":["sw-background-color-ffffff"]},{"name":"border-top","label":"Border top","classes":["sw-border-top-style-none","sw-border-top-width-xs","sw-border-top-color-000000"]},{"name":"border-bottom","label":"Border bottom","classes":["sw-border-bottom-style-none","sw-border-bottom-width-xs","sw-border-bottom-color-000000"]},{"name":"padding-top-bottom","label":"Padding top/bottom","isPrimary":true,"classes":["sw-padding-top-none","sw-padding-bottom-none"]}],"otherStyles":[]},"title":{"tag":"h1","type":"text","primaryStyles":[{"name":"size-color","label":"Text Size/Color","classes":["sw-font-size-5xl","sw-text-color-default"]},{"name":"font-family","label":"Font family","classes":["sw-font-family-default"]},{"name":"font-weight","label":"Font weight","classes":["sw-font-weight-bold"]},{"name":"text-alignment","label":"Alignment","isPrimary":true,"classes":["sw-text-align-center"]},{"name":"padding-top-bottom","label":"Padding top/bottom","isPrimary":true,"classes":["sw-padding-top-none","sw-padding-bottom-4xs"]},{"name":"letter-spacing","label":"Letter spacing","isPrimary":true,"classes":["sw-letter-spacing-normal"]},{"name":"line-height","label":"Line height","isPrimary":true,"classes":["sw-line-height-normal"]}],"otherStyles":[],"value":"Team Wiki"},"description":{"tag":"div","type":"text","primaryStyles":[{"name":"size-color","label":"Text Size/Color","classes":["sw-font-size-l","sw-text-color-default"]},{"name":"font-family","label":"Font family","classes":["sw-font-family-default"]},{"name":"font-weight","label":"Font weight","classes":["sw-font-weight-bold"]},{"name":"text-alignment","label":"Alignment","isPrimary":true,"classes":["sw-text-align-center"]},{"name":"padding-top-bottom","label":"Padding top/bottom","isPrimary":true,"classes":["sw-padding-top-none","sw-padding-bottom-4xs"]},{"name":"letter-spacing","label":"Letter spacing","isPrimary":true,"classes":["sw-letter-spacing-normal"]},{"name":"line-height","label":"Line height","isPrimary":true,"classes":["sw-line-height-normal"]}],"otherStyles":[],"value":"(For testing)\nManager: ahanson@example.com\nEmployee: jwang@example.com\n\nPassword: 123456"}}},"type":"dynamic","collection":null,"enabled":"true","order":"null","updated":[{"date":[2022,6,15,14,3,1,185000000],"version":"2.1.1"},{"date":[2022,6,15,14,3,1,185000000],"version":"2.1.2"}],"visibility":{"userGroup":{"predefinedUserGroupType":"NON_LOGGED_IN_USERS","customUserGroupIds":[],"enabledPredefinedUserGroupTypes":["ALL_USERS","LOGGED_IN_USERS","NON_LOGGED_IN_USERS"]},"devices":null,"detailsPageRecordCondition":null},"settings":{},"container":null,"presets":null,"created_at":null,"compiled_markup":"<script src=\"https://apis.google.com/js/api:client.js\"><\/script> <section id=\"user-accounts2\"    data-block-version=\"2.1.2\" data-block-id=\"58095267-4806-4477-a382-0ff646839083\"    data-block-updated=\"Wed Jun 15 2022 16:03:01 GMT+0200 (Central European Summer Time)\"   class=\"signin2-58095267-4806-4477-a382-0ff646839083 sw-background-color-ffffff sw-padding-top-none sw-padding-bottom-none sw-border-top-style-none sw-border-top-width-xs sw-border-top-color-000000 sw-border-bottom-style-none sw-border-bottom-width-xs sw-border-bottom-color-000000 \">  <div class=\"container-fluid\">   <div class=\"row vh-100 justify-content-center align-items-stretch sw-full-height   \">        <div class=\"image col-lg-6 px-5 d-flex flex-column justify-content-center align-items-stretch     sw-background-color-ffffff sw-border-top-style-none sw-border-top-width-xs sw-border-top-color-000000 sw-border-bottom-style-none sw-border-bottom-width-xs sw-border-bottom-color-000000 sw-padding-top-none sw-padding-bottom-none      sw-background-repeat-no-repeat sw-background-size-cover sw-background-position-left-bottom sw-background-attachment-scroll \"      style=\"background-image: url(https://assets.softr-files.com/applications/fe8ae22c-3849-4e59-9d9f-8f0338fada24/assets/273a6495-c358-4501-914c-cc3da2f193da.png);\">          <h1 class=\"sw-font-size-5xl sw-text-color-default sw-font-family-default sw-font-weight-bold sw-text-align-center sw-padding-top-none sw-padding-bottom-4xs sw-letter-spacing-normal sw-line-height-normal \">      Team Wiki     </h1>                <p class=\"sw-font-size-l sw-text-color-default sw-font-family-default sw-font-weight-bold sw-text-align-center sw-padding-top-none sw-padding-bottom-4xs sw-letter-spacing-normal sw-line-height-normal \">      (For testing)\nManager: ahanson@example.com\nEmployee: jwang@example.com\n\nPassword: 123456     </p>         </div>    <div class=\"col-lg-6 text-center d-flex flex-column justify-content-center align-items-center\">     <div class=\"form sw-js-form\" data-successUrl=\"/\">      <div id=\"signin\"        class=\"sw-js-signin col-12 text-left sw-background-color-ffffff sw-border-style-none sw-border-width-none sw-border-color-eaeced sw-border-radius-2xl sw-box-shadow-l \">        <!-- Logo -->              <div class=\"d-flex justify-content-center align-items-center\">        <img class=\"mr-2 sw-width-6xs sw-padding-top-none sw-padding-bottom-xs \"          src=\"https://assets.softr-files.com/applications/fe8ae22c-3849-4e59-9d9f-8f0338fada24/assets/20f42c7c-4199-42aa-811d-6c9585469d88.png\" alt=\"\">       </div>                      <h1 class=\"text-center sw-font-size-2xl sw-text-color-default sw-font-family-default sw-font-weight-default sw-padding-top-none sw-padding-bottom-4xs sw-letter-spacing-normal sw-line-height-loose \">        Sign In       </h1>              <div class=\"row align-items-center\">        <!-- Error Message -->        <div class=\"error-message login-error\">         <img class=\"error-msg-icon\" src=\"https://softr-assets-eu-shared.s3.eu-central-1.amazonaws.com/studio/blocks/assets/warning.svg\">Invalid email or password</div>        <div class=\"error-message other-errors\">         <img class=\"error-msg-icon\" src=\"https://softr-assets-eu-shared.s3.eu-central-1.amazonaws.com/studio/blocks/assets/warning.svg\">Something went wrong, please try again.</div>         <div class=\"col-12 text-center\">         <input class=\"sw-background-color-FAFAFC hover:sw-background-color-FAFAFC sw-font-size-s sw-text-color-212121 sw-font-family-default sw-border-radius-l sw-padding-top-5xs sw-padding-bottom-5xs sw-margin-top-6xs sw-margin-bottom-6xs sw-border-style-solid sw-border-width-xs sw-border-color-F0F0F4 sw-box-shadow-none sw-display-inline-block sw-padding-left-4xs sw-outline-none sw-width-full hover:sw-border-color-AEAEB5 active:sw-border-color-AEAEB5\"             id=\"sw-form-capture-email-input\"             type=\"email\"             name=\"email\"             required=\"true\"             placeholder=\"Email\">        </div>        <div class=\"col-12\">         <div class=\"col-12 m-0 p-0 text-center password position-relative d-inline-flex align-items-center sw-background-color-FAFAFC hover:sw-background-color-FAFAFC sw-font-size-s sw-text-color-AEAEB5 sw-font-family-default sw-border-radius-l sw-padding-top-5xs sw-padding-bottom-5xs sw-margin-top-6xs sw-margin-bottom-6xs sw-border-style-solid sw-border-width-xs sw-border-color-F0F0F4 hover:sw-border-style-solid hover:sw-border-width-xs hover:sw-border-color-AEAEB5 sw-box-shadow-none sw-padding-left-4xs sw-outline-none sw-width-full\">          <input class=\"\"              id=\"sw-form-password-input\"              style=\"background-color: transparent\"              type=\"password\"              name=\"password\"              required=\"true\"              placeholder=\"Password\">          <i class=\"fa fa-eye-slash show-password\"></i>         </div>        </div>        <div class=\"col-md-12 text-center d-flex flex-column\">         <a data-element=\"button\" id=\"sw-sign-in-submit-btn\"            class=\"w-100 d-flex justify-content-center align-items-center sw-font-size-m sw-text-color-default sw-font-family-default sw-font-weight-default sw-border-radius-default sw-background-color-default hover:sw-background-color-default hover:sw-box-shadow-s sw-padding-left-xs sw-padding-right-xs sw-padding-top-5xs sw-padding-bottom-5xs sw-margin-top-6xs sw-margin-bottom-6xs sw-border-style-none sw-border-width-xs sw-border-color-000000 hover:sw-border-style-none hover:sw-border-width-xs hover:sw-border-color-000000 sw-letter-spacing-normal sw-text-decoration-no-underline hover:sw-text-decoration-no-underline\"            href=\"javascript:void(0);\">          Sign In          <div class=\"spinner-border sw-btn-spinner d-none text-light\" role=\"status\">           <span class=\"sr-only\">Loading...</span>          </div>          <i class=\"fa fa-fw fa-check d-none\" aria-hidden=\"true\"></i>         </a>                    <a href=\"/forgot-password\"            class=\"d-inline-block text-center sw-font-size-s sw-text-color-007bff hover:sw-text-color-007bff sw-font-family-default sw-font-weight-medium sw-padding-top-4xs sw-padding-bottom-4xs sw-letter-spacing-normal hover:sw-text-decoration-no-underline\"            target=\"\">          Forgot your password?         </a>        </div>               </div>      </div>     </div>    </div>           </div>  </div> </section> ","compiled_style":".sw-font-size-m { font-size: 1rem!important; } .sw-text-color-default {  } .sw-font-family-default {  } .sw-font-weight-default {  } .sw-border-radius-default {  } .sw-background-color-default {  } @media (hover: hover) { .hover\\:sw-background-color-default:hover {  } } @media (hover: hover) { .hover\\:sw-box-shadow-s:hover { box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06)!important; } } .sw-padding-left-xs { padding-left: 2rem!important; } .sw-padding-right-xs { padding-right: 2rem!important; } .sw-padding-top-5xs { padding-top: 0.75rem!important; } .sw-padding-bottom-5xs { padding-bottom: 0.75rem!important; } .sw-margin-top-6xs { margin-top: 0.5rem!important; } .sw-margin-bottom-6xs { margin-bottom: 0.5rem!important; } .sw-border-style-none { border-style: none!important; } .sw-border-width-xs { border-width: 1px!important; } .sw-border-color-000000 { border-color: #000000!important; } @media (hover: hover) { .hover\\:sw-border-style-none:hover { border-style: none!important; } } @media (hover: hover) { .hover\\:sw-border-width-xs:hover { border-width: 1px!important; } } @media (hover: hover) { .hover\\:sw-border-color-000000:hover { border-color: #000000!important; } } .sw-letter-spacing-normal { letter-spacing: 0rem!important; } .sw-text-decoration-no-underline { text-decoration: none!important; } @media (hover: hover) { .hover\\:sw-text-decoration-no-underline:hover { text-decoration: none!important; } } .sw-background-color-ffffff { background-color: #ffffff!important; } .sw-padding-top-none { padding-top: 0rem!important; } .sw-padding-bottom-none { padding-bottom: 0rem!important; } .sw-border-top-style-none { border-top-style: none!important; } .sw-border-top-width-xs { border-top-width: 1px!important; } .sw-border-top-color-000000 { border-top-color: #000000!important; } .sw-border-bottom-style-none { border-bottom-style: none!important; } .sw-border-bottom-width-xs { border-bottom-width: 1px!important; } .sw-border-bottom-color-000000 { border-bottom-color: #000000!important; } .sw-width-6xs { width: 7rem!important; } .sw-padding-bottom-xs { padding-bottom: 2rem!important; } .sw-font-weight-medium { font-weight: 500!important; } .sw-border-radius-l { border-radius: 0.5rem!important; } @media (hover: hover) { .hover\\:sw-box-shadow-none:hover { box-shadow: none!important; } } .sw-border-style-solid { border-style: solid!important; } .sw-border-color-E5E5EA { border-color: #E5E5EA!important; } @media (hover: hover) { .hover\\:sw-border-style-solid:hover { border-style: solid!important; } } @media (hover: hover) { .hover\\:sw-border-color-212121:hover { border-color: #212121!important; } } .sw-font-size-2xl { font-size: 1.5rem!important; } .sw-padding-bottom-4xs { padding-bottom: 1rem!important; } .sw-line-height-loose { line-height: 2!important; } .sw-background-repeat-no-repeat { background-repeat: no-repeat!important; } .sw-background-size-cover { background-size: cover!important; } .sw-background-position-left-bottom { background-position: left bottom!important; } .sw-background-attachment-scroll { background-attachment: scroll!important; } .sw-font-size-s { font-size: 0.875rem!important; } .sw-text-color-007bff { color: #007bff!important; } @media (hover: hover) { .hover\\:sw-text-color-007bff:hover { color: #007bff!important; } } .sw-padding-top-4xs { padding-top: 1rem!important; } .sw-background-color-FAFAFC { background-color: #FAFAFC!important; } @media (hover: hover) { .hover\\:sw-background-color-FAFAFC:hover { background-color: #FAFAFC!important; } } .sw-text-color-212121 { color: #212121!important; } .sw-border-color-F0F0F4 { border-color: #F0F0F4!important; } .sw-box-shadow-none { box-shadow: none!important; } .sw-display-inline-block { display: inline-block!important; } .sw-padding-left-4xs { padding-left: 1rem!important; } .sw-outline-none { outline: none!important; } .sw-width-full { width: 100%!important; } @media (hover: hover) { .hover\\:sw-border-color-AEAEB5:hover { border-color: #AEAEB5!important; } } .active\\:sw-border-color-AEAEB5:active { border-color: #AEAEB5!important; } .sw-text-color-AEAEB5 { color: #AEAEB5!important; } .sw-border-width-none { border-width: 0px!important; } .sw-border-color-eaeced { border-color: #eaeced!important; } .sw-border-radius-2xl { border-radius: 1rem!important; } .sw-box-shadow-l { box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05)!important; } .sw-text-color-383B3D { color: #383B3D!important; } @media (hover: hover) { .hover\\:sw-background-color-ffffff:hover { background-color: #ffffff!important; } } .sw-margin-bottom-none { margin-bottom: 0rem!important; } .sw-font-size-5xl { font-size: 3rem!important; } .sw-font-weight-bold { font-weight: 700!important; } .sw-text-align-center { text-align: center!important; } .sw-line-height-normal { line-height: 1.5!important; } .sw-font-size-l { font-size: 1.125rem!important; }  #user-accounts2 #sw-form-terms-input, #user-accounts2 #sw-form-remember-input{    width: 16px;    height: 16px;    border-radius: 0;    margin-right: 10px;   }  #user-accounts2 .sw-btn-success {      background: #22bc66 !important;      color: #fff !important;     } #user-accounts2 .error-message  {      display: none;      color: #5A5D63;      right: 0;      justify-content: center;      padding: 5px;      width: 100%;      text-align: center;      font-style: normal;      font-weight: 500;      font-size: 11px;      line-height: 19px;     }  #user-accounts2 .error-msg-icon {      margin: 0 2%;     }  #user-accounts2 .link  {      cursor: pointer;     } #user-accounts2 .form  {      width: 450px;     } #user-accounts2 #signin  {      padding: 42px 42px 36px;     }  #user-accounts2 .link a {      color: #0061ff !important;     }  #user-accounts2 .loginSignUpSeparator,     #user-accounts2 .loginSignUpSeparator-google{       position: relative;       margin: 20px 20px 0;       text-align: center;       width: 100%;      }  #user-accounts2 .loginSignUpSeparator-google {      margin: 30px 0 10px;     }  #user-accounts2 .loginSignUpSeparator .textInSeparator,     #user-accounts2 .loginSignUpSeparator-google .textInSeparator{       background-color: #fff;       padding: 0 .5em;       position: relative;       color: #6c7378;       top: -.9em;      }  #user-accounts2 .sw-btn-success .fa-check {      display: inline-block !important;      color: #fff !important;      position: relative !important;      left: 0.5rem !important;     }  #user-accounts2 .sw-input-invalid {      border: 1px solid #E25B5B !important;     }  #user-accounts2 .sw-btn-spinner {      width: 1rem !important;      height: 1rem !important;      margin-left: 0.5rem !important;     } #user-accounts2 .password i{      position: relative;      cursor: pointer;      color: #00000056;      right: 15px;     } #user-accounts2 .password input{      width: 100%;      padding: 0;      margin: 0;      border: 0;     } #user-accounts2 .password input:focus{      outline: none;     } #user-accounts2 .password i.active{      color: #000000;     } #user-accounts2 input:-webkit-autofill {      animation-name: onAutoFillStart;      transition: background-color 50000s ease-in-out 0s;     } #user-accounts2 input:not(:-webkit-autofill) {      animation-name: onAutoFillCancel;     } #user-accounts2 .loginSignUpSeparator-google {  margin: 30px 15px 10px; }  @keyframes onAutoFillStart {  from {/**/}  to {/**/} }  @keyframes onAutoFillCancel {  from {/**/}  to {/**/} } @media (max-width: 991px) {  #user-accounts2 .left {       flex-flow: wrap-reverse!important;      } #user-accounts2 .image{      margin-bottom: 30px;      } #user-accounts2 .full-height-block{      height: inherit!important;     } }  @media (max-width: 576px) {  #user-accounts2 .form  {       width: 340px;      } #user-accounts2 #signin {    padding: 25px 15px 25px;     } }  #toast-container{   bottom: 56px!important; }  div#toast-container> div.toast-error {   background-color: #FCEFEF;   background-image: url('https://softr-assets-eu-shared.s3.eu-central-1.amazonaws.com/studio/blocks/assets/toaster-close-icon.svg')!important;   color: #383B3D;   max-width: 400px!important;   width: 400px!important;   border-radius: 12px;   opacity: 1;   border: 0; } #toast-container> div {   border-right: 12px;   opacity: 1;   box-shadow: none!important; } #toast-container>.toast-error .toast-message{   max-width: 300px!important;   width: 300px!important; } #toast-container>.toast-error .toast-progress{   display: none; } #toast-container>.toast-error .toast-close-button{   color: #383B3D;   font-size: 15px;   font-weight: 500; } ","compiled_script":";(function () {   const onlyRegisteredUsersCanSignIn = ('false' == 'true');  const emailInputSelector = '#user-accounts2 #sw-form-capture-email-input';  const passwordInputSelector = '#user-accounts2 #sw-form-password-input';  const submitButtonSelector = '#user-accounts2 #sw-sign-in-submit-btn';  const showPassword = '#user-accounts2 .show-password';  const passwordBox = '#user-accounts2 .password';  const errorMessage1 = '#user-accounts2 .login-error';  const errorMessage2 = '#user-accounts2 .other-errors';   const googleSingInErrorMessage = '#user-accounts2 .google-signin-error';   const appId = $('body > div.content').attr('data-appid');  const successUrl = $('#user-accounts2 .sw-js-form').attr('data-successUrl');   appendStyle('https://cdnjs.cloudflare.com/ajax/libs/toastr.js/2.1.4/toastr.min.css');  appendScript('https://cdnjs.cloudflare.com/ajax/libs/toastr.js/2.1.4/toastr.min.js');   if(isInStudio()){   $('#user-accounts2 .sw-full-height').removeClass('vh-100');   $('#user-accounts2 .sw-full-height').height(950);  } else {   if($(window).width() < 1024){    $('#user-accounts2 .sw-full-height').removeClass('vh-100');   }    $(window).resize(() => {   if($(window).width() < 1024){     $('#user-accounts2 .sw-full-height').removeClass('vh-100');   }else {     $('#user-accounts2 .sw-full-height').addClass('vh-100');   }    });  }     function isEmail(email) {   const emailReg = /^(([^<>()[\\]\\\\.,;:\\s@\\\"]+(\\.[^<>()[\\]\\\\.,;:\\s@\\\"]+)*)|(\\\".+\\\"))@((\\[[0-9]{1,3}\\.[0-9]{1,3}\\.[0-9]{1,3}\\.[0-9]{1,3}\\])|(([a-zA-Z\\-0-9]+\\.)+[a-zA-Z]{2,}))$/;   return email && emailReg.test(email);  }   $('#user-accounts2 input').keyup((evt) => {   if ( evt.which == 13 ) {    evt.preventDefault();    $(submitButtonSelector).click();   }  });   function isEmpty(value) {   return !value;  }   function handleSuccess(data) {   setCookie('jwtToken', data.jwt, 90);    setTimeout(function () {    /* when page includes login and after login it remains in same page */    /* when sign in block in 401 page, after login reload the page as 401 page's url is same */    if(window.location.pathname == successUrl || window.is401Page) {     window.location.reload();    }else {     window.location.href = successUrl;    }    $(emailInputSelector).val('');    $(passwordInputSelector).val('');   }, 200);  }   function handleFailure(data) {   $(submitButtonSelector + ' .sw-btn-spinner').addClass('d-none');   if (data && data.responseJSON && data.responseJSON.code === 'exceeds_limit') {    showErrorToastr(data.responseJSON.message);    return;   }    if(data.status === 401) {    $(errorMessage1).addClass('d-block');    $(errorMessage2).removeClass('d-block');   }else {    $(errorMessage1).removeClass('d-block');    $(errorMessage2).addClass('d-block');   }   $(emailInputSelector).addClass('sw-input-invalid');   $(passwordBox).addClass('sw-input-invalid');  }   var initGoogleSignInButton = function() {   gapi.load('auth2', function(){    auth2 = gapi.auth2.init({     client_id: window.google_client_id,     cookiepolicy: 'single_host_origin',     fetch_basic_profile: true,     scope: 'profile email',     plugin_name: 'softr_gpl_fix'    });    attachSignInButton(document.getElementById('sw-go-to-google-sign-in-btn'));   });  };   function attachSignInButton(buttonElement) {   auth2.attachClickHandler(    buttonElement,    {},    function (googleUser) {     var googleUserData = {      email: googleUser.getBasicProfile().getEmail(),      name: googleUser.getBasicProfile().getName(),      token: googleUser.getAuthResponse().id_token,      provider: googleUser.getAuthResponse().idpId     };     makeGoogleSignInRequest(googleUserData, handleGoogleSignInSuccess, handleGoogleSignInFailure);    },    function (error) {     handleGoogleSignInFailure(error);    });  }   function makeSigninRequest(email, password, successCallback, errorCallback) {   clearToasterError();   const apiBaseUrl = getApiBaseUrl();    const url = apiBaseUrl + '/v1/applications/' + appId + '/users/tokens';   $.ajax({    url: url,    type: 'POST',    data: JSON.stringify({email: email, password: password}),    contentType: 'application/json; charset=utf-8',    dataType: 'json',    success: function (data) {     console.log(data);     successCallback(data);    },    error: function (error) {     console.log(error);     errorCallback(error);    }   });  }   function handleGoogleSignInSuccess(data) {   setCookie('jwtToken', data.jwt, 90);   setTimeout(function () {    /* when page includes login and after login it remains in same page */    /* when sign in block in 401 page, after login reload the page as 401 page's url is same */    if(window.location.pathname == successUrl || window.is401Page) {     window.location.reload();    }else {     window.location.href = successUrl;    }   }, 100);  }   function handleGoogleSignInFailure(data) {   /* Google error, case when user manually closes google sign-in popup */   if(data.error && data.error.indexOf('popup_closed_by_user') !== -1) {    return;   }    /* Softr errors */   if((data.status === 400 || data.status === 401) && data.responseJSON && data.responseJSON.message) {    if(data.responseJSON.code === 'exceeds_limit') {     showErrorToastr(data.responseJSON.message);     return;    }    $(googleSingInErrorMessage).innerHTML = data.responseJSON.message;   }   $(googleSingInErrorMessage).addClass('d-block');  }   function makeGoogleSignInRequest(googleUserData, successCallback, errorCallback) {   clearToasterError();   const apiBaseUrl = getApiBaseUrl();   const url = apiBaseUrl + '/v1/applications/' + appId + '/users/social?only_registered_users_can_sign_in='    + onlyRegisteredUsersCanSignIn;   console.log(\"social login url = \" + url);   $.ajax({    url: url,    type: 'POST',    data: JSON.stringify({     credentials: {      email: googleUserData.email,      token: googleUserData.token     },     full_name: googleUserData.name,     provider: googleUserData.provider    }),    contentType: 'application/json; charset=utf-8',    dataType: 'json',    success: function (data) {     console.log(data);     successCallback(data);    },    error: function (error) {     console.log(error);     errorCallback(error);    }   });  }   $(submitButtonSelector).click(function (e) {   e.preventDefault();   const email = $(emailInputSelector).val().trim();   const password = $(passwordInputSelector).val().trim();    $(errorMessage1).removeClass('d-block');   /* validate the input */   $(emailInputSelector).removeClass('sw-input-invalid');   if (!isEmail(email)) {    $(errorMessage1).addClass('d-block');    $(emailInputSelector).addClass('sw-input-invalid');   }    /* validate the input */   $(passwordBox).removeClass('sw-input-invalid');   if (isEmpty(password)) {    $(errorMessage1).addClass('d-block');    $(passwordBox).addClass('sw-input-invalid');   }    if (!isEmail(email) || isEmpty(password)) {    return;   }    $(submitButtonSelector + ' .sw-btn-spinner').removeClass('d-none');   makeSigninRequest(email, password, handleSuccess, handleFailure);   });   $(showPassword).click(function () {   let password = $('#user-accounts2 #sw-form-password-input');   if (password.attr('type') === 'password') {    password.attr('type', 'text');    $(this).addClass('active fa-eye');    $(this).removeClass('fa-eye-slash');   } else {    password.attr('type', 'password');    $(this).removeClass('active fa-eye');    $(this).addClass('fa-eye-slash');   }  });   /* 'or' separator bg color*/  const formBgColor = window.getComputedStyle(document.querySelector('#user-accounts2 #signin'), null).getPropertyValue('background-color');  $('.textInSeparator').css({   backgroundColor: formBgColor  });   function getApiBaseUrl() {   if(window.location.href.startsWith('file:///') ||    window.location.href.startsWith('https://localhost:')) {    return 'https://localhost:8081';   } else {    return 'https://' + window.location.hostname;   }  }   function setCookie(name, value, days) {   var date = new Date();   date.setTime(date.getTime() + (days * 24 * 60 * 60 * 1000));   var expires = \"expires=\"+ date.toUTCString();   document.cookie = name + \"=\" + value + \";\" + expires + \";path=/;\" + 'SameSite=None; Secure';  }   if(window.google_client_id){   initGoogleSignInButton();  }   function isInStudio() {   return window.location.href.startsWith('https://localhost:') ||    window.location.href.includes('https://studio-staging') ||    window.location.href.startsWith('https://studio.softr.io/')  }   function clearToasterError() {   toastr.clear();  }   function showErrorToastr(msg) {   toastr.options = {    \"closeButton\": true,    \"debug\": false,    \"newestOnTop\": false,    \"progressBar\": true,    \"positionClass\": \"toast-bottom-left\",    \"preventDuplicates\": true,    \"onclick\": null,    \"showDuration\": \"300\",    \"hideDuration\": \"1000\",    \"timeOut\": \"45000\",    \"extendedTimeOut\": \"90000\",    \"showEasing\": \"swing\",    \"hideEasing\": \"linear\",    \"showMethod\": \"fadeIn\",    \"hideMethod\": \"fadeOut\"   };   toastr[\"error\"](msg, \"Something went wrong!\")  }   function appendScript(filepath, callback) {  if ($('head script[src=\"' + filepath + '\"]').length > 0)    return;  const script = document.createElement('script');  if (callback) {    script.onload = callback;  }  script.async = true;  script.type = 'text/javascript';  script.src = filepath;  document.head.appendChild(script);   }    function appendStyle(filepath) {  if ($('head link[href=\"' + filepath + '\"]').length > 0)    return;   const ele = document.createElement('link');  ele.setAttribute(\"type\", \"text/css\");  ele.setAttribute(\"rel\", \"Stylesheet\");  ele.setAttribute(\"href\", filepath);  $('head').append(ele);   }  })(); "};
+SoftrPageRenderer.render({blocks: [{"id":"58095267-4806-4477-a382-0ff646839083","version":"2.1.2","hrid":"user-accounts2","name":"signin2","title":"Signin with side image","image":"https://softr-assets-eu-shared.s3.eu-central-1.amazonaws.com/studio/blocks/assets/sign-in2.png","category":"User Accounts","keywords":"contact form, simple","elements":{"selectedFormPosition":"RIGHT","definitions":{"button":{"tag":"a","type":"button","primaryStyles":[{"name":"size-color","label":"Text Size/Color","isPrimary":true,"classes":["sw-font-size-m","sw-text-color-default"]},{"name":"font-family","label":"Font family","isPrimary":true,"classes":["sw-font-family-default"]},{"name":"font-weight","label":"Font weight","isPrimary":true,"classes":["sw-font-weight-default"]},{"name":"border-radius","label":"Roundness","isPrimary":true,"classes":["sw-border-radius-default"]},{"name":"background-color","label":"Background color","isPrimary":true,"classes":["sw-background-color-default"]},{"name":"hover-background-color","label":"Hover Background color/ Box shadow","isPrimary":true,"classes":["hover:sw-background-color-default","hover:sw-box-shadow-s"]},{"name":"padding-left-right","label":"Padding left/right","isPrimary":true,"classes":["sw-padding-left-xs","sw-padding-right-xs"]},{"name":"padding-top-bottom","label":"Padding top/bottom","isPrimary":true,"classes":["sw-padding-top-5xs","sw-padding-bottom-5xs"]},{"name":"margin-top-bottom","label":"Margin top/bottom","isPrimary":true,"classes":["sw-margin-top-6xs","sw-margin-bottom-6xs"]},{"name":"border","label":"Border","isPrimary":true,"classes":["sw-border-style-none","sw-border-width-xs","sw-border-color-000000"]},{"name":"hover-border","label":"Hover Border","isPrimary":true,"classes":["hover:sw-border-style-none","hover:sw-border-width-xs","hover:sw-border-color-000000"]},{"name":"letter-spacing","label":"Letter spacing","isPrimary":true,"classes":["sw-letter-spacing-normal"]}],"otherStyles":[{"name":"others","label":"Others","isPrimary":true,"classes":["sw-text-decoration-no-underline","hover:sw-text-decoration-no-underline"]}],"label":"Button label","action":{"type":"navigate","options":{"url":{"destination":"","target":""}}}}},"container":{"tag":"section","type":"container","primaryStyles":[{"name":"background-color","label":"Background color","classes":["sw-background-color-ffffff"]},{"name":"padding-top","label":"Padding top","classes":["sw-padding-top-none"]},{"name":"padding-bottom","label":"Padding bottom","classes":["sw-padding-bottom-none"]},{"name":"border-top","label":"Border top","classes":["sw-border-top-style-none","sw-border-top-width-xs","sw-border-top-color-000000"]},{"name":"border-bottom","label":"Border bottom","classes":["sw-border-bottom-style-none","sw-border-bottom-width-xs","sw-border-bottom-color-000000"]}],"otherStyles":[]},"logo":{"tag":"img","type":"image-with-link","primaryStyles":[{"name":"width","label":"Width","isPrimary":true,"classes":["sw-width-6xs"]},{"name":"padding-top-bottom","label":"Padding top/bottom","isPrimary":true,"classes":["sw-padding-top-none","sw-padding-bottom-xs"]}],"src":"https://assets.softr-files.com/applications/fe8ae22c-3849-4e59-9d9f-8f0338fada24/assets/20f42c7c-4199-42aa-811d-6c9585469d88.png","alt":""},"googleSignIn":{"label":"Sign in with Google","tag":"span","type":"toggle","primaryStyles":[{"name":"size-color","label":"Text Size/Color","isPrimary":true,"classes":["sw-font-size-m","sw-text-color-default"]},{"name":"font-family","label":"Font family","isPrimary":true,"classes":["sw-font-family-default"]},{"name":"font-weight","label":"Font weight","isPrimary":true,"classes":["sw-font-weight-medium"]},{"name":"border-radius","label":"Roundness","isPrimary":true,"classes":["sw-border-radius-l"]},{"name":"background-color","label":"Background color","isPrimary":true,"classes":["sw-background-color-ffffff"]},{"name":"hover-background-color","label":"Hover Box shadow","isPrimary":true,"classes":["hover:sw-box-shadow-none"]},{"name":"padding-left-right","label":"Padding left/right","isPrimary":true,"classes":["sw-padding-left-xs","sw-padding-right-xs"]},{"name":"padding-top-bottom","label":"Padding top/bottom","isPrimary":true,"classes":["sw-padding-top-5xs","sw-padding-bottom-5xs"]},{"name":"margin-top-bottom","label":"Margin top/bottom","isPrimary":true,"classes":["sw-margin-top-6xs","sw-margin-bottom-6xs"]},{"name":"border","label":"Border","isPrimary":true,"classes":["sw-border-style-solid","sw-border-width-xs","sw-border-color-E5E5EA"]},{"name":"hover-border","label":"Hover Border","isPrimary":true,"classes":["hover:sw-border-style-solid","hover:sw-border-width-xs","hover:sw-border-color-212121"]},{"name":"letter-spacing","label":"Letter spacing","isPrimary":true,"classes":["sw-letter-spacing-normal"]}],"otherStyles":[{"name":"others","label":"Others","isPrimary":true,"classes":["sw-text-decoration-no-underline","hover:sw-text-decoration-no-underline"]}],"enabled":false,"onlyRegisteredUsersCanSignIn":false},"title":{"tag":"h2","type":"text","primaryStyles":[{"name":"size-color","label":"Text Size/Color","classes":["sw-font-size-2xl","sw-text-color-default"]},{"name":"font-family","label":"Font family","classes":["sw-font-family-default"]},{"name":"font-weight","label":"Font weight","classes":["sw-font-weight-default"]},{"name":"padding-top-bottom","label":"Padding top/bottom","isPrimary":true,"classes":["sw-padding-top-none","sw-padding-bottom-4xs"]},{"name":"letter-spacing","label":"Letter spacing","isPrimary":true,"classes":["sw-letter-spacing-normal"]},{"name":"line-height","label":"Line height","isPrimary":true,"classes":["sw-line-height-loose"]}],"otherStyles":[],"value":"Sign In"},"backgroundImage":{"tag":"img","primaryStyles":[{"name":"background-repeat","label":"Repeat","isPrimary":true,"classes":["sw-background-repeat-no-repeat"]},{"name":"background-size","label":"Size","isPrimary":true,"classes":["sw-background-size-cover"]},{"name":"background-position","label":"Position","isPrimary":true,"classes":["sw-background-position-left-bottom"]},{"name":"background-attachment","label":"Behaviour","isPrimary":true,"classes":["sw-background-attachment-scroll"]}],"otherStyles":[],"src":"https://assets.softr-files.com/applications/fe8ae22c-3849-4e59-9d9f-8f0338fada24/assets/273a6495-c358-4501-914c-cc3da2f193da.png"},"forgotPasswordButton":{"tag":"a","type":"link","primaryStyles":[{"name":"size-color","label":"Text Size/Color","classes":["sw-font-size-s","sw-text-color-007bff"]},{"name":"hover-text-color","label":"Hover Text color","isPrimary":true,"classes":["hover:sw-text-color-007bff"]},{"name":"font-family","label":"Font family","classes":["sw-font-family-default"]},{"name":"font-weight","label":"Font weight","classes":["sw-font-weight-medium"]},{"name":"padding-top-bottom","label":"Padding top/bottom","isPrimary":true,"classes":["sw-padding-top-4xs","sw-padding-bottom-4xs"]},{"name":"letter-spacing","label":"Letter spacing","isPrimary":true,"classes":["sw-letter-spacing-normal"]}],"otherStyles":[{"name":"others","label":"Others","isPrimary":true,"classes":["hover:sw-text-decoration-no-underline"]}],"label":"Forgot your password?","action":{"type":"navigate","options":{"url":{"destination":"/forgot-password","target":""}},"action":"Open page > Forgot Password"}},"form":{"type":"form_capture","emailInput":{"tag":"input","type":"text","format":"email","primaryStyles":[{"name":"background-color","label":"Background color","isPrimary":true,"classes":["sw-background-color-FAFAFC"]},{"name":"hover-background-color","label":"Hover Background color","isPrimary":true,"classes":["hover:sw-background-color-FAFAFC"]},{"name":"size-color","label":"Text Size/Color","isPrimary":true,"classes":["sw-font-size-s","sw-text-color-212121"]},{"name":"font-family","label":"Font family","isPrimary":true,"classes":["sw-font-family-default"]},{"name":"border-radius","label":"Roundness","isPrimary":true,"classes":["sw-border-radius-l"]},{"name":"padding-top-bottom","label":"Padding top/bottom","isPrimary":true,"classes":["sw-padding-top-5xs","sw-padding-bottom-5xs"]},{"name":"margin-top-bottom","label":"Margin top/bottom","isPrimary":true,"classes":["sw-margin-top-6xs","sw-margin-bottom-6xs"]},{"name":"border","label":"Border","isPrimary":true,"classes":["sw-border-style-solid","sw-border-width-xs","sw-border-color-F0F0F4"]},{"name":"shadow","label":"Shadow","isPrimary":true,"classes":["sw-box-shadow-none"]}],"otherStyles":[{"name":"others","label":"Others","isPrimary":true,"classes":["sw-display-inline-block","sw-padding-left-4xs","sw-outline-none","sw-width-full","hover:sw-border-color-AEAEB5","active:sw-border-color-AEAEB5"]}],"placeholder":"Email"},"passwordInput":{"tag":"input","type":"password","format":"password","primaryStyles":[{"name":"background-color","label":"Background color","isPrimary":true,"classes":["sw-background-color-FAFAFC"]},{"name":"hover-background-color","label":"Hover Background color","isPrimary":true,"classes":["hover:sw-background-color-FAFAFC"]},{"name":"size-color","label":"Text Size/Color","isPrimary":true,"classes":["sw-font-size-s","sw-text-color-AEAEB5"]},{"name":"font-family","label":"Font family","isPrimary":true,"classes":["sw-font-family-default"]},{"name":"border-radius","label":"Roundness","isPrimary":true,"classes":["sw-border-radius-l"]},{"name":"padding-top-bottom","label":"Padding top/bottom","isPrimary":true,"classes":["sw-padding-top-5xs","sw-padding-bottom-5xs"]},{"name":"margin-top-bottom","label":"Margin top/bottom","isPrimary":true,"classes":["sw-margin-top-6xs","sw-margin-bottom-6xs"]},{"name":"border","label":"Border","isPrimary":true,"classes":["sw-border-style-solid","sw-border-width-xs","sw-border-color-F0F0F4"]},{"name":"hover-border","label":"Hover Border","isPrimary":true,"classes":["hover:sw-border-style-solid","hover:sw-border-width-xs","hover:sw-border-color-AEAEB5"]},{"name":"shadow","label":"Shadow","isPrimary":true,"classes":["sw-box-shadow-none"]}],"otherStyles":[{"name":"others","label":"Others","isPrimary":true,"classes":["sw-padding-left-4xs","sw-outline-none","sw-width-full"]}],"placeholder":"Password"},"successUrl":"/"},"formBox":{"tag":"div","type":"container","primaryStyles":[{"name":"background-color","label":"Background color","isPrimary":true,"classes":["sw-background-color-ffffff"]},{"name":"border","label":"Border","isPrimary":true,"classes":["sw-border-style-none","sw-border-width-none","sw-border-color-eaeced"]},{"name":"border-radius","label":"Roundness","isPrimary":true,"classes":["sw-border-radius-2xl"]},{"name":"shadow","label":"Shadow","isPrimary":true,"classes":["sw-box-shadow-l"]}],"otherStyles":[{"name":"others","label":"Others","classes":[]}]},"signUpButton":{"tag":"a","type":"button","primaryStyles":[{"name":"size-color","label":"Text Size/Color","isPrimary":true,"classes":["sw-font-size-m","sw-text-color-383B3D"]},{"name":"font-family","label":"Font family","isPrimary":true,"classes":["sw-font-family-default"]},{"name":"font-weight","label":"Font weight","isPrimary":true,"classes":["sw-font-weight-default"]},{"name":"border-radius","label":"Roundness","isPrimary":true,"classes":["sw-border-radius-default"]},{"name":"background-color","label":"Background color","isPrimary":true,"classes":["sw-background-color-ffffff"]},{"name":"hover-background-color","label":"Hover Background color/ Box shadow","isPrimary":true,"classes":["hover:sw-background-color-ffffff","hover:sw-box-shadow-none"]},{"name":"padding-left-right","label":"Padding left/right","isPrimary":true,"classes":["sw-padding-left-xs","sw-padding-right-xs"]},{"name":"padding-top-bottom","label":"Padding top/bottom","isPrimary":true,"classes":["sw-padding-top-5xs","sw-padding-bottom-5xs"]},{"name":"margin-top-bottom","label":"Margin top/bottom","isPrimary":true,"classes":["sw-margin-top-6xs","sw-margin-bottom-none"]},{"name":"border","label":"Border","isPrimary":true,"classes":["sw-border-style-solid","sw-border-width-xs","sw-border-color-F0F0F4"]},{"name":"hover-border","label":"Hover Border","isPrimary":true,"classes":["hover:sw-border-style-solid","hover:sw-border-width-xs","hover:sw-border-color-212121"]},{"name":"letter-spacing","label":"Letter spacing","isPrimary":true,"classes":["sw-letter-spacing-normal"]}],"otherStyles":[{"name":"others","label":"Others","isPrimary":true,"classes":["sw-text-decoration-no-underline","hover:sw-text-decoration-no-underline"]},{"name":"others","label":"Others","isPrimary":true,"classes":[]}],"label":"Sign Up","action":{"type":"navigate","options":{"url":{"destination":"","target":""}}},"enabled":false},"signInButton":{"tag":"a","type":"button","primaryStyles":[{"name":"size-color","label":"Text Size/Color","isPrimary":true,"classes":["sw-font-size-m","sw-text-color-default"]},{"name":"font-family","label":"Font family","isPrimary":true,"classes":["sw-font-family-default"]},{"name":"font-weight","label":"Font weight","isPrimary":true,"classes":["sw-font-weight-default"]},{"name":"border-radius","label":"Roundness","isPrimary":true,"classes":["sw-border-radius-default"]},{"name":"background-color","label":"Background color","isPrimary":true,"classes":["sw-background-color-default"]},{"name":"hover-background-color","label":"Hover Background color/ Box shadow","isPrimary":true,"classes":["hover:sw-background-color-default","hover:sw-box-shadow-s"]},{"name":"padding-left-right","label":"Padding left/right","isPrimary":true,"classes":["sw-padding-left-xs","sw-padding-right-xs"]},{"name":"padding-top-bottom","label":"Padding top/bottom","isPrimary":true,"classes":["sw-padding-top-5xs","sw-padding-bottom-5xs"]},{"name":"margin-top-bottom","label":"Margin top/bottom","isPrimary":true,"classes":["sw-margin-top-6xs","sw-margin-bottom-6xs"]},{"name":"border","label":"Border","isPrimary":true,"classes":["sw-border-style-none","sw-border-width-xs","sw-border-color-000000"]},{"name":"hover-border","label":"Hover Border","isPrimary":true,"classes":["hover:sw-border-style-none","hover:sw-border-width-xs","hover:sw-border-color-000000"]},{"name":"letter-spacing","label":"Letter spacing","isPrimary":true,"classes":["sw-letter-spacing-normal"]}],"otherStyles":[{"name":"others","label":"Others","isPrimary":true,"classes":["sw-text-decoration-no-underline","hover:sw-text-decoration-no-underline"]},{"name":"others","label":"Others","isPrimary":true,"classes":[]}],"label":"Sign In","action":{"type":"navigate","options":{"url":{"destination":"","target":""}}}},"sideImage":{"container":{"tag":"dev","type":"container","primaryStyles":[{"name":"background-color","label":"Background color","classes":["sw-background-color-ffffff"]},{"name":"border-top","label":"Border top","classes":["sw-border-top-style-none","sw-border-top-width-xs","sw-border-top-color-000000"]},{"name":"border-bottom","label":"Border bottom","classes":["sw-border-bottom-style-none","sw-border-bottom-width-xs","sw-border-bottom-color-000000"]},{"name":"padding-top-bottom","label":"Padding top/bottom","isPrimary":true,"classes":["sw-padding-top-none","sw-padding-bottom-none"]}],"otherStyles":[]},"title":{"tag":"h1","type":"text","primaryStyles":[{"name":"size-color","label":"Text Size/Color","classes":["sw-font-size-5xl","sw-text-color-default"]},{"name":"font-family","label":"Font family","classes":["sw-font-family-default"]},{"name":"font-weight","label":"Font weight","classes":["sw-font-weight-bold"]},{"name":"text-alignment","label":"Alignment","isPrimary":true,"classes":["sw-text-align-center"]},{"name":"padding-top-bottom","label":"Padding top/bottom","isPrimary":true,"classes":["sw-padding-top-none","sw-padding-bottom-4xs"]},{"name":"letter-spacing","label":"Letter spacing","isPrimary":true,"classes":["sw-letter-spacing-normal"]},{"name":"line-height","label":"Line height","isPrimary":true,"classes":["sw-line-height-normal"]}],"otherStyles":[],"value":"Team Wiki"},"description":{"tag":"div","type":"text","primaryStyles":[{"name":"size-color","label":"Text Size/Color","classes":["sw-font-size-l","sw-text-color-default"]},{"name":"font-family","label":"Font family","classes":["sw-font-family-default"]},{"name":"font-weight","label":"Font weight","classes":["sw-font-weight-bold"]},{"name":"text-alignment","label":"Alignment","isPrimary":true,"classes":["sw-text-align-center"]},{"name":"padding-top-bottom","label":"Padding top/bottom","isPrimary":true,"classes":["sw-padding-top-none","sw-padding-bottom-4xs"]},{"name":"letter-spacing","label":"Letter spacing","isPrimary":true,"classes":["sw-letter-spacing-normal"]},{"name":"line-height","label":"Line height","isPrimary":true,"classes":["sw-line-height-normal"]}],"otherStyles":[],"value":"(For testing)\nManager: ahanson@example.com\nEmployee: jwang@example.com\n\nPassword: 123456"}}},"type":"dynamic","collection":null,"enabled":"true","order":"null","updated":[{"date":[2022,6,15,14,3,1,185000000],"version":"2.1.1"},{"date":[2022,6,15,14,3,1,185000000],"version":"2.1.2"}],"visibility":{"userGroup":{"predefinedUserGroupType":"NON_LOGGED_IN_USERS","customUserGroupIds":[],"enabledPredefinedUserGroupTypes":["ALL_USERS","LOGGED_IN_USERS","NON_LOGGED_IN_USERS"]},"devices":null,"detailsPageRecordCondition":null},"settings":{},"container":null,"presets":null,"created_at":null,"compiled_markup":"<script src=\"https://apis.google.com/js/api:client.js\"><\/script> <section id=\"user-accounts2\"    data-block-version=\"2.1.2\" data-block-id=\"58095267-4806-4477-a382-0ff646839083\"    data-block-updated=\"Wed Jun 15 2022 16:03:01 GMT+0200 (Central European Summer Time)\"   class=\"signin2-58095267-4806-4477-a382-0ff646839083 sw-background-color-ffffff sw-padding-top-none sw-padding-bottom-none sw-border-top-style-none sw-border-top-width-xs sw-border-top-color-000000 sw-border-bottom-style-none sw-border-bottom-width-xs sw-border-bottom-color-000000 \">  <div class=\"container-fluid\">   <div class=\"row vh-100 justify-content-center align-items-stretch sw-full-height   \">        <div class=\"image col-lg-6 px-5 d-flex flex-column justify-content-center align-items-stretch     sw-background-color-ffffff sw-border-top-style-none sw-border-top-width-xs sw-border-top-color-000000 sw-border-bottom-style-none sw-border-bottom-width-xs sw-border-bottom-color-000000 sw-padding-top-none sw-padding-bottom-none      sw-background-repeat-no-repeat sw-background-size-cover sw-background-position-left-bottom sw-background-attachment-scroll \"      style=\"background-image: url(https://assets.softr-files.com/applications/fe8ae22c-3849-4e59-9d9f-8f0338fada24/assets/273a6495-c358-4501-914c-cc3da2f193da.png);\">          <h1 class=\"sw-font-size-5xl sw-text-color-default sw-font-family-default sw-font-weight-bold sw-text-align-center sw-padding-top-none sw-padding-bottom-4xs sw-letter-spacing-normal sw-line-height-normal \">      Team Wiki     </h1>                <p class=\"sw-font-size-l sw-text-color-default sw-font-family-default sw-font-weight-bold sw-text-align-center sw-padding-top-none sw-padding-bottom-4xs sw-letter-spacing-normal sw-line-height-normal \">      (For testing)\nManager: ahanson@example.com\nEmployee: jwang@example.com\n\nPassword: 123456     </p>         </div>    <div class=\"col-lg-6 text-center d-flex flex-column justify-content-center align-items-center\">     <div class=\"form sw-js-form\" data-successUrl=\"/\">      <div id=\"signin\"        class=\"sw-js-signin col-12 text-left sw-background-color-ffffff sw-border-style-none sw-border-width-none sw-border-color-eaeced sw-border-radius-2xl sw-box-shadow-l \">        <!-- Logo -->              <div class=\"d-flex justify-content-center align-items-center\">        <img class=\"mr-2 sw-width-6xs sw-padding-top-none sw-padding-bottom-xs \"          src=\"https://assets.softr-files.com/applications/fe8ae22c-3849-4e59-9d9f-8f0338fada24/assets/20f42c7c-4199-42aa-811d-6c9585469d88.png\" alt=\"\">       </div>                      <h1 class=\"text-center sw-font-size-2xl sw-text-color-default sw-font-family-default sw-font-weight-default sw-padding-top-none sw-padding-bottom-4xs sw-letter-spacing-normal sw-line-height-loose \">        Sign In       </h1>              <div class=\"row align-items-center\">        <!-- Error Message -->        <div class=\"error-message login-error\">         <img class=\"error-msg-icon\" src=\"https://softr-assets-eu-shared.s3.eu-central-1.amazonaws.com/studio/blocks/assets/warning.svg\">Invalid email or password</div>        <div class=\"error-message other-errors\">         <img class=\"error-msg-icon\" src=\"https://softr-assets-eu-shared.s3.eu-central-1.amazonaws.com/studio/blocks/assets/warning.svg\">Something went wrong, please try again.</div>         <div class=\"col-12 text-center\">         <input class=\"sw-background-color-FAFAFC hover:sw-background-color-FAFAFC sw-font-size-s sw-text-color-212121 sw-font-family-default sw-border-radius-l sw-padding-top-5xs sw-padding-bottom-5xs sw-margin-top-6xs sw-margin-bottom-6xs sw-border-style-solid sw-border-width-xs sw-border-color-F0F0F4 sw-box-shadow-none sw-display-inline-block sw-padding-left-4xs sw-outline-none sw-width-full hover:sw-border-color-AEAEB5 active:sw-border-color-AEAEB5\"             id=\"sw-form-capture-email-input\"             type=\"email\"             name=\"email\"             required=\"true\"             placeholder=\"Email\">        </div>        <div class=\"col-12\">         <div class=\"col-12 m-0 p-0 text-center password position-relative d-inline-flex align-items-center sw-background-color-FAFAFC hover:sw-background-color-FAFAFC sw-font-size-s sw-text-color-AEAEB5 sw-font-family-default sw-border-radius-l sw-padding-top-5xs sw-padding-bottom-5xs sw-margin-top-6xs sw-margin-bottom-6xs sw-border-style-solid sw-border-width-xs sw-border-color-F0F0F4 hover:sw-border-style-solid hover:sw-border-width-xs hover:sw-border-color-AEAEB5 sw-box-shadow-none sw-padding-left-4xs sw-outline-none sw-width-full\">          <input class=\"\"              id=\"sw-form-password-input\"              style=\"background-color: transparent\"              type=\"password\"              name=\"password\"              required=\"true\"              placeholder=\"Password\">          <i class=\"fa fa-eye-slash show-password\"></i>         </div>        </div>        <div class=\"col-md-12 text-center d-flex flex-column\">         <a data-element=\"button\" id=\"sw-sign-in-submit-btn\"            class=\"w-100 d-flex justify-content-center align-items-center sw-font-size-m sw-text-color-default sw-font-family-default sw-font-weight-default sw-border-radius-default sw-background-color-default hover:sw-background-color-default hover:sw-box-shadow-s sw-padding-left-xs sw-padding-right-xs sw-padding-top-5xs sw-padding-bottom-5xs sw-margin-top-6xs sw-margin-bottom-6xs sw-border-style-none sw-border-width-xs sw-border-color-000000 hover:sw-border-style-none hover:sw-border-width-xs hover:sw-border-color-000000 sw-letter-spacing-normal sw-text-decoration-no-underline hover:sw-text-decoration-no-underline\"            href=\"javascript:void(0);\">          Sign In          <div class=\"spinner-border sw-btn-spinner d-none text-light\" role=\"status\">           <span class=\"sr-only\">Loading...</span>          </div>          <i class=\"fa fa-fw fa-check d-none\" aria-hidden=\"true\"></i>         </a>                    <a href=\"/forgot-password\"            class=\"d-inline-block text-center sw-font-size-s sw-text-color-007bff hover:sw-text-color-007bff sw-font-family-default sw-font-weight-medium sw-padding-top-4xs sw-padding-bottom-4xs sw-letter-spacing-normal hover:sw-text-decoration-no-underline\"            target=\"\">          Forgot your password?         </a>        </div>               </div>      </div>     </div>    </div>           </div>  </div> </section> ","compiled_style":".sw-font-size-m { font-size: 1rem!important; } .sw-text-color-default {  } .sw-font-family-default {  } .sw-font-weight-default {  } .sw-border-radius-default {  } .sw-background-color-default {  } @media (hover: hover) { .hover\\:sw-background-color-default:hover {  } } @media (hover: hover) { .hover\\:sw-box-shadow-s:hover { box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06)!important; } } .sw-padding-left-xs { padding-left: 2rem!important; } .sw-padding-right-xs { padding-right: 2rem!important; } .sw-padding-top-5xs { padding-top: 0.75rem!important; } .sw-padding-bottom-5xs { padding-bottom: 0.75rem!important; } .sw-margin-top-6xs { margin-top: 0.5rem!important; } .sw-margin-bottom-6xs { margin-bottom: 0.5rem!important; } .sw-border-style-none { border-style: none!important; } .sw-border-width-xs { border-width: 1px!important; } .sw-border-color-000000 { border-color: #000000!important; } @media (hover: hover) { .hover\\:sw-border-style-none:hover { border-style: none!important; } } @media (hover: hover) { .hover\\:sw-border-width-xs:hover { border-width: 1px!important; } } @media (hover: hover) { .hover\\:sw-border-color-000000:hover { border-color: #000000!important; } } .sw-letter-spacing-normal { letter-spacing: 0rem!important; } .sw-text-decoration-no-underline { text-decoration: none!important; } @media (hover: hover) { .hover\\:sw-text-decoration-no-underline:hover { text-decoration: none!important; } } .sw-background-color-ffffff { background-color: #ffffff!important; } .sw-padding-top-none { padding-top: 0rem!important; } .sw-padding-bottom-none { padding-bottom: 0rem!important; } .sw-border-top-style-none { border-top-style: none!important; } .sw-border-top-width-xs { border-top-width: 1px!important; } .sw-border-top-color-000000 { border-top-color: #000000!important; } .sw-border-bottom-style-none { border-bottom-style: none!important; } .sw-border-bottom-width-xs { border-bottom-width: 1px!important; } .sw-border-bottom-color-000000 { border-bottom-color: #000000!important; } .sw-width-6xs { width: 7rem!important; } .sw-padding-bottom-xs { padding-bottom: 2rem!important; } .sw-font-weight-medium { font-weight: 500!important; } .sw-border-radius-l { border-radius: 0.5rem!important; } @media (hover: hover) { .hover\\:sw-box-shadow-none:hover { box-shadow: none!important; } } .sw-border-style-solid { border-style: solid!important; } .sw-border-color-E5E5EA { border-color: #E5E5EA!important; } @media (hover: hover) { .hover\\:sw-border-style-solid:hover { border-style: solid!important; } } @media (hover: hover) { .hover\\:sw-border-color-212121:hover { border-color: #212121!important; } } .sw-font-size-2xl { font-size: 1.5rem!important; } .sw-padding-bottom-4xs { padding-bottom: 1rem!important; } .sw-line-height-loose { line-height: 2!important; } .sw-background-repeat-no-repeat { background-repeat: no-repeat!important; } .sw-background-size-cover { background-size: cover!important; } .sw-background-position-left-bottom { background-position: left bottom!important; } .sw-background-attachment-scroll { background-attachment: scroll!important; } .sw-font-size-s { font-size: 0.875rem!important; } .sw-text-color-007bff { color: #007bff!important; } @media (hover: hover) { .hover\\:sw-text-color-007bff:hover { color: #007bff!important; } } .sw-padding-top-4xs { padding-top: 1rem!important; } .sw-background-color-FAFAFC { background-color: #FAFAFC!important; } @media (hover: hover) { .hover\\:sw-background-color-FAFAFC:hover { background-color: #FAFAFC!important; } } .sw-text-color-212121 { color: #212121!important; } .sw-border-color-F0F0F4 { border-color: #F0F0F4!important; } .sw-box-shadow-none { box-shadow: none!important; } .sw-display-inline-block { display: inline-block!important; } .sw-padding-left-4xs { padding-left: 1rem!important; } .sw-outline-none { outline: none!important; } .sw-width-full { width: 100%!important; } @media (hover: hover) { .hover\\:sw-border-color-AEAEB5:hover { border-color: #AEAEB5!important; } } .active\\:sw-border-color-AEAEB5:active { border-color: #AEAEB5!important; } .sw-text-color-AEAEB5 { color: #AEAEB5!important; } .sw-border-width-none { border-width: 0px!important; } .sw-border-color-eaeced { border-color: #eaeced!important; } .sw-border-radius-2xl { border-radius: 1rem!important; } .sw-box-shadow-l { box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05)!important; } .sw-text-color-383B3D { color: #383B3D!important; } @media (hover: hover) { .hover\\:sw-background-color-ffffff:hover { background-color: #ffffff!important; } } .sw-margin-bottom-none { margin-bottom: 0rem!important; } .sw-font-size-5xl { font-size: 3rem!important; } .sw-font-weight-bold { font-weight: 700!important; } .sw-text-align-center { text-align: center!important; } .sw-line-height-normal { line-height: 1.5!important; } .sw-font-size-l { font-size: 1.125rem!important; }  #user-accounts2 #sw-form-terms-input, #user-accounts2 #sw-form-remember-input{    width: 16px;    height: 16px;    border-radius: 0;    margin-right: 10px;   }  #user-accounts2 .sw-btn-success {      background: #22bc66 !important;      color: #fff !important;     } #user-accounts2 .error-message  {      display: none;      color: #5A5D63;      right: 0;      justify-content: center;      padding: 5px;      width: 100%;      text-align: center;      font-style: normal;      font-weight: 500;      font-size: 11px;      line-height: 19px;     }  #user-accounts2 .error-msg-icon {      margin: 0 2%;     }  #user-accounts2 .link  {      cursor: pointer;     } #user-accounts2 .form  {      width: 450px;     } #user-accounts2 #signin  {      padding: 42px 42px 36px;     }  #user-accounts2 .link a {      color: #0061ff !important;     }  #user-accounts2 .loginSignUpSeparator,     #user-accounts2 .loginSignUpSeparator-google{       position: relative;       margin: 20px 20px 0;       text-align: center;       width: 100%;      }  #user-accounts2 .loginSignUpSeparator-google {      margin: 30px 0 10px;     }  #user-accounts2 .loginSignUpSeparator .textInSeparator,     #user-accounts2 .loginSignUpSeparator-google .textInSeparator{       background-color: #fff;       padding: 0 .5em;       position: relative;       color: #6c7378;       top: -.9em;      }  #user-accounts2 .sw-btn-success .fa-check {      display: inline-block !important;      color: #fff !important;      position: relative !important;      left: 0.5rem !important;     }  #user-accounts2 .sw-input-invalid {      border: 1px solid #E25B5B !important;     }  #user-accounts2 .sw-btn-spinner {      width: 1rem !important;      height: 1rem !important;      margin-left: 0.5rem !important;     } #user-accounts2 .password i{      position: relative;      cursor: pointer;      color: #00000056;      right: 15px;     } #user-accounts2 .password input{      width: 100%;      padding: 0;      margin: 0;      border: 0;     } #user-accounts2 .password input:focus{      outline: none;     } #user-accounts2 .password i.active{      color: #000000;     } #user-accounts2 input:-webkit-autofill {      animation-name: onAutoFillStart;      transition: background-color 50000s ease-in-out 0s;     } #user-accounts2 input:not(:-webkit-autofill) {      animation-name: onAutoFillCancel;     } #user-accounts2 .loginSignUpSeparator-google {  margin: 30px 15px 10px; }  @keyframes onAutoFillStart {  from {/**/}  to {/**/} }  @keyframes onAutoFillCancel {  from {/**/}  to {/**/} } @media (max-width: 991px) {  #user-accounts2 .left {       flex-flow: wrap-reverse!important;      } #user-accounts2 .image{      margin-bottom: 30px;      } #user-accounts2 .full-height-block{      height: inherit!important;     } }  @media (max-width: 576px) {  #user-accounts2 .form  {       width: 340px;      } #user-accounts2 #signin {    padding: 25px 15px 25px;     } }  #toast-container{   bottom: 56px!important; }  div#toast-container> div.toast-error {   background-color: #FCEFEF;   background-image: url('https://softr-assets-eu-shared.s3.eu-central-1.amazonaws.com/studio/blocks/assets/toaster-close-icon.svg')!important;   color: #383B3D;   max-width: 400px!important;   width: 400px!important;   border-radius: 12px;   opacity: 1;   border: 0; } #toast-container> div {   border-right: 12px;   opacity: 1;   box-shadow: none!important; } #toast-container>.toast-error .toast-message{   max-width: 300px!important;   width: 300px!important; } #toast-container>.toast-error .toast-progress{   display: none; } #toast-container>.toast-error .toast-close-button{   color: #383B3D;   font-size: 15px;   font-weight: 500; } ","compiled_script":";(function () {   const onlyRegisteredUsersCanSignIn = ('false' == 'true');  const emailInputSelector = '#user-accounts2 #sw-form-capture-email-input';  const passwordInputSelector = '#user-accounts2 #sw-form-password-input';  const submitButtonSelector = '#user-accounts2 #sw-sign-in-submit-btn';  const showPassword = '#user-accounts2 .show-password';  const passwordBox = '#user-accounts2 .password';  const errorMessage1 = '#user-accounts2 .login-error';  const errorMessage2 = '#user-accounts2 .other-errors';   const googleSingInErrorMessage = '#user-accounts2 .google-signin-error';   const appId = $('body > div.content').attr('data-appid');  const successUrl = $('#user-accounts2 .sw-js-form').attr('data-successUrl');   appendStyle('https://cdnjs.cloudflare.com/ajax/libs/toastr.js/2.1.4/toastr.min.css');  appendScript('https://cdnjs.cloudflare.com/ajax/libs/toastr.js/2.1.4/toastr.min.js');   if(isInStudio()){   $('#user-accounts2 .sw-full-height').removeClass('vh-100');   $('#user-accounts2 .sw-full-height').height(950);  } else {   if($(window).width() < 1024){    $('#user-accounts2 .sw-full-height').removeClass('vh-100');   }    $(window).resize(() => {   if($(window).width() < 1024){     $('#user-accounts2 .sw-full-height').removeClass('vh-100');   }else {     $('#user-accounts2 .sw-full-height').addClass('vh-100');   }    });  }     function isEmail(email) {   const emailReg = /^(([^<>()[\\]\\\\.,;:\\s@\\\"]+(\\.[^<>()[\\]\\\\.,;:\\s@\\\"]+)*)|(\\\".+\\\"))@((\\[[0-9]{1,3}\\.[0-9]{1,3}\\.[0-9]{1,3}\\.[0-9]{1,3}\\])|(([a-zA-Z\\-0-9]+\\.)+[a-zA-Z]{2,}))$/;   return email && emailReg.test(email);  }   $('#user-accounts2 input').keyup((evt) => {   if ( evt.which == 13 ) {    evt.preventDefault();    $(submitButtonSelector).click();   }  });   function isEmpty(value) {   return !value;  }   function handleSuccess(data) {   setCookie('jwtToken', data.jwt, 90);    setTimeout(function () {    /* when page includes login and after login it remains in same page */    /* when sign in block in 401 page, after login reload the page as 401 page's url is same */    if(window.location.pathname == successUrl || window.is401Page) {     window.location.reload();    }else {     window.location.href = successUrl;    }    $(emailInputSelector).val('');    $(passwordInputSelector).val('');   }, 200);  }   function handleFailure(data) {   $(submitButtonSelector + ' .sw-btn-spinner').addClass('d-none');   if (data && data.responseJSON && data.responseJSON.code === 'exceeds_limit') {    showErrorToastr(data.responseJSON.message);    return;   }    if(data.status === 401) {    $(errorMessage1).addClass('d-block');    $(errorMessage2).removeClass('d-block');   }else {    $(errorMessage1).removeClass('d-block');    $(errorMessage2).addClass('d-block');   }   $(emailInputSelector).addClass('sw-input-invalid');   $(passwordBox).addClass('sw-input-invalid');  }   var initGoogleSignInButton = function() {   gapi.load('auth2', function(){    auth2 = gapi.auth2.init({     client_id: window.google_client_id,     cookiepolicy: 'single_host_origin',     fetch_basic_profile: true,     scope: 'profile email',     plugin_name: 'softr_gpl_fix'    });    attachSignInButton(document.getElementById('sw-go-to-google-sign-in-btn'));   });  };   function attachSignInButton(buttonElement) {   auth2.attachClickHandler(    buttonElement,    {},    function (googleUser) {     var googleUserData = {      email: googleUser.getBasicProfile().getEmail(),      name: googleUser.getBasicProfile().getName(),      token: googleUser.getAuthResponse().id_token,      provider: googleUser.getAuthResponse().idpId     };     makeGoogleSignInRequest(googleUserData, handleGoogleSignInSuccess, handleGoogleSignInFailure);    },    function (error) {     handleGoogleSignInFailure(error);    });  }   function makeSigninRequest(email, password, successCallback, errorCallback) {   clearToasterError();   const apiBaseUrl = getApiBaseUrl();    const url = apiBaseUrl + '/v1/applications/' + appId + '/users/tokens';   $.ajax({    url: url,    type: 'POST',    data: JSON.stringify({email: email, password: password}),    contentType: 'application/json; charset=utf-8',    dataType: 'json',    success: function (data) {     console.log(data);     successCallback(data);    },    error: function (error) {     console.log(error);     errorCallback(error);    }   });  }   function handleGoogleSignInSuccess(data) {   setCookie('jwtToken', data.jwt, 90);   setTimeout(function () {    /* when page includes login and after login it remains in same page */    /* when sign in block in 401 page, after login reload the page as 401 page's url is same */    if(window.location.pathname == successUrl || window.is401Page) {     window.location.reload();    }else {     window.location.href = successUrl;    }   }, 100);  }   function handleGoogleSignInFailure(data) {   /* Google error, case when user manually closes google sign-in popup */   if(data.error && data.error.indexOf('popup_closed_by_user') !== -1) {    return;   }    /* Softr errors */   if((data.status === 400 || data.status === 401) && data.responseJSON && data.responseJSON.message) {    if(data.responseJSON.code === 'exceeds_limit') {     showErrorToastr(data.responseJSON.message);     return;    }    $(googleSingInErrorMessage).innerHTML = data.responseJSON.message;   }   $(googleSingInErrorMessage).addClass('d-block');  }   function makeGoogleSignInRequest(googleUserData, successCallback, errorCallback) {   clearToasterError();   const apiBaseUrl = getApiBaseUrl();   const url = apiBaseUrl + '/v1/applications/' + appId + '/users/social?only_registered_users_can_sign_in='    + onlyRegisteredUsersCanSignIn;   console.log(\"social login url = \" + url);   $.ajax({    url: url,    type: 'POST',    data: JSON.stringify({     credentials: {      email: googleUserData.email,      token: googleUserData.token     },     full_name: googleUserData.name,     provider: googleUserData.provider    }),    contentType: 'application/json; charset=utf-8',    dataType: 'json',    success: function (data) {     console.log(data);     successCallback(data);    },    error: function (error) {     console.log(error);     errorCallback(error);    }   });  }   $(submitButtonSelector).click(function (e) {   e.preventDefault();   const email = $(emailInputSelector).val().trim();   const password = $(passwordInputSelector).val().trim();    $(errorMessage1).removeClass('d-block');   /* validate the input */   $(emailInputSelector).removeClass('sw-input-invalid');   if (!isEmail(email)) {    $(errorMessage1).addClass('d-block');    $(emailInputSelector).addClass('sw-input-invalid');   }    /* validate the input */   $(passwordBox).removeClass('sw-input-invalid');   if (isEmpty(password)) {    $(errorMessage1).addClass('d-block');    $(passwordBox).addClass('sw-input-invalid');   }    if (!isEmail(email) || isEmpty(password)) {    return;   }    $(submitButtonSelector + ' .sw-btn-spinner').removeClass('d-none');   makeSigninRequest(email, password, handleSuccess, handleFailure);   });   $(showPassword).click(function () {   let password = $('#user-accounts2 #sw-form-password-input');   if (password.attr('type') === 'password') {    password.attr('type', 'text');    $(this).addClass('active fa-eye');    $(this).removeClass('fa-eye-slash');   } else {    password.attr('type', 'password');    $(this).removeClass('active fa-eye');    $(this).addClass('fa-eye-slash');   }  });   /* 'or' separator bg color*/  const formBgColor = window.getComputedStyle(document.querySelector('#user-accounts2 #signin'), null).getPropertyValue('background-color');  $('.textInSeparator').css({   backgroundColor: formBgColor  });   function getApiBaseUrl() {   if(window.location.href.startsWith('file:///') ||    window.location.href.startsWith('https://localhost:')) {    return 'https://localhost:8081';   } else {    return 'https://' + window.location.hostname;   }  }   function setCookie(name, value, days) {   var date = new Date();   date.setTime(date.getTime() + (days * 24 * 60 * 60 * 1000));   var expires = \"expires=\"+ date.toUTCString();   document.cookie = name + \"=\" + value + \";\" + expires + \";path=/;\" + 'SameSite=None; Secure';  }   if(window.google_client_id){   initGoogleSignInButton();  }   function isInStudio() {   return window.location.href.startsWith('https://localhost:') ||    window.location.href.includes('https://studio-staging') ||    window.location.href.startsWith('https://studio.softr.io/')  }   function clearToasterError() {   toastr.clear();  }   function showErrorToastr(msg) {   toastr.options = {    \"closeButton\": true,    \"debug\": false,    \"newestOnTop\": false,    \"progressBar\": true,    \"positionClass\": \"toast-bottom-left\",    \"preventDuplicates\": true,    \"onclick\": null,    \"showDuration\": \"300\",    \"hideDuration\": \"1000\",    \"timeOut\": \"45000\",    \"extendedTimeOut\": \"90000\",    \"showEasing\": \"swing\",    \"hideEasing\": \"linear\",    \"showMethod\": \"fadeIn\",    \"hideMethod\": \"fadeOut\"   };   toastr[\"error\"](msg, \"Something went wrong!\")  }   function appendScript(filepath, callback) {  if ($('head script[src=\"' + filepath + '\"]').length > 0)    return;  const script = document.createElement('script');  if (callback) {    script.onload = callback;  }  script.async = true;  script.type = 'text/javascript';  script.src = filepath;  document.head.appendChild(script);   }    function appendStyle(filepath) {  if ($('head link[href=\"' + filepath + '\"]').length > 0)    return;   const ele = document.createElement('link');  ele.setAttribute(\"type\", \"text/css\");  ele.setAttribute(\"rel\", \"Stylesheet\");  ele.setAttribute(\"href\", filepath);  $('head').append(ele);   }  })(); "}], targetElement: document.getElementById('page-content'), workspaceId: "1544ab2d-072a-47ae-b3ce-471b3163a5a6", appId: "fe8ae22c-3849-4e59-9d9f-8f0338fada24", pageId: "aed361b2-1a14-4c4d-b65a-9e0404cbcca6", paymentPlan: "", baseUrl: "https://assets.softr-files.com/softr-blocks/prod/blocks",theme: reactDefaultThemes, appCustomHeaderCode: "", pageCustomHeaderCode: "", appCustomFooterCode: "", pageCustomFooterCode: "", featureFlags: {"navigationLayout": false}, context: {"application_context": {"application_logo":null,"date_and_time_settings":{"format_settings":{"type":"LOCAL","local_settings":{"localize_day_and_month":true},"fixed_settings":null},"timezone_settings":{"type":"LOCAL","fixed_timezone":null}},"user_settings":{"auth_settings":null,"auto_invite":false},"user_connection":{"datasource":{"id":"2fa8c549-e177-4ddc-8826-c258cea80124","datasource_integration_type":"AIRTABLE"},"attributes":{"nameFieldName":"Name","emailFieldName":"Email address","profilePictureFieldName":"Photo"}}}}}).then(() => window.dispatchEvent(new Event("@softr/page-content-loaded")));
+</script><div data-spr-role="react-root"></div>
+
+
+<script src="https://assets.softr-files.com/libs/iframe-resizer/4.2.11/iframeResizer.contentWindow.min.js" crossorigin="anonymous"></script>
+
+<!-- Localhost -->
+<script type="text/javascript">
+    if (window.location.hostname === 'localhost') {
+        if (getUrlParam('domain')) {
+            setCookie('serverName', getUrlParam('domain'), 30);
+        }
+    }
+
+    function setCookie(name, value, days) {
+        var date = new Date();
+        date.setTime(date.getTime() + (days * 24 * 60 * 60 * 1000));
+        var expires = "expires=" + date.toUTCString();
+        document.cookie = name + "=" + value + ";" + expires + ";path=/;" + "SameSite=None; Secure";
+    }
+
+    function getUrlParam(name) {
+        const url = new URL(window.location.href);
+        let param;
+        for (var key of url.searchParams.keys()) {
+            if (key.toLowerCase() === name.toLowerCase()) {
+                param = url.searchParams.get(name);
+                break;
+            }
+        }
+        return param;
+    }
+</script>
+
+<!-- Modal HTML -->
+<div id="sw-modal" class="sw-modal" aria-hidden="true">
+    <div class="sw-modal-overlay" data-micromodal-close="">
+        <div tabindex="-1" class="sw-modal-container">
+            <div role="dialog" aria-modal="true" aria-labelledby="micromodal-title">
+                <button aria-label="Close modal" class="sw-modal-close" onclick="MicroModal.close('sw-modal')"></button>
+                <div id="sw-modal-content">
+                    <iframe class="sw-modal-iframe"></iframe>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!--Scroll to section-->
+<script>
+
+    window.addEventListener(BlocksRenderedEventName, function () {
+        $('a').each(function (index, el) {
+            let href = $(el).attr('href');
+            let path = cleanSlugFromPath(location.pathname);
+            if (href && href.startsWith(path + '#')) {
+                const scrollTo = href.split('#')[1];
+                $(this).attr('href', '#' + scrollTo);
+            }
+        });
+
+        function cleanSlugFromPath(pagePath) {
+            if (pagePath.includes("/r/rec")) {
+                pagePath = pagePath.substring(0, pagePath.indexOf("/r/rec"));
+                pagePath = pagePath.substring(0, pagePath.lastIndexOf("/"));
+            }
+
+            return pagePath + (pagePath.endsWith('/') ? '' : '/');
+        }
+    });
+
+</script>
+
+
+
+
+</body></html>

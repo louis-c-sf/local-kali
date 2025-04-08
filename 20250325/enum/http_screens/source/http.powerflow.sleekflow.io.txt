@@ -1,0 +1,1 @@
+<html><head><title>AccountRequiresHttps</title></head><body><h1>The account being accessed does not support http.</h1><p></p><ul><li>HttpStatusCode: 400</li><li>ErrorCode: AccountRequiresHttps</li><li>RequestId : 1b34cb24-d01e-0053-0a2a-9eda35000000</li><li>TimeStamp : 2025-03-26T08:40:14.6000171Z</li></ul><p></p></body></html>

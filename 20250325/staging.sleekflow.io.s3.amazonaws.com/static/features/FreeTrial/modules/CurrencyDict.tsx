@@ -1,0 +1,31 @@
+export const CurrencyDict = {
+  EUR: "EUR",
+  CAD: "CAD",
+  AUD: "AUD",
+  CNY: "CNY",
+  BRL: "BRL",
+  USD: "USD",
+  GBP: "GBP",
+  HKD: "HKD",
+  AED: "AED",
+  IDR: "IDR",
+  MYR: "MYR",
+  SGD: "SGD",
+  INR: "INR",
+};
+
+export const CurrencySymbolDict = {
+  [CurrencyDict.EUR]: "€",
+  [CurrencyDict.CAD]: "$",
+  [CurrencyDict.AUD]: "A$",
+  [CurrencyDict.CNY]: "RMB",
+  [CurrencyDict.BRL]: "R$",
+  [CurrencyDict.USD]: "$",
+  [CurrencyDict.GBP]: "£",
+  [CurrencyDict.HKD]: "HK$",
+  [CurrencyDict.AED]: "AED",
+  [CurrencyDict.IDR]: "IDR",
+  [CurrencyDict.MYR]: "RM",
+  [CurrencyDict.SGD]: "S$",
+  [CurrencyDict.INR]: "₹",
+};

@@ -1,0 +1,1803 @@
+<html lang="en"><head>    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+      <meta name="ulp-version" content="1.32.2">
+    
+    
+    
+    <meta name="robots" content="noindex, nofollow">
+    
+    
+    <link rel="stylesheet" href="https://cdn.auth0.com/ulp/react-components/1.109.2/css/main.cdn.min.css">
+    <style id="custom-styles-container">
+      
+        
+
+
+
+
+        
+          :root, .af-custom-form-container .af-form {
+    --primary-color: #0066ff;
+  }
+        
+      
+
+        
+          :root, .af-custom-form-container .af-form {
+    --button-font-color: #ffffff;
+  }
+        
+      
+
+        
+          :root {
+    --secondary-button-border-color: #c9cace;
+    --social-button-border-color: #c9cace;
+    --radio-button-border-color: #c9cace;
+  }
+        
+      
+
+        
+          :root {
+    --secondary-button-text-color: #1e212a;
+  }
+        
+      
+
+        
+          :root {
+    --link-color: #635dff;
+  }
+        
+      
+
+        
+          :root {
+    --title-font-color: #1e212a;
+  }
+        
+      
+
+        
+          :root {
+    --font-default-color: #1e212a;
+  }
+        
+      
+
+        
+          :root {
+    --widget-background-color: #ffffff;
+  }
+        
+      
+
+        
+          :root {
+    --box-border-color: #c9cace;
+  }
+        
+      
+
+        
+          :root {
+    --font-light-color: #65676e;
+  }
+        
+      
+
+        
+          :root {
+    --input-text-color: #000000;
+  }
+        
+      
+
+        
+          :root {
+    --input-border-color: #c9cace;
+    --border-default-color: #c9cace;
+  }
+        
+      
+
+        
+          :root {
+    --input-background-color: #ffffff;
+  }
+        
+      
+
+        
+          :root {
+    --icon-default-color: #65676e;
+  }
+        
+      
+
+        
+          :root {
+    --error-color: #d03c38;
+    --error-text-color: #ffffff;
+  }
+        
+      
+
+        
+          :root {
+    --success-color: #13a688;
+  }
+        
+      
+
+        
+          :root {
+    --base-focus-color: #635dff;
+    --transparency-focus-color: rgba(99,93,255, 0.15);
+  }
+        
+      
+
+        
+          :root {
+    --base-hover-color: #000000;
+    --transparency-hover-color: rgba(0,0,0, var(--hover-transparency-value));
+  }
+        
+      
+
+        
+      
+
+
+
+
+        
+          
+        
+      
+
+        
+          html, :root, .af-custom-form-container .af-form {
+    font-size: 16px;
+    --default-font-size: 16px;
+  }
+        
+      
+
+        
+          body {
+    --title-font-size: 1.5rem;
+    --title-font-weight: var(--font-default-weight);
+  }
+        
+      
+
+        
+          .ced95a2c2 {
+    font-size: 0.875rem;
+    font-weight: var(--font-default-weight);
+  }
+        
+      
+
+        
+          .cf23326c1 {
+    font-size: 0.875rem;
+    font-weight: var(--font-default-weight);
+  }
+  .ulp-passkey-benefit-heading {
+    font-size: 1.025rem;
+  }
+        
+      
+
+        
+          .c374f5b8a, .c6ffa35e3 {
+    font-size: 1rem;
+    font-weight: var(--font-default-weight);
+  }
+        
+      
+
+        
+          body {
+    --ulp-label-font-size: 1rem;
+    --ulp-label-font-weight: var(--font-default-weight);
+  }
+        
+      
+
+        
+          .ce90c3025, .c6b715e83, [id^='ulp-container-'] a {
+    font-size: 0.875rem;
+    font-weight: var(--font-bold-weight) !important;
+  }
+        
+      
+
+        
+          
+        
+      
+
+
+
+
+        
+          :root {
+    --button-border-width: 1px;
+    --social-button-border-width: 1px;
+    --radio-border-width: 1px;
+  }
+        
+      
+
+        
+          body {
+    --button-border-radius: 3px;
+    --radio-border-radius: 3px;
+  }
+        
+      
+
+        
+          :root {
+    --input-border-width: 1px;
+  }
+        
+      
+
+        
+          body {
+    --input-border-radius: 3px;
+  }
+
+  .af-custom-form-container .af-form {
+    --border-radius: 3px;
+  }
+        
+      
+
+        
+          :root {
+    --border-radius-outer: 16px;
+  }
+        
+      
+
+        
+          :root {
+    --box-border-width: 0px;
+  }
+        
+      
+
+        
+          
+        
+      
+
+
+
+
+        
+          
+      .c43a623aa {
+        display: none;
+      }
+
+      body {
+        --header-title-spacing: 0;
+      }
+    
+        
+      
+
+        
+          
+    .c43a623aa {
+      content: url('https://uat.sleekflow.io/static/media/logo-solid.3c58cf66.svg');
+    }
+  
+        
+      
+
+        
+          body {
+    --logo-height: 52px;
+  }
+  .c43a623aa {
+    height: var(--logo-height);
+  }
+  
+        
+      
+
+        
+          
+    body {
+      --header-alignment: center;
+    }
+  
+        
+      
+
+        
+          
+        
+      
+
+
+
+
+        
+          .cf10708bc {
+    --page-background-alignment: center;
+  }
+        
+      
+
+        
+          body {
+    --page-background-color: #000000;
+  }
+        
+      
+
+        
+          
+        
+      
+
+
+
+
+      
+    </style>
+    <style>
+    /* By default, hide features for javascript-disabled browsing */
+    /* We use !important to override any css with higher specificity */
+    /* It is also overriden by the styles in <noscript> in the header file */
+    .no-js {
+      clip: rect(0 0 0 0);
+      clip-path: inset(50%);
+      height: 1px;
+      overflow: hidden;
+      position: absolute;
+      white-space: nowrap;
+      width: 1px;
+    }
+  </style>
+  <noscript>
+    <style>
+      /* We use !important to override the default for js enabled */
+      /* If the display should be other than block, it should be defined specifically here */
+      .js-required { display: none !important; }
+      .no-js {
+        clip: auto;
+        clip-path: none;
+        height: auto;
+        overflow: auto;
+        position: static;
+        white-space: normal;
+        width: var(--prompt-width);
+      }
+    </style>
+  </noscript>
+    
+<style>
+    @font-face {
+      font-family: 'Matter';
+      font-style: normal;
+      font-weight: 600;
+      font-display: swap;
+      src: url(https://sleekflow.io/fonts/Matter-SemiBold.woff2) format('woff2'),
+      url(https://sleekflow.io/fonts/Matter-SemiBold.woff) format('woff');
+    }
+
+    body {
+      padding: 32px 64px 0 64px;
+      background-color: #F7FAFF;
+      font-family: 'Inter';
+      color: #696E81;
+    }
+
+    /* for page to send reset password email  */
+    .reset-password > div > div > main > ._prompt-box-outer > div > div ,
+      /* for page to show check email screen */
+    .reset-password > div > div > main > ._prompt-box-outer > div {
+      min-height: initial;
+    }
+
+    .header {
+      display: flex;
+      justify-content: space-between;
+      height: 40px;
+    }
+
+    .header>* {
+      vertical-align: middle;
+    }
+
+    .header>a>img {
+      width: 160px;
+      height: auto;
+    }
+
+    .icon-check-circle {
+      fill: #0066FF;
+    }
+
+    select {
+      background-color: transparent;
+      border: none;
+      color: #0D122C;
+      font-weight: 400;
+      font-size: 12px;
+      line-height: 18px;
+      outline: none;
+    }
+
+    #content {
+      display: flex;
+      justify-content: space-between;
+      margin: 0 auto;
+      align-items: center;
+      max-width: 1400px;
+      height: max-content;
+      min-height: calc(100svh - 142px);
+      width: 100%;
+    }
+
+    .section {
+      width: 50%;
+      min-width: 480px;
+      align-items: center;
+      margin: 0 16px;
+    }
+
+    .section.full-width {
+      width: 100%;
+      margin: 0;
+    }
+
+    .control-wrapper {
+      margin: 36px auto;
+      max-width: 450px;
+    }
+
+    #carousel.login > .control-wrapper,
+    #carousel.login-id > .control-wrapper {
+      display: flex;
+      justify-content: center;
+    }
+
+    .section.marketing-section {
+      position: relative;
+    }
+
+    #carousel {
+      width: 100%;
+      position: relative;
+    }
+
+    .centering {
+      width: 480px;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+    }
+
+    #carousel .title {
+      font-size: 24px;
+      font-weight: 700;
+      line-height: 26px;
+      margin-bottom: 8px;
+      color: #0D122C;
+    }
+
+    h1,
+    button,
+    #selected-language-label>span {
+      font-family: 'Matter';
+    }
+
+    #carousel .description {
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 20px;
+      font-family: 'Inter';
+      color: #6A6E81;
+
+    }
+
+    #slide-container {
+      scroll-snap-type: x mandatory;
+      overflow-x: scroll;
+      overflow-y: hidden;
+      display: flex;
+      align-items: center;
+      gap: 36px;
+      -webkit-overflow-scrolling: touch;
+      scroll-behavior: smooth;
+      margin: 0 20px;
+    }
+
+    /* hanlde no scoll bar */
+    #slide-container {
+      -ms-overflow-style: none;
+      /* Internet Explorer 10+ */
+      scrollbar-width: none;
+      /* Firefox */
+    }
+
+    #slide-container::-webkit-scrollbar {
+      display: none;
+      /* Safari and Chrome */
+    }
+    /* end of handle no scoll bar */
+
+    .slide {
+      scroll-snap-align: center;
+      position: relative;
+      min-width: 100%;
+    }
+
+
+    #carousel.login > #slide-container > .slide,
+    #carousel.login-id > #slide-container > .slide {
+      text-align: center;
+    }
+
+    .slide-image-wrapper {
+      height: 245px;
+      margin-bottom: 32px;
+    }
+
+    .slide img {
+      height: 245px;
+      width: auto;
+    }
+
+    .indicator-wrapper {
+      display: flex;
+      gap: 8px;
+      vertical-align: middle;
+    }
+
+    .arrow {
+      cursor: pointer;
+      border: solid #576E93;
+      border-width: 0 2px 2px 0;
+      width: 8px;
+      height: 8px;
+      display: inline-block;
+    }
+
+    .arrow.right {
+      transform: rotate(-45deg);
+      -webkit-transform: rotate(-45deg);
+    }
+
+    .arrow.down {
+      transform: rotate(45deg);
+      -webkit-transform: rotate(45deg);
+      margin-bottom: 4px;
+    }
+
+    .arrow.left {
+      transform: rotate(135deg);
+      -webkit-transform: rotate(135deg);
+    }
+
+    .arrow.up {
+      transform: rotate(225deg);
+      -webkit-transform: rotate(225deg);
+      margin-top: 2px
+    }
+
+    .slide-indicator {
+      width: 8px;
+      height: 8px;
+      background-color: #576E93;
+      border-radius: 4px;
+      opacity: 0.25;
+      vertical-align: middle;
+      cursor: pointer;
+    }
+
+    #back-button,
+    #forward-button {
+      position: absolute;
+    }
+
+    #back-button {
+      top: 125px;
+    }
+
+    #carousel.signup > #back-button, #carousel.signup > #forward-button {
+      display: none;
+    }
+
+    #forward-button {
+      top: 125px;
+      right: 0;
+    }
+
+    .slide-indicator.active {
+      opacity: 1;
+    }
+
+    .slider {
+      vertical-align: middle;
+    }
+
+    .testimonial {
+      color: #0D122C;
+    }
+
+    .testimonial>svg {
+      margin-bottom: 48px;
+    }
+
+    .testimonial>.text {
+      font-family: 'Matter';
+      font-style: normal;
+      font-weight: 600;
+      font-size: 28px;
+      line-height: 32px;
+      margin-bottom: 40px;
+    }
+
+    .testimonial>.source {
+      font-weight: 600;
+      font-size: 20px;
+      line-height: 24px;
+      margin-bottom: 8px;
+    }
+
+    .testimonial>.source-position {
+      font-weight: 600;
+      font-size: 12px;
+      line-height: 16px;
+      color: #4B9BE8;
+    }
+
+    .testimonial>.logo-wrapper {
+      width: 88px;
+      height: 88px;
+      background-color: #FFFFFF;
+      border-radius: 50%;
+      position: relative;
+      margin-top: 16px;
+    }
+
+    .testimonial>.logo-wrapper>img {
+      width: 72px;
+      height: auto;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+
+    }
+
+    ._prompt-wrapper {
+      display: flex;
+      flex-direction: column;
+    }
+
+    ._prompt-box-outer>div {
+      grid-area: initial !important;
+    }
+
+    .footer {
+      z-index: 999;
+      padding:24px 0;
+      position: sticky;
+      bottom: 0px;
+      width: 100%;
+      font-size: 12px !important;
+      line-height: 16px !important;
+    }
+
+    .footer ul {
+      display: flex;
+      column-gap: 32px;
+    }
+
+    .footer ul li {
+      font-weight: 600;
+      display: inline-block;
+    }
+
+    a {
+      color: #576E93;
+      font-size: 12px;
+      line-height: 16px;
+    }
+
+    #language-select {
+      position: relative;
+      color: #6A6E81;
+      line-height: 40px;
+    }
+
+    #selected-language-label {
+      cursor: pointer;
+    }
+
+    #selected-language-label>svg,
+    #selected-language-label>span {
+      margin-right: 8px;
+      line-height: 18px;
+    }
+
+    #selected-language-label>* {
+      vertical-align: middle;
+    }
+
+    #language-dropdown {
+      position: absolute;
+      top: 36px;
+      right: 0;
+      width: 200px;
+      background: #FFFFFF;
+      padding: 16px 0;
+      box-shadow: 0px 10px 20px 2px rgba(0, 102, 255, 0.1);
+      border-radius: 8px;
+      z-index: 1000;
+      line-height: 16px;
+      color: #576E93;
+      font-weight: 600;
+      opacity: 0;
+      display: none;
+      transform: none;
+      transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms, transform 167ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+      transform-origin: 197.371px 5.75px;
+    }
+
+    #language-dropdown>div {
+      padding: 8px 16px;
+      cursor: pointer;
+      display: flex;
+      justify-content: space-between;
+    }
+
+    #language-dropdown>div.selected {
+      background-color: #F7FAFF;
+    }
+
+    .en>#en {
+      background-color: #F7FAFF;
+    }
+
+    .zh-HK>#zh-HK,
+    .zh-TW>#zh-HK {
+      background-color: #F7FAFF;
+    }
+
+    .zh-CN>#zh-CN {
+      background-color: #F7FAFF;
+    }
+
+    ._widget-auto-layout {
+      height: initial;
+      min-height: initial !important;
+    }
+
+    ._widget {
+      /* height: calc(100vh - 142px) !important; */
+      /* min-height: 650px !important; */
+      padding: 0 !important;
+    }
+
+    .prompt-wrapper {
+      display: flex;
+      flex-direction: column;
+    }
+
+    .prompt-wrapper>main>._prompt-box-outer {
+      width: 480px;
+    }
+
+    .prompt-wrapper.full-width>main>._prompt-box-outer {
+      width: 560px;
+      justify-content: initial;
+      height: initial;
+      min-height: initial;
+    }
+
+    #custom-prompt-logo {
+      display: none !important;
+    }
+
+    .success-email,
+    .success-lock {
+      /* = icons shown after sending email for reset password, or succesfully changing password */
+      --color: #13972A;
+    }
+
+    a:focus {
+      background-color: none;
+    }
+
+    .ulp-alternate-action {
+      line-height: 20px;
+    }
+
+    #overlay {
+      display: none;
+    }
+
+    .footer-overlay {
+      border-top:1px solid #d6e4fb;
+      position:absolute;
+      width:100vw;
+      background:#F7FAFF;
+      height:100%;
+      left: 50%;
+      transform: translate(-50%, 0);
+      top:0;
+      z-index: -1;
+    }
+
+    @media only screen and (max-width: 1000px) {
+
+      #content {
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: flex-end;
+      }
+
+      .section {
+        width: 100%;
+        min-width: initial;
+      }
+
+      .centering {
+        width: initial;
+        position: initial;
+        top: initial;
+        transform: initial;
+      }
+
+      #carousel {
+        width: 480px !important;
+        margin: 0 auto 96px;
+      }
+
+      ._widget {
+        /* height: 600px !important; */
+      }
+
+      /* ._prompt-box-outer, .disclaimer {
+          width: 100% !important;
+          padding: 0 64px
+        } */
+      body {
+        padding: 16px 32px 0 32px;
+      }
+
+      .testimonial {
+        padding-top: 64px;
+      }
+    }
+
+    .logout-button-mobile {
+      display: none;
+    }
+
+    @media only screen and (max-width: 600px) {
+      #content > div.widget-logout-wrapper > div > main > section > div {
+        box-shadow: none !important;
+      }
+
+      .footer-overlay {
+        background:#FFF;
+      }
+
+      .logout-button-desktop {
+        display: none;
+      }
+
+      .logout-button-mobile {
+        display: block;
+      }
+      #content {
+        display: flex;
+        flex-direction: column-reverse;
+      }
+
+      .section.marketing-section {
+        display: none;
+      }
+
+      .section {
+        width: 100%;
+        margin: 0;
+      }
+
+      ._widget {
+        width: 100% !important;
+      }
+
+      body {
+        padding: 24px 0 0 0;
+      }
+
+      .header>a>img {
+        width: 120px;
+      }
+
+      #language-select {
+        line-height: 24px;
+      }
+
+      .header,
+      .footer {
+        padding: 8px 40px;
+      }
+
+
+
+      .prompt-wrapper>main>._prompt-box-outer,
+      .prompt-wrapper.full-width>main>._prompt-box-outer {
+        width: 100vw;
+      }
+
+      .footer>ul {
+        justify-content: space-between;
+      }
+
+      .toc-wrapper {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        padding-top:16px;
+      }
+
+      .footer-group-wrapper {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+      }
+
+    }
+
+    body.isMobile > .header > #language-select {
+      display: none;
+    }
+
+    body.login.isMobile > #content > .prompt-wrapper > main > section > div > div > div > form {
+      /* display: none; */
+    }
+
+    body.login.isMobile > #content > .widget-logout-wrapper > .prompt-wrapper > main > section > div > div > div > .ulp-alternate-action,
+    body.login-id.isMobile > #content > .widget-logout-wrapper > .prompt-wrapper > main > section > div > div > div > .ulp-alternate-action,
+    body.login-password.isMobile > #content > .widget-logout-wrapper > .prompt-wrapper > main > section > div > div > div > .ulp-alternate-action {
+      display: none;
+    }
+
+    body.login.isMobile > #content > .widget-logout-wrapper > .prompt-wrapper > main > section > div > div > div > div:not(:last-child) {
+      display: none;
+    }
+
+    body.login.isMobileSplashScreen,
+    body.login-id.isMobileSplashScreen{
+      background: white !important;
+      height: 100vh !important;
+      padding: 16px;
+    }
+
+
+    body.login.isMobileSplashScreen>.header,
+    body.login-id.isMobileSplashScreen>.header {
+      padding: 0;
+    }
+
+    body.login.isMobileSplashScreen>.header>#language-select {
+      /* display: none; */
+    }
+
+    body.login.isMobileSplashScreen>#content,
+    body.login-id.isMobileSplashScreen>#content {
+      display: none;
+    }
+
+    body.login.isMobileSplashScreen>.footer,
+    body.login-id.isMobileSplashScreen>.footer {
+      display: none;
+    }
+
+    body.login.isMobileSplashScreen>#overlay,
+    body.login-id.isMobileSplashScreen>#overlay {
+      display: block;
+    }
+
+    body.login.isMobileSplashScreen>#overlay.enabled>.container,
+    body.login-id.isMobileSplashScreen>#overlay.enabled>.container {
+      background: #F2F7FF;
+      border-radius: 32px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-family: 'Matter';
+      text-align: center;
+    }
+
+    body.login.isMobileSplashScreen>#overlay.enabled>.container>.message,
+    body.login-id.isMobileSplashScreen>#overlay.enabled>.container>.message {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 48px 16px;
+      gap: 24px;
+      color: #0D122C;
+      font-size: 30px;
+      line-height: 36px;
+      font-weight: 600;
+    }
+
+    body.login.isMobileSplashScreen>#overlay.enabled>.container>.message>div>.company-name,
+    body.login-id.isMobileSplashScreen>#overlay.enabled>.container>.message>div>.company-name {
+      color: #4B9BE8;
+    }
+
+    .get-our-app {
+      font-family: 'Matter';
+      font-size: 14px;
+      font-weight: 600;
+      line-height: 16px;
+      letter-spacing: 1.5px;
+      text-align: center;
+    }
+
+    .store {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    .store > img {
+      height: 40px;
+    }
+
+
+    .back-to-home-wrapper {
+      display: flex;
+      justify-content: center;
+    }
+
+    #back-to-home {
+      margin-top: 44px;
+      font-family: 'Matter';
+      color: #576E94;
+      background-color: transparent;
+      border: none;
+      outline: none;
+      padding: 8px 20px;
+    }
+
+    #back-to-home:hover {
+      background-color: hsla(218, 36%, 96%, 1);
+    }
+
+    .logout-button {
+      font-size:14px;
+      font-weight: 600;
+      color:#6A6E81;
+      font-family: 'Matter';
+    }
+
+    .widget-logout-wrapper {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      width: 100%;
+      padding-top:36px;
+      text-align: center;
+      line-height: initial;
+    }
+
+    .prompt-wrapper {
+      padding-bottom:36px;
+      padding-top:36px;
+    }
+
+    .signing-in-as-email {
+      font-weight: 600;
+    }
+
+
+
+  </style>
+  <title>
+     Log in | SleekFlow 
+  </title>
+  <link rel="shortcut icon" type="image/png" href="https://v1.sleekflow.io/favicon.ico">
+  <link rel="stylesheet" href="https://fonts.bunny.net/css?family=Inter">
+</head>
+<body class=" _use-custom-prompt-logo login-id">
+
+
+
+<div class="header">
+  <a href="https://sleekflow.io/en" target="_blank">
+    <img src="https://v1.sleekflow.io/static/media/Black_logo.2f034189.svg">
+  </a>
+  <div id="language-select">
+      <span id="selected-language-label">
+        <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="M8.00001 1.33325C9.66753 3.15882 10.6152 5.52794 10.6667 7.99992C10.6152 10.4719 9.66753 12.841 8.00001 14.6666M8.00001 1.33325C6.33249 3.15882 5.38484 5.52794 5.33334 7.99992C5.38484 10.4719 6.33249 12.841 8.00001 14.6666M8.00001 1.33325C4.31811 1.33325 1.33334 4.31802 1.33334 7.99992C1.33334 11.6818 4.31811 14.6666 8.00001 14.6666M8.00001 1.33325C11.6819 1.33325 14.6667 4.31802 14.6667 7.99992C14.6667 11.6818 11.6819 14.6666 8.00001 14.6666M1.66669 5.99992H14.3334M1.66668 9.99992H14.3333" stroke="#576E93" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"></path>
+        </svg>
+        <span>
+          
+          English
+          
+          
+          
+          
+          
+          
+          
+        </span>
+        <div id="language-select-arrow" class="arrow down"></div>
+      </span>
+    <div id="language-dropdown" class="en">
+      <div id="en" value="en">
+        <div>
+          English
+        </div>
+        
+        <svg class="icon-check-circle" width="16" height="16" viewBox="0 0 16 16">
+          <path d="M8 1.973c-3.328 0-6.027 2.698-6.027 6.027s2.698 6.027 6.027 6.027c3.328 0 6.027-2.698 6.027-6.027s-2.698-6.027-6.027-6.027zM0.693 8c0-4.035 3.271-7.307 7.307-7.307s7.307 3.271 7.307 7.307-3.271 7.307-7.307 7.307c-4.035 0-7.307-3.271-7.307-7.307zM11.453 5.547c0.25 0.25 0.25 0.655 0 0.905l-4 4c-0.25 0.25-0.655 0.25-0.905 0l-2-2c-0.25-0.25-0.25-0.655-0-0.905s0.655-0.25 0.905-0l1.547 1.547 3.547-3.547c0.25-0.25 0.655-0.25 0.905 0z">
+          </path>
+        </svg>
+        
+      </div>
+      <div id="zh-HK" value="zh-HK">
+        <div>
+          繁體中文
+        </div>
+        
+      </div>
+      <div id="zh-CN" value="zh-CN-">
+        <div>
+          简体中文
+        </div>
+        
+      </div>
+      <div id="id" value="zh-CN-">
+        <div>
+          Bahasa Indonesia
+        </div>
+        
+      </div>
+      <div id="pt-BR" value="zh-CN-">
+        <div>
+          Português (BR)
+        </div>
+        
+      </div>
+      <div id="de" value="zh-CN-">
+        <div>
+          Deutsch
+        </div>
+        
+      </div>
+      <div id="it" value="zh-CN-">
+        <div>
+          Italiano
+        </div>
+        
+      </div>
+    </div>
+  </div>
+</div>
+<div id="overlay">
+  <div class="container">
+    <div class="message">
+      <div>
+        
+        Use desktop or mobile app to have better experience with
+        <span class="company-name"> SleekFlow</span>
+        
+      </div>
+      <div class="get-our-app">
+        
+        Download our app
+        
+      </div>
+      <a class="store" href="https://apps.apple.com/app/sleekflow-social-commerce/id1495751100?l=en" target="_blank">
+        
+        
+        
+        
+        <img src="https://images.contentful.com/tu2uwzoyozk8/zRqIO8xfw8UhlgpmmVoG8/c2a29b1734ff523c7386d2efaa62441c/appstore-en.png" alt="app-store">
+      </a>
+      <a class="store" href="https://play.google.com/store/apps/details?id=io.sleekflow.sleekflow" target="_blank">
+        
+        
+        
+        
+        
+        
+        <img src="https://images.contentful.com/tu2uwzoyozk8/7geLzeDvUq017aKDBWbzoT/ecf31bf8851e068f1ddb496657b0626f/googleplay-en.png" alt="app-store">
+      </a>
+    </div>
+  </div>
+  <!-- <div class="back-to-home-wrapper">
+    <a href="https://sleekflow.io/en" target="_blank">
+      <button id="back-to-home">
+        
+          Back to Home
+        
+      </button>
+    </a>
+  </div> -->
+  <div class="back-to-home-wrapper">
+    <button id="back-to-home">
+      
+      Continue
+      
+    </button>
+  </div>
+</div>
+<div id="content">
+  
+  <div class="section marketing-section">
+    <div class="centering">
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      <div id="carousel" class="login-id">
+        <i id="back-button" class="arrow left"></i>
+        <div id="slide-container">
+          <div class="slide" data-slideindex="0">
+            
+            <div class="slide-image-wrapper">
+              <img src="https://images.contentful.com/tu2uwzoyozk8/30CtIivZvNykQy373FZMou/e72466dd90fad57482cdd10eb76a6f37/inbox-en.png">
+            </div>
+            <h1 class="title">
+              
+              Collaborate on key conversations
+              
+            </h1>
+            <div class="description">
+              
+              Combine all your messaging channels into one and work together efficiently across teams through automatic chat assignment and internal notes.
+              
+            </div>
+            
+            
+          </div>
+
+          <div class="slide" data-slideindex="1">
+            
+            <div class="slide-image-wrapper">
+              <img src="https://images.contentful.com/tu2uwzoyozk8/1W0zPNij6ZD3DTAdOrsBJw/11a339c4709679c8bc576ebff572ab5d/integrations-en.png">
+            </div>
+            <h1 class="title">
+              
+              Scale with powerful integrations
+              
+            </h1>
+            <div class="description">
+              
+              Merge data and functions from Salesforce, HubSpot, and more. Power up workflows through enhanced re-marketing, targeted promotions, and view customer data in real-time.
+              
+            </div>
+            
+          </div>
+
+          <div class="slide" data-slideindex="2">
+            
+            <div class="slide-image-wrapper">
+              <img src="https://images.contentful.com/tu2uwzoyozk8/4Hapq8xLYKZTceBTDaWRTW/56cc4a7f3b53959acf3630cc456362fa/template-en.png">
+            </div>
+            <h1 class="title">
+              
+              Broadcast messages with WhatsApp Business API
+              
+            </h1>
+            <div class="description">
+              
+              Blast personalized, promotional WhatsApp messages to customers. Automatically segment, filter, and label clients based on purchase behavior.
+              
+            </div>
+            
+          </div>
+          <div class="slide" data-slideindex="3">
+
+            
+            <div class="slide-image-wrapper">
+              <img src="https://images.contentful.com/tu2uwzoyozk8/1wVo1uQuFWd99R7tar8zEI/fef6daec9cdb7acdf7d3ef359c6f7b6e/payment-en.png">
+            </div>
+            <h1 class="title">
+              
+              Get paid instantly in the chat
+              
+            </h1>
+            <div class="description">
+              
+              Connect to your e-commerce shop or import catalogs to SleekFlow. Provide a friction-free buying experience by creating Payment Links for your customers in chats.
+              
+            </div>
+            
+          </div>
+          
+        </div>
+        <i id="forward-button" class="arrow right"></i>
+        <div class="control-wrapper">
+            <span class="indicator-wrapper">
+              <div class="slide-indicator active"></div>
+              <div class="slide-indicator"></div>
+              <div class="slide-indicator"></div>
+              <div class="slide-indicator"></div>
+              
+            </span>
+
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  
+  
+  
+  <div class="widget-logout-wrapper">
+    
+    <div class="prompt-wrapper section "><main class="_widget login-id">
+  <section class="cdd73722a _prompt-box-outer ca07d671a">
+    <div class="cd059af9c c1647f822">
+      
+    
+      
+    
+      <div class="ca37ec19f">
+        <header class="c825c97f8 c02de5fad">
+          <div title="SleekFlow" id="custom-prompt-logo" style="width: auto !important; height: 60px !important; position: static !important; margin: auto !important; padding: 0 !important; background-color: transparent !important; background-position: center !important; background-size: contain !important; background-repeat: no-repeat !important"></div>
+        
+          <img class="c43a623aa cd3986239" id="prompt-logo-center" src="https://app.sleekflow.io/static/media/logo-solid.3c58cf66.svg" alt="SleekFlow">
+        
+          
+            <h1 class="ca90b15ee c2bb004c2">Welcome back</h1>
+          
+        
+          <div class="ced95a2c2 ca6c299fa">
+            <p class="c53c6f72a cd0e583bc">Sign in to continue to SleekFlow</p>
+          </div>
+        </header>
+      
+        <div class="cf23326c1 ccb5c233b">
+          
+        
+          
+            <div class="cd3161405 cdece75f8">
+              <div class="c1213aeac">
+                
+              
+                
+                  <form method="POST" class="cb97005fe _form-login-id" data-form-primary="true">
+                    <input type="hidden" name="state" value="hKFo2SBtdFAxcW5pbmVRUHFTQ0FVNGh2bGJHcmQxUl83QnVRQqFur3VuaXZlcnNhbC1sb2dpbqN0aWTZIFd6MXpkVWRJMnl0NklmdW90STB2VFFKRzBKcnJoSXVQo2NpZNkgcmRxdk1IVm9hZ1p6ZWRCN0dUUEF3cE1pa0k0RWpXV2I">
+                  
+                    
+                  
+                    
+                  
+                    
+                  
+                    <div class="cd3161405 cdece75f8">
+                      <div class="c1213aeac">
+                        
+                      
+                        
+                          
+                            <div class="input-wrapper _input-wrapper">
+                              <div class="cc9cdc85a c65458272 text cd8a1eb40 caa4c1d4a" data-action-text="" data-alternate-action-text="">
+                                <label class="cd61d9fdd no-js cb55ce585 c6d26c680" for="username">
+                                  Email or username
+                                </label>
+                              
+                                <input class="input c59b33b40 c6b7d335a" inputmode="text" name="username" id="username" type="text" value="" required="" autocomplete="email" autocapitalize="none" spellcheck="false" autofocus="">
+                              
+                                <div class="cd61d9fdd js-required cb55ce585 c6d26c680" data-dynamic-label-for="username" aria-hidden="true">
+                                  Email or username*
+                                </div>
+                              </div>
+                            
+                              
+                            </div>
+                          
+                        
+                      
+                        
+                      
+                        
+                      </div>
+                    </div>
+                  
+                    
+                  
+                    <input class="hide" type="password" autocomplete="off" tabindex="-1" aria-hidden="true">
+                  
+                    <input type="hidden" id="js-available" name="js-available" value="true">
+                  
+                    <input type="hidden" id="webauthn-available" name="webauthn-available" value="true">
+                  
+                    <input type="hidden" id="is-brave" name="is-brave" value="false">
+                  
+                    <input type="hidden" id="webauthn-platform-available" name="webauthn-platform-available" value="false">
+                  
+                    
+                  
+                    <div class="c962c3db7">
+                      
+                        <button type="submit" name="action" value="default" class="c374f5b8a c1085a438 ccdf87e4e cc02a3617 _button-login-id" data-action-button-primary="true">Continue</button>
+                      
+                    </div>
+                  </form>
+                
+              </div>
+            </div>
+          
+        
+          
+        
+          
+            <div class="ulp-alternate-action  _alternate-action __s16nu9">
+              <p class="c53c6f72a cd0e583bc cf991a62f">Don't have an account?
+                <a class="c6b715e83 c61ec4995" href="/u/signup/identifier?state=hKFo2SBtdFAxcW5pbmVRUHFTQ0FVNGh2bGJHcmQxUl83QnVRQqFur3VuaXZlcnNhbC1sb2dpbqN0aWTZIFd6MXpkVWRJMnl0NklmdW90STB2VFFKRzBKcnJoSXVQo2NpZNkgcmRxdk1IVm9hZ1p6ZWRCN0dUUEF3cE1pa0k0RWpXV2I&amp;ui_locales=en">Sign up</a>
+              </p>
+            </div>
+          
+        
+          
+        
+          
+            <div class="cb5e06621 c619b1e70">
+              <span>OR</span>
+            </div>
+          
+        
+          
+        
+          
+            
+          
+            <div class="c6f1ecccc c3bc65d34">
+              
+            
+              
+                <form method="post" data-provider="google" class="c6ffa35e3 c943cbcde c1645ce58" data-form-secondary="true">
+                  <input type="hidden" name="state" value="hKFo2SBtdFAxcW5pbmVRUHFTQ0FVNGh2bGJHcmQxUl83QnVRQqFur3VuaXZlcnNhbC1sb2dpbqN0aWTZIFd6MXpkVWRJMnl0NklmdW90STB2VFFKRzBKcnJoSXVQo2NpZNkgcmRxdk1IVm9hZ1p6ZWRCN0dUUEF3cE1pa0k0RWpXV2I">
+                
+                  <input type="hidden" name="connection" value="sleekflow-connection-google-oauth2">
+                
+                  <button type="submit" class="c31bb817c c19297c33 c127fe185" data-provider="google" data-action-button-secondary="true">
+                    
+                      <span class="ccc858d54 c8460be1a" data-provider="google"></span>
+                    
+                  
+                    <span class="cd2d018c7">Continue with Google</span>
+                  </button>
+                </form>
+              
+                <form method="post" data-provider="apple" class="c6ffa35e3 c943cbcde c0a4970ed" data-form-secondary="true">
+                  <input type="hidden" name="state" value="hKFo2SBtdFAxcW5pbmVRUHFTQ0FVNGh2bGJHcmQxUl83QnVRQqFur3VuaXZlcnNhbC1sb2dpbqN0aWTZIFd6MXpkVWRJMnl0NklmdW90STB2VFFKRzBKcnJoSXVQo2NpZNkgcmRxdk1IVm9hZ1p6ZWRCN0dUUEF3cE1pa0k0RWpXV2I">
+                
+                  <input type="hidden" name="connection" value="sleekflow-connection-apple">
+                
+                  <button type="submit" class="c31bb817c c19297c33 c6b00ff81" data-provider="apple" data-action-button-secondary="true">
+                    
+                      <span class="ccc858d54 c8460be1a" data-provider="apple"></span>
+                    
+                  
+                    <span class="cd2d018c7">Continue with Apple</span>
+                  </button>
+                </form>
+              
+                <form method="post" data-provider="oauth2" class="c6ffa35e3 c943cbcde _social-button-container-oauth2" data-form-secondary="true">
+                  <input type="hidden" name="state" value="hKFo2SBtdFAxcW5pbmVRUHFTQ0FVNGh2bGJHcmQxUl83QnVRQqFur3VuaXZlcnNhbC1sb2dpbqN0aWTZIFd6MXpkVWRJMnl0NklmdW90STB2VFFKRzBKcnJoSXVQo2NpZNkgcmRxdk1IVm9hZ1p6ZWRCN0dUUEF3cE1pa0k0RWpXV2I">
+                
+                  <input type="hidden" name="connection" value="KConnect">
+                
+                  <button type="submit" class="c31bb817c c19297c33 _social-button-oauth2" data-provider="oauth2" data-action-button-secondary="true">
+                    
+                      <span class="ccc858d54 c8460be1a" data-provider="oauth2"></span>
+                    
+                  
+                    <span class="cd2d018c7">Continue with Kconnect</span>
+                  </button>
+                </form>
+              
+                <form method="post" data-provider="oauth2" class="c6ffa35e3 c943cbcde _social-button-container-oauth2" data-form-secondary="true">
+                  <input type="hidden" name="state" value="hKFo2SBtdFAxcW5pbmVRUHFTQ0FVNGh2bGJHcmQxUl83QnVRQqFur3VuaXZlcnNhbC1sb2dpbqN0aWTZIFd6MXpkVWRJMnl0NklmdW90STB2VFFKRzBKcnJoSXVQo2NpZNkgcmRxdk1IVm9hZ1p6ZWRCN0dUUEF3cE1pa0k0RWpXV2I">
+                
+                  <input type="hidden" name="connection" value="Shopify">
+                
+                  <button type="submit" class="c31bb817c c19297c33 _social-button-oauth2" data-provider="oauth2" data-action-button-secondary="true">
+                    
+                      <span class="ccc858d54 c8460be1a" data-provider="oauth2"></span>
+                    
+                  
+                    <span class="cd2d018c7">Continue with Shopify</span>
+                  </button>
+                </form>
+              
+            
+              
+            </div>
+          
+        </div>
+      </div>
+    </div>
+  
+    
+  </section>
+</main>
+<script id="client-scripts">
+window.ulpFlags = {"enable_ulp_wcag_compliance":false};!function(){var e,t,E,A,C,S,F,T,n,r,a={exports:function(e,t){return"object"==typeof e.ulpFlags&&null!==e.ulpFlags?e.ulpFlags:{}}}.exports(window,document),i=((e={}).exports=function(n,a){var r={},i={};function u(e,t){if(e.classList)return e.classList.add(t);var n=e.className.split(" ");-1===n.indexOf(t)&&(n.push(t),e.className=n.join(" "))}function o(e,t,n,r){return e.addEventListener(t,n,r)}function c(e){return"string"==typeof e}function l(e,t){return c(e)?a.querySelector(e):e.querySelector(t)}function s(e,t){if(e.classList)return e.classList.remove(t);var n=e.className.split(" "),r=n.indexOf(t);-1!==r&&(n.splice(r,1),e.className=n.join(" "))}function f(e,t){return e.getAttribute(t)}function d(e,t,n){return e.setAttribute(t,n)}var e=["text","number","email","password","tel","url"],t="select,textarea,"+e.map(function(e){return'input[type="'+e+'"]'}).join(",");return{addClass:u,toggleClass:function(e,t,n){if(!0===n||!1===n)return r=e,a=t,!0!==n?s(r,a):u(r,a);var r,a;if(e.classList)return e.classList.toggle(t);var i=e.className.split(" "),o=i.indexOf(t);-1!==o?i.splice(o,1):i.push(t),e.className=i.join(" ")},hasClass:function(e,t){return e.classList?e.classList.contains(t):-1!==e.className.split(" ").indexOf(t)},addClickListener:function(e,t){return o(e,"click",t)},addEventListener:o,getAttribute:f,hasAttribute:function(e,t){return e.hasAttribute(t)},getElementById:function(e){return a.getElementById(e)},getParent:function(e){return e.parentNode},isString:c,loadScript:function(e,t){var n=a.createElement("script");for(var r in t)r.startsWith("data-")?n.dataset[r.replace("data-","")]=t[r]:n[r]=t[r];n.src=e,a.body.appendChild(n)},removeScript:function(e){a.querySelectorAll('script[src="'+e+'"]').forEach(function(e){e.remove()})},poll:function(e){var i=e.interval||2e3,t=e.url||n.location.href,o=e.condition||function(){return!0},u=e.onSuccess||function(){},c=e.onError||function(){};return setTimeout(function r(){var a=new XMLHttpRequest;return a.open("GET",t),a.setRequestHeader("Accept","application/json"),a.onload=function(){if(200===a.status){var e="application/json"===a.getResponseHeader("Content-Type").split(";")[0]?JSON.parse(a.responseText):a.responseText;return o(e)?u():setTimeout(r,i)}if(429!==a.status)return c({status:a.status,responseText:a.responseText});var t=1e3*Number.parseInt(a.getResponseHeader("X-RateLimit-Reset")),n=t-(new Date).getTime();return setTimeout(r,i<n?n:i)},a.send()},i)},querySelector:l,querySelectorAll:function(e,t){var n=c(e)?a.querySelectorAll(e):e.querySelectorAll(t);return Array.prototype.slice.call(n)},removeClass:s,removeElement:function(e){return e.remove()},setAttribute:d,removeAttribute:function(e,t){return e.removeAttribute(t)},swapAttributes:function(e,t,n){var r=f(e,t),a=f(e,n);d(e,n,r),d(e,t,a)},setGlobalFlag:function(e,t){r[e]=!!t},getGlobalFlag:function(e){return!!r[e]},setSubmittedForm:function(e,t){i[e]=t},getSubmittedForm:function(e){return i[e]},preventFormSubmit:function(e){e.stopPropagation(),e.preventDefault()},matchMedia:function(e){return"function"!=typeof n.matchMedia&&n.matchMedia(e).matches},dispatchEvent:function(e,t,n){var r;"function"!=typeof Event?(r=a.createEvent("Event")).initCustomEvent(t,n,!1):r=new Event(t,{bubbles:n}),e.dispatchEvent(r)},timeoutPromise:function(e,a){return new Promise(function(t,n){var r=setTimeout(function(){n(new Error("timeoutPromise: promise timed out"))},e);a.then(function(e){clearTimeout(r),t(e)},function(e){clearTimeout(r),n(e)})})},createMutationObserver:function(e){return"undefined"==typeof MutationObserver?null:new MutationObserver(e)},consoleWarn:function(){(console.warn||console.log).apply(console,arguments)},getConfigJson:function(e){try{var t=l(e);if(!t)return null;var n=t.value;return n?JSON.parse(n):null}catch(e){return null}},getCSSVariable:function(e){return getComputedStyle(a.documentElement).getPropertyValue(e)},removeAndTrimString:function(e,t){var n=new RegExp(t,"g"),r=e.replace(n,"");return r=r.replace(/\s+/g,"  ").trim()},setTimeout:setTimeout,globalWindow:n,SUPPORTED_INPUT_TYPES:e,ELEMENT_TYPE_SELECTOR:t,RUN_INIT:!0}},e.exports)(window,document),o=function(){var e={};function v(e){if(!("string"==typeof e||e instanceof String)){var t=typeof e;throw null===e?t="null":"object"===t&&(t=e.constructor.name),new TypeError("Expected a string but received a "+t)}}function m(e,t){var n,r;v(e),r="object"==typeof t?(n=t.min||0,t.max):(n=t,arguments[2]);var a=encodeURI(e).split(/%..|./).length-1;return n<=a&&(void 0===r||a<=r)}function h(e,t){for(var n in void 0===e&&(e={}),t)void 0===e[n]&&(e[n]=t[n]);return e}var g={require_tld:!0,allow_underscores:!1,allow_trailing_dot:!1,allow_numeric_tld:!1,allow_wildcard:!1,ignore_max_length:!1},t="(?:[0-9]|[1-9][0-9]|1[0-9][0-9]|2[0-4][0-9]|25[0-5])",n="("+t+"[.]){3}"+t,r=new RegExp("^"+n+"$"),a="(?:[0-9a-fA-F]{1,4})",i=new RegExp("^((?:"+a+":){7}(?:"+a+"|:)|(?:"+a+":){6}(?:"+n+"|:"+a+"|:)|(?:"+a+":){5}(?::"+n+"|(:"+a+"){1,2}|:)|(?:"+a+":){4}(?:(:"+a+"){0,1}:"+n+"|(:"+a+"){1,3}|:)|(?:"+a+":){3}(?:(:"+a+"){0,2}:"+n+"|(:"+a+"){1,4}|:)|(?:"+a+":){2}(?:(:"+a+"){0,3}:"+n+"|(:"+a+"){1,5}|:)|(?:"+a+":){1}(?:(:"+a+"){0,4}:"+n+"|(:"+a+"){1,6}|:)|(?::((?::"+a+"){0,5}:"+n+"|(?::"+a+"){1,7}|:)))(%[0-9a-zA-Z-.:]{1,})?$");function b(e,t){return void 0===t&&(t=""),v(e),(t=String(t))?"4"===t?r.test(e):"6"===t&&i.test(e):b(e,4)||b(e,6)}var w={allow_display_name:!1,allow_underscores:!1,require_display_name:!1,allow_utf8_local_part:!0,require_tld:!0,blacklisted_chars:"",ignore_max_length:!1,host_blacklist:[],host_whitelist:[]},y=/^([^\x00-\x1F\x7F-\x9F\cX]+)</i,_=/^[a-z\d!#\$%&'\*\+\-\/=\?\^_`{\|}~]+$/i,x=/^[a-z\d]+$/,E=/^([\s\x01-\x08\x0b\x0c\x0e-\x1f\x7f\x21\x23-\x5b\x5d-\x7e]|(\\[\x01-\x09\x0b\x0c\x0d-\x7f]))*$/i,A=/^[a-z\d!#\$%&'\*\+\-\/=\?\^_`{\|}~\u00A1-\uD7FF\uF900-\uFDCF\uFDF0-\uFFEF]+$/i,C=/^([\s\x01-\x08\x0b\x0c\x0e-\x1f\x7f\x21\x23-\x5b\x5d-\x7e\u00A0-\uD7FF\uF900-\uFDCF\uFDF0-\uFFEF]|(\\[\x01-\x09\x0b\x0c\x0d-\x7f\u00A0-\uD7FF\uF900-\uFDCF\uFDF0-\uFFEF]))*$/i,S=254;function o(e,t){if(v(e),(t=h(t,w)).require_display_name||t.allow_display_name){var n=e.match(y);if(n){var r=n[1];if(e=e.replace(r,"").replace(/(^<|>$)/g,""),r.endsWith(" ")&&(r=r.slice(0,-1)),!function(e){var t=e.replace(/^"(.+)"$/,"$1");if(!t.trim())return!1;if(/[\.";<>]/.test(t)){if(t===e)return!1;if(t.split('"').length!==t.split('\\"').length)return!1}return!0}(r))return!1}else if(t.require_display_name)return!1}if(!t.ignore_max_length&&e.length>S)return!1;var a=e.split("@"),i=a.pop(),o=i.toLowerCase();if(t.host_blacklist.includes(o))return!1;if(0<t.host_whitelist.length&&!t.host_whitelist.includes(o))return!1;var u=a.join("@");if(t.domain_specific_validation&&("gmail.com"===o||"googlemail.com"===o)){var c=(u=u.toLowerCase()).split("+")[0];if(!m(c.replace(/\./g,""),{min:6,max:30}))return!1;for(var l=c.split("."),s=0;s<l.length;s++)if(!x.test(l[s]))return!1}if(!(!1!==t.ignore_max_length||m(u,{max:64})&&m(i,{max:254})))return!1;if(!function(e,t){v(e),(t=h(t,g)).allow_trailing_dot&&"."===e[e.length-1]&&(e=e.substring(0,e.length-1)),!0===t.allow_wildcard&&0===e.indexOf("*.")&&(e=e.substring(2));var n=e.split("."),r=n[n.length-1];if(t.require_tld){if(n.length<2)return!1;if(!t.allow_numeric_tld&&!/^([a-z\u00A1-\u00A8\u00AA-\uD7FF\uF900-\uFDCF\uFDF0-\uFFEF]{2,}|xn[a-z0-9-]{2,})$/i.test(r))return!1;if(/\s/.test(r))return!1}return!(!t.allow_numeric_tld&&/^\d+$/.test(r))&&n.every(function(e){return!(63<e.length&&!t.ignore_max_length||!/^[a-z_\u00a1-\uffff0-9-]+$/i.test(e)||/[\uff01-\uff5e]/.test(e)||/^-|-$/.test(e)||!t.allow_underscores&&/_/.test(e))})}(i,{require_tld:t.require_tld,ignore_max_length:t.ignore_max_length,allow_underscores:t.allow_underscores})){if(!t.allow_ip_domain)return!1;if(!b(i)){if(!i.startsWith("[")||!i.endsWith("]"))return!1;var f=i.slice(1,-1);if(0===f.length||!b(f))return!1}}if('"'===u[0])return u=u.slice(1,u.length-1),t.allow_utf8_local_part?C.test(u):E.test(u);for(var d=t.allow_utf8_local_part?A:_,p=(l=u.split("."),0);p<l.length;p++)if(!d.test(l[p]))return!1;return!t.blacklisted_chars||-1===u.search(new RegExp("["+t.blacklisted_chars+"]+","g"))}return e.exports=function(e,t){return{ulpRequiredFunction:function(e,t){return!t||!!e.value},ulpEmailValidationFunction:function(e,t){return!t||!e.value||!!o(e.value)},ulpPatternCheckFunction:function(e,t){return!t||!e.value||function(e){if("password"===e.name)return!0;var t=e.getAttribute("pattern");return!t||null!==e.value.match(t)}(e)}}},e.exports}()(window,document),u={exports:function(e,t){for(var i="ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789-_",s=new Uint8Array(256),o=0;o<i.length;o++)s[i.charCodeAt(o)]=o;function u(e){var t,n=new Uint8Array(e),r=n.length,a="";for(t=0;t<r;t+=3)a+=i[n[t]>>2],a+=i[(3&n[t])<<4|n[t+1]>>4],a+=i[(15&n[t+1])<<2|n[t+2]>>6],a+=i[63&n[t+2]];return r%3==2?a=a.substring(0,a.length-1):r%3==1&&(a=a.substring(0,a.length-2)),a}function n(){return navigator&&navigator.credentials&&"undefined"!=typeof PublicKeyCredential}return{base64URLEncode:u,base64URLDecode:function(e){var t,n,r,a,i,o=.75*e.length,u=e.length,c=0,l=new Uint8Array(o);for(t=0;t<u;t+=4)n=s[e.charCodeAt(t)],r=s[e.charCodeAt(t+1)],a=s[e.charCodeAt(t+2)],i=s[e.charCodeAt(t+3)],l[c++]=n<<2|r>>4,l[c++]=(15&r)<<4|a>>2,l[c++]=(3&a)<<6|63&i;return l.buffer},publicKeyCredentialToJSON:function e(t){if(t instanceof Array){var n=[];for(o=0;o<t.length;o+=1)n.push(e(t[o]));return n}if(t instanceof ArrayBuffer)return u(t);if(t instanceof Object){var r={};for(var a in t)r[a]=e(t[a]);return r}return t},str2ab:function(e){for(var t=new ArrayBuffer(e.length),n=new Uint8Array(t),r=0,a=e.length;r<a;r++)n[r]=e.charCodeAt(r);return t},isWebAuthnAvailable:n,isWebauthnPlatformAuthenticatorAvailableAsync:function(e){return n()?e(1e3,PublicKeyCredential.isUserVerifyingPlatformAuthenticatorAvailable()):Promise.resolve(!1)}}}}.exports(window,document);({exports:function(e,r,a,t){var n=e(".c3c4bf5c1"),i=e("#alert-trigger"),o=e(".cb36f90f9"),u=e(".c3a12da28"),c=!1;i&&u&&n&&t(n,function(e){var t=e.target===i,n=u.contains(e.target);return t&&!c?(r(o,"show"),void(c=!0)):t&&c||c&&!n?(a(o,"show"),void(c=!1)):void 0})}}).exports(i.querySelector,i.addClass,i.removeClass,i.addClickListener),(E="recaptcha_v2",A="recaptcha_enterprise",C="hcaptcha",S="friendly_captcha",F="arkose",T="auth0_v2",(t={}).exports=function(i,o,a,u,c,l,s){var f=500,d=3,p=0,v=a("div[data-captcha-sitekey]"),t=a("div[data-captcha-sitekey] input");function m(){switch(b()){case E:return window.grecaptcha;case A:return window.grecaptcha.enterprise;case C:return window.hcaptcha;case S:return window.friendlyChallenge;case F:return window.arkose;case T:return window.turnstile}}function h(){return a(function(){switch(b()){case E:case A:return"#ulp-recaptcha";case C:return"#ulp-hcaptcha";case S:return"#ulp-friendly-captcha";case F:return"#ulp-arkose";case T:return"#ulp-auth0-v2-captcha"}}())}function g(){return v.getAttribute("data-captcha-lang")}function b(){return v.getAttribute("data-captcha-provider")}function w(){return v.getAttribute("data-captcha-sitekey")}function y(){return a('form[data-form-primary="true"]')}function _(e){return t.value=e}function x(){var e=m(),t=l("--ulp-captcha-widget-theme")||"light";if(b()===S)"dark"===t&&u(a(".frc-captcha"),"dark"),(r=e.autoWidget).opts.language=g(),r.opts.doneCallback=function(e){_(e)};else{var n={sitekey:w(),theme:t,"expired-callback":function(){_(""),u(v,"c552bd405"),e.reset(r)},callback:function(e){_(e),c(v,"c552bd405")}};b()===T&&(n.language=g(),n.retry="never",n["response-field"]=!1,n["error-callback"]=function(e){return fetch("https://www.cloudflarestatus.com/api/v2/summary.json").then(function(e){return e.json()}).then(function(e){for(var t=0;t<e.components.length;t++){var n=e.components[t];if("Turnstile"===n.name)return"operational"===n.status}return!1}).catch(function(e){return!1}).then(function(e){e&&p<d?(_(""),u(v,"c552bd405"),m().reset(r),p++):(_("BYPASS_CAPTCHA"),c(v,"c552bd405"))}),!0});var r=e.render(h(),n)}}v&&function(){var e="captchaCallback_"+Math.floor(1000001*Math.random()),t=b(),n={async:!0,defer:!0},r=function(e,t,n,r){switch(b()){case E:return"https://www.recaptcha.net/recaptcha/api.js?render=explicit&hl="+e+"&onload="+t;case A:return"https://www.recaptcha.net/recaptcha/enterprise.js?render=explicit&hl="+e+"&onload="+t;case C:return"https://js.hcaptcha.com/1/api.js?render=explicit&hl="+e+"&onload="+t;case S:return"https://cdn.jsdelivr.net/npm/friendly-challenge@0.9.14/widget.min.js";case F:return"https://"+n+".arkoselabs.com/v2/"+r+"/api.js";case T:return"https://challenges.cloudflare.com/turnstile/v0/api.js?render=explicit&onload="+t}}(g(),e,v.getAttribute("data-captcha-client-subdomain"),w());if(t===F||t===T){n["data-callback"]=e,n.onerror=function(){if(p<d)return o(r),i(r,n),void p++;o(r),_("BYPASS_CAPTCHA")};var a=function(e){var t,n;t=e,n=function(e){setTimeout(function(){t.run()},f),e.preventDefault()},y().addEventListener("submit",n),t.setConfig({onCompleted:function(e){_(e.token),y().submit()},onError:function(e){return fetch("https://status.arkoselabs.com/api/v2/status.json").then(function(e){return e.json()}).then(function(e){var t=e.status.indicator;return"none"===t}).catch(function(e){return!1}).then(function(e){if(e&&p<d)return t.reset(),new Promise(function(e){setTimeout(function(){e(t.run())},f),p++});_("BYPASS_CAPTCHA"),y().removeEventListener("submit",n)})}})};t===T&&(a=function(){x()}),window[e]=a}else window[e]=function(){delete window[e],x()},t===S&&(u(h(),"frc-captcha"),s(h(),"data-sitekey",w()),n.onload=window[e]);i(r,n)}()},t.exports)(i.loadScript,i.removeScript,i.querySelector,i.addClass,i.removeClass,i.getCSSVariable,i.setAttribute),((n={}).exports=function(r,e,a,i,o,u,c,l,n,s,t){if(!t.enable_ulp_wcag_compliance){if(r("body._simple-labels"))return e(".cd61d9fdd.no-js").forEach(function(e){o(e,"no-js")}),void e(".cd61d9fdd.js-required").forEach(function(e){i(e,"hide")});e(".cc9cdc85a:not(.c039a80d4):not(disabled)").forEach(function(e){i(e,"caa4c1d4a");var t,n=r(e,".input");n.value&&i(e,"c409f0fe9"),a(e,"change",f),a(n,"blur",f),a(n,"animationstart",d),t=n,c(function(){t.value&&l(t,"change",!0)},100)})}function f(e){var t=e.target,n=u(t);t.value||s(t,"data-autofilled")?i(n,"c409f0fe9"):o(n,"c409f0fe9")}function d(e){var t=e.target;"onAutoFillStart"===e.animationName&&(n(t,"data-autofilled",!0),l(e.target,"change",!0),a(t,"keyup",p,{once:!0}))}function p(e){var t=e.target;n(t,"data-autofilled","")}},n.exports)(i.querySelector,i.querySelectorAll,i.addEventListener,i.addClass,i.removeClass,i.getParent,i.setTimeout,i.dispatchEvent,i.setAttribute,i.getAttribute,a),{exports:function(e,t,r,a,i,o,u,c){function n(e){var t=r("submitted"),n=i("submittedForm");a("submitted",!0),o("submittedForm",e.currentTarget),t&&n&&n===e.currentTarget?u(e):"apple"===c(e.target,"data-provider")&&setTimeout(function(){a("submitted",!1)},2e3)}var l=e("form");l&&l.forEach(function(e){t(e,"submit",n)})}}.exports(i.querySelectorAll,i.addEventListener,i.getGlobalFlag,i.setGlobalFlag,i.getSubmittedForm,i.setSubmittedForm,i.preventFormSubmit,i.getAttribute),{exports:function(t,e,n){var r=t("form._form-detect-browser-capabilities"),a=t("main.login-id"),i=t("main.signup-with-passkeys"),o=t("div#passkey-detect-browser-capabilities");if(r||a||i||o){var u=e.isWebAuthnAvailable();t("#webauthn-available").value=u?"true":"false",t("#js-available").value="true",navigator.brave?navigator.brave.isBrave().then(function(e){t("#is-brave").value=e,c()}):c()}function c(){u?e.isWebauthnPlatformAuthenticatorAvailableAsync(n).then(function(e){t("#webauthn-platform-available").value=e?"true":"false",r&&r.submit()}).catch(function(e){t("#webauthn-platform-available").value="false",r&&r.submit()}):(t("#webauthn-platform-available").value="false",r&&r.submit())}}}.exports(i.querySelector,u,i.timeoutPromise),function(){var e={};function u(e,n,r,t,a,i){var o="user-initiated-passkey-challenge",u=n("#allow-passkeys");if(u&&u.value){var c=a("#passkey-config-json");if(c){var l=n(".passkey-begin-button"),s=r.isWebauthnPlatformAuthenticatorAvailableAsync(t),f=n("#username"),d=c,p=new AbortController;d.publicKey.challenge=r.base64URLDecode(d.publicKey.challenge),l&&e(l,function(e){l.disabled=!0,p.abort(o),navigator.credentials.get(d).then(function(e){var t=g(e);s.then(function(e){t.isUserVerifyingPlatformAuthenticatorAvailable=e,h(JSON.stringify(t)),v()})}).catch(function(e){m(e)})}),window.PublicKeyCredential&&window.PublicKeyCredential.isConditionalMediationAvailable&&window.PublicKeyCredential.isConditionalMediationAvailable().then(function(e){if(e){var t=Object.assign({},d,{mediation:"conditional",signal:p.signal});navigator.credentials.get(t).then(function(e){f.blur();var t=g(e);s.then(function(e){t.isUserVerifyingPlatformAuthenticatorAvailable=e,h(JSON.stringify(t)),v()})}).catch(function(e){e!==o&&"AbortError"!==e.name&&i("autofill UI error",e)})}}).catch(function(){})}}function v(){n("form._form-passkey-challenge").submit()}function m(e){var t;n("#action").value="showError::"+(t=e,JSON.stringify({name:t.name,message:t.message,stack:t.stack})),n("form._form-passkey-challenge").submit()}function h(e){n("#passkey").value=e}function g(e){var t={id:e.id,rawId:r.base64URLEncode(e.rawId),type:e.type,response:{clientDataJSON:r.base64URLEncode(e.response.clientDataJSON),authenticatorData:r.base64URLEncode(e.response.authenticatorData),signature:r.base64URLEncode(e.response.signature),userHandle:e.response.userHandle?r.base64URLEncode(e.response.userHandle):null}};return e.authenticatorAttachment&&(t.authenticatorAttachment=e.authenticatorAttachment),t}}return e.exports=function(e,t,n,r,a,i,o){return e(window,"load",function(e){u(t,n,r,a,i,o)}),{configurePasskeys:u}},e.exports}()(i.addEventListener,i.addClickListener,i.querySelector,u,i.timeoutPromise,i.getConfigJson,i.consoleWarn),{exports:function(t,e,n){var r=e(".passkey-hidden-ui"),a=navigator.userAgent.toLowerCase(),i=!!window.safari||a.match(/safari/)&&!a.match(/chrome/)&&!a.match(/chromium/);!r||r.length<=0||(i?r.forEach(function(e){t(e,"passkey-hidden-ui")}):window.PublicKeyCredential&&window.PublicKeyCredential.isConditionalMediationAvailable&&window.PublicKeyCredential.isConditionalMediationAvailable().then(function(e){e?r.forEach(function(e){n(e)}):r.forEach(function(e){t(e,"passkey-hidden-ui")})}).catch(function(e){r.forEach(function(e){t(e,"passkey-hidden-ui")})}))}}.exports(i.removeClass,i.querySelectorAll,i.removeElement),{exports:function(n,e,r,a,i,o,u,c,l,t,s,f){if(f.enable_ulp_wcag_compliance){var d=e("[id^='ulp-container-']");if(d&&d.length){var p=t(_);if(p)for(var v=0;v<d.length;v++)p.observe(d[v],{childList:!0,subtree:!0})}_()}function m(e){var t=e.target,n=o(t);t.value||c(t,"data-autofilled")?a(n,"c409f0fe9"):i(n,"c409f0fe9")}function h(e){var t=e.target,n=o(t);a(n,"focus"),y(t,n)}function g(e){var t=e.target,n=o(t);i(n,"focus"),m(e),y(t,n)}function b(e){var t=e.target;l(t,"data-autofilled","")}function w(e){var t=e.target;"onAutoFillStart"===e.animationName&&(l(t,"data-autofilled",!0),dispatchEvent(e.target,"change",!0),r(t,"keyup",b,{once:!0}))}function y(e,t){e.value?a(t,"c409f0fe9"):i(t,"c409f0fe9")}function _(){e(".ulp-field").forEach(function(e){if(!u(e,"caa4c1d4a")){var t=n(e,s);t&&(a(e,"caa4c1d4a"),y(t,e),setTimeout(function(){y(t,e)},50),t===document.activeElement&&a(e,"focus"),r(t,"change",m),r(t,"focus",h),r(t,"blur",g),r(t,"animationstart",w))}})}}}.exports(i.querySelector,i.querySelectorAll,i.addEventListener,i.addClass,i.removeClass,i.getParent,i.hasClass,i.getAttribute,i.setAttribute,i.createMutationObserver,i.ELEMENT_TYPE_SELECTOR,a),{exports:function(n,e,r,a,i,o,u,t,c,l){if(!l.enable_ulp_wcag_compliance){var s=e("[id^='ulp-container-']");if(s&&s.length){var f=t(g);if(f)for(var d=0;d<s.length;d++)f.observe(s[d],{childList:!0,subtree:!0});g()}}function p(e){var t=e.target,n=o(t);t.value?a(n,"c409f0fe9"):i(n,"c409f0fe9")}function v(e){var t=e.target,n=o(t);a(n,"focus"),h(t,n)}function m(e){var t=e.target,n=o(t);i(n,"focus"),h(t,n)}function h(e,t){e.value?a(t,"c409f0fe9"):i(t,"c409f0fe9")}function g(){e("[id^='ulp-container-'] .ulp-field").forEach(function(e){if(!u(e,"caa4c1d4a")){var t=n(e,c);t&&(a(e,"caa4c1d4a"),h(t,e),setTimeout(function(){h(t,e)},50),t===document.activeElement&&a(e,"focus"),r(t,"change",p),r(t,"focus",v),r(t,"blur",m))}})}}}.exports(i.querySelector,i.querySelectorAll,i.addEventListener,i.addClass,i.removeClass,i.getParent,i.hasClass,i.createMutationObserver,i.ELEMENT_TYPE_SELECTOR,a),{exports:function(r,o,a,i,u,c,l,s,f,d,p,v,t,m,h,e,n,g){if(g.enable_ulp_wcag_compliance){var b=!1,w=e+',input[type="checkbox"]';return F(),[w,y,_,x,E,A,C,S,F]}function y(e){var t=u(e,"data-ulp-validation-function"),n=i(e);return{functionName:t,element:r(n,w),parent:n}}function _(e){var a=[],i=[];return o(e,"[data-ulp-validation-function]").forEach(function(e){var t=y(e),n=[];if(t.element){if("input"===t.element.tagName.toLowerCase()){var r=u(t.element,"type");"checkbox"!==r&&-1===h.indexOf(r)&&n.push("Unsupported input type: "+r)}}else n.push("Could not find element");v[t.functionName]||n.push("Could not find function with name: "+t.functionName),n.length?i=i.concat(n):a.push(e)}),i.length&&t(i.join("\r\n")),a}function x(e,t,n){var r=y(e),a=(0,v[r.functionName])(r.element,t,n);a?s(e,"ulp-validator-error")&&(d(e,"ulp-validator-error"),l(e,"data-is-error")):s(e,"ulp-validator-error")||(f(e,"ulp-validator-error"),c(e,"data-is-error",!0));var i=o(r.parent,".ulp-validator-error");return p(r.parent,"ulp-error",!!i.length),a}function E(t){var n=y(t),e=(u(t,"data-ulp-validation-event-listeners")||"").replace(/\s/g,"").split(",").filter(function(e){return!!e});e.length&&e.forEach(function(e){a(n.element,e,function(){x(t,b,e)})})}function A(e,t,n){b=!0;var r=n.filter(function(e){return!x(e,b,"submit")});if(!r.length)return t.submitter&&"default"==u(t.submitter,"value")&&c(t.submitter,"disabled",!0),void e.submit();m(t);var a=y(r[0]);a.element.focus({preventScroll:!0}),a.parent.scrollIntoView({behavior:"smooth"})}function C(){var t=r('form[data-form-primary="true"]'),n=_(t);0!==n.length&&(n.forEach(function(e){E(e)}),a(t,"submit",function(e){A(t,e,n)}))}function S(){if(n)for(var e in n)n.hasOwnProperty(e)&&(v[e]=n[e])}function F(){var e=r("form[data-disable-html-validations]");e&&(S(),c(e,"novalidate",""),C())}}}.exports(i.querySelector,i.querySelectorAll,i.addEventListener,i.getParent,i.getAttribute,i.setAttribute,i.removeAttribute,i.hasClass,i.addClass,i.removeClass,i.toggleClass,i.globalWindow,i.consoleWarn,i.preventFormSubmit,i.SUPPORTED_INPUT_TYPES,i.ELEMENT_TYPE_SELECTOR,o,a),{exports:function(r,o,a,i,u,c,l,t,s,f,e,n){if(!n.enable_ulp_wcag_compliance){var d=!1,p=e+',input[type="checkbox"]';return y(),[p,v,m,h,g,b,w,y]}function v(e){var t=u(e,"data-ulp-validation-function"),n=i(e);return{functionName:t,element:r(n,p),parent:n}}function m(e){var a=[],i=[];return o(e,"[data-ulp-validation-function]").forEach(function(e){var t=v(e),n=[];if(t.element){if("input"===t.element.tagName.toLowerCase()){var r=u(t.element,"type");"checkbox"!==r&&-1===f.indexOf(r)&&n.push("Unsupported input type: "+r)}}else n.push("Could not find element");l[t.functionName]||n.push("Could not find function with name: "+t.functionName),n.length?i=i.concat(n):a.push(e)}),i.length&&t(i.join("\r\n")),a}function h(e,t,n){var r=v(e),a=(0,l[r.functionName])(r.element,t,n);c(e,"ulp-validator-error",!a);var i=o(r.parent,".ulp-validator-error");return c(r.parent,"ulp-error",!!i.length),a}function g(t){var n=v(t),e=(u(t,"data-ulp-validation-event-listeners")||"").replace(/\s/g,"").split(",").filter(function(e){return!!e});e.length&&e.forEach(function(e){a(n.element,e,function(){h(t,d,e)})})}function b(e,t,n){d=!0;var r=n.filter(function(e){return!h(e,d,"submit")});if(r.length){s(t);var a=v(r[0]);a.element.focus({preventScroll:!0}),a.parent.scrollIntoView({behavior:"smooth"})}else e.submit()}function w(){var t=r('form[data-form-primary="true"]'),n=m(t);0!==n.length&&(n.forEach(function(e){g(e)}),a(t,"submit",function(e){b(t,e,n)}))}function y(){var e=o("[id^='ulp-container-']");e&&e.length&&w()}}}.exports(i.querySelector,i.querySelectorAll,i.addEventListener,i.getParent,i.getAttribute,i.toggleClass,i.globalWindow,i.consoleWarn,i.preventFormSubmit,i.SUPPORTED_INPUT_TYPES,i.ELEMENT_TYPE_SELECTOR,a),{exports:function(e,t,n){function r(n){t(n,"click",function(e){e.preventDefault();var t=document.createElement("input");t.name="action",t.type="hidden",t.value=n.value,n.form.appendChild(t),n.form.submit(),n.form.removeChild(t)})}function a(){e('form button[type="submit"][formnovalidate]').forEach(function(e){r(e)})}return n&&a(),[a,r]}}.exports(i.querySelectorAll,i.addEventListener,i.RUN_INIT),((r={}).exports=function(o,e,u,c,l,s,t,f,n){if(n.enable_ulp_wcag_compliance){var r=e('[class*="aria-error-check"]');if(r&&r.length){var a=t(function(e){e&&e.length&&e.map(function(e){if(e.target&&u(e.target,"aria-error-check")){var t=o('[id="'+c(e.target,"data-ulp-validation-target")+'"');if(t){var n=c(t,"aria-describedby");c(e.target,"data-is-error")?(r=t,a=n,i=e.target.id,a&&-1!==a.search(i)||l(r,"aria-describedby",a?a+" "+i:i),l(r,"aria-invalid",!0)):function(e,t,n){if(t){var r=f(t,n);r.length?l(e,"aria-describedby",r):(s(e,"aria-invalid"),s(e,"aria-describedby"))}else s(e,"aria-invalid"),s(e,"aria-describedby")}(t,n,e.target.id)}}var r,a,i})});a&&r.map(function(e){a.observe(e,{attributes:!0,attributeFilter:["class","data-is-error"]})})}}},r.exports)(i.querySelector,i.querySelectorAll,i.hasClass,i.getAttribute,i.setAttribute,i.removeAttribute,i.createMutationObserver,i.removeAndTrimString,a)}();
+</script>
+</div>
+    <!-- v1 UAT -->
+    
+    
+    <!-- v1 Staging -->
+    
+    
+  </div>
+</div>
+<footer class="footer">
+  <div class="footer-overlay"></div>
+  <div class="footer-group-wrapper">
+    
+    <ul class="toc-wrapper">
+      <li><a href="https://sleekflow.io/en/terms" target="_blank">
+        
+        Terms and Conditions
+        
+      </a></li>
+      <li><a href="https://sleekflow.io/en/privacy" target="_blank">
+        
+        Privacy Policy
+        
+      </a></li>
+    </ul>
+  </div>
+</footer>
+<!-- use scr`+`ipt to workaround script break when you are using storybook-->
+<!-- WARNING: remember to turn it back to <scr /> for production-->
+<!-- ref: https://community.auth0.com/t/the-script-tag-breaks-the-auth0-cli-storybook/90526 -->
+<script>
+  function autoplayCarousel() {
+    try {
+      const carouselEl = document.getElementById("carousel");
+      const slideContainerEl = carouselEl.querySelector("#slide-container");
+      const slideEl = carouselEl.querySelector(".slide");
+      let slideWidth = slideEl.offsetWidth;
+
+      // Slide transition
+      const getNewScrollPosition = (arg) => {
+        const gap = 36;
+        const maxScrollLeft = slideContainerEl.scrollWidth - slideWidth;
+        if (arg === "forward") {
+          const x = Math.round(slideContainerEl.scrollLeft + slideWidth + gap);
+          return x <= maxScrollLeft ? x : 0;
+        } else if (arg === "backward") {
+          const x = slideContainerEl.scrollLeft - slideWidth
+            - gap; return x >= 0 ? x : maxScrollLeft;
+        } else if (typeof arg === "number") {
+          const x = arg * (slideWidth + gap);
+          return x;
+        }
+      }
+      const navigate = (arg) => {
+        slideContainerEl.scrollLeft = getNewScrollPosition(arg);
+      }
+
+      // Autoplay
+      let autoplay = setInterval(() => navigate("forward"), 5000);
+      carouselEl.addEventListener("mouseenter", () => {
+        clearInterval(autoplay)
+      });
+      carouselEl.addEventListener("mouseleave", () => {
+        autoplay = setInterval(() => navigate("forward"), 5000);
+      });
+
+      // Add click handlers
+      document.querySelector("#back-button")
+        .addEventListener("click", () => {
+          navigate("backward")
+        });
+      document.querySelector("#forward-button")
+        .addEventListener("click", () => navigate("forward"));
+      document.querySelectorAll(".slide-indicator")
+        .forEach((dot, index) => {
+          dot.addEventListener("click", () => navigate(index));
+        });
+      // Add resize handler
+      window.addEventListener('resize', () => {
+        slideWidth = slideEl.offsetWidth;
+      });
+
+      // Slide indicators
+      const slideObserver = new IntersectionObserver((entries, observer) => {
+        entries.forEach((entry, index) => {
+          if (entry.isIntersecting) {
+            const slideIndex = entry.target.dataset.slideindex;
+            carouselEl.querySelector('.slide-indicator.active').classList.remove('active');
+            carouselEl.querySelectorAll('.slide-indicator')[slideIndex].classList.add('active');
+          }
+        });
+      }, { root: slideContainerEl, threshold: .1 });
+      document.querySelectorAll('.slide').forEach((slide) => {
+        slideObserver.observe(slide);
+      });
+    } catch (err) {
+      //
+    }
+  }
+  autoplayCarousel();
+
+  function toggleDropdown() {
+    try {
+      const languageDropdownEl = document.getElementById("language-dropdown");
+      if (languageDropdownEl.style.opacity === "1") {
+        languageDropdownEl.style.opacity = "0";
+        languageDropdownEl.style.display = "none";
+      } else {
+        languageDropdownEl.style.opacity = "1";
+        languageDropdownEl.style.display = "initial";
+      }
+    } catch (err) {
+      console.log('err: ', err);
+      //
+    }
+  }
+
+  function handleClickOutside() {
+    try {
+      const languageSelectEl = document.getElementById('language-select');
+
+      document.addEventListener("click", event => {
+        const languageDropdownEl = document.getElementById("language-dropdown");
+        const isClickInside = languageSelectEl.contains(event.target);
+
+        if (!isClickInside && languageDropdownEl.style.opacity === "1") {
+          toggleDropdown()
+        }
+      })
+    } catch (err) {
+      //
+    }
+  }
+  handleClickOutside();
+
+  function handleSelectedLanguageLabelClick() {
+    try {
+      const selectedLanguageEl = document.getElementById('selected-language-label');
+      selectedLanguageEl.addEventListener("click", event => {
+        toggleDropdown();
+      });
+    } catch (err) {
+      //
+    }
+  }
+  handleSelectedLanguageLabelClick();
+
+  function handleLanguageClick(languageCode) {
+    try {
+      const selectedLanguageEl = document.getElementById(languageCode);
+      selectedLanguageEl.addEventListener("click", event => {
+        const referrer = localStorage.getItem('documentReferrer') || 'https://localhost:5173/';
+        const targetScreenQuery =
+          window.location.pathname.indexOf('signup') !== -1
+            ? '?screen_hint=signup'
+            : window.location.pathname.indexOf('login') !== -1
+              ? '?screen_hint=login'
+              : '';
+        window.location.replace(`${referrer}${languageCode}${targetScreenQuery}`);
+      });
+    } catch (err) {
+      //
+    }
+  }
+
+  ['en', 'zh-HK', 'zh-CN', 'pt-BR', 'id','de', 'it'].forEach((code) => handleLanguageClick(code));
+
+  function isDeviceMobileOrTablet() {
+    return (function (a) {
+      const isMobile = /(android|bb\d+|meego).+mobile|avantgo|bada\/|blackberry|blazer|compal|elaine|fennec|hiptop|iemobile|ip(hone|od)|iris|kindle|lge |maemo|midp|mmp|mobile.+firefox|netfront|opera m(ob|in)i|palm( os)?|phone|p(ixi|re)\/|plucker|pocket|psp|series(4|6)0|symbian|treo|up\.(browser|link)|vodafone|wap|windows ce|xda|xiino/i.test(a) || /1207|6310|6590|3gso|4thp|50[1-6]i|770s|802s|a wa|abac|ac(er|oo|s\-)|ai(ko|rn)|al(av|ca|co)|amoi|an(ex|ny|yw)|aptu|ar(ch|go)|as(te|us)|attw|au(di|\-m|r |s )|avan|be(ck|ll|nq)|bi(lb|rd)|bl(ac|az)|br(e|v)w|bumb|bw\-(n|u)|c55\/|capi|ccwa|cdm\-|cell|chtm|cldc|cmd\-|co(mp|nd)|craw|da(it|ll|ng)|dbte|dc\-s|devi|dica|dmob|do(c|p)o|ds(12|\-d)|el(49|ai)|em(l2|ul)|er(ic|k0)|esl8|ez([4-7]0|os|wa|ze)|fetc|fly(\-|_)|g1 u|g560|gene|gf\-5|g\-mo|go(\.w|od)|gr(ad|un)|haie|hcit|hd\-(m|p|t)|hei\-|hi(pt|ta)|hp( i|ip)|hs\-c|ht(c(\-| |_|a|g|p|s|t)|tp)|hu(aw|tc)|i\-(20|go|ma)|i230|iac( |\-|\/)|ibro|idea|ig01|ikom|im1k|inno|ipaq|iris|ja(t|v)a|jbro|jemu|jigs|kddi|keji|kgt( |\/)|klon|kpt |kwc\-|kyo(c|k)|le(no|xi)|lg( g|\/(k|l|u)|50|54|\-[a-w])|libw|lynx|m1\-w|m3ga|m50\/|ma(te|ui|xo)|mc(01|21|ca)|m\-cr|me(rc|ri)|mi(o8|oa|ts)|mmef|mo(01|02|bi|de|do|t(\-| |o|v)|zz)|mt(50|p1|v )|mwbp|mywa|n10[0-2]|n20[2-3]|n30(0|2)|n50(0|2|5)|n7(0(0|1)|10)|ne((c|m)\-|on|tf|wf|wg|wt)|nok(6|i)|nzph|o2im|op(ti|wv)|oran|owg1|p800|pan(a|d|t)|pdxg|pg(13|\-([1-8]|c))|phil|pire|pl(ay|uc)|pn\-2|po(ck|rt|se)|prox|psio|pt\-g|qa\-a|qc(07|12|21|32|60|\-[2-7]|i\-)|qtek|r380|r600|raks|rim9|ro(ve|zo)|s55\/|sa(ge|ma|mm|ms|ny|va)|sc(01|h\-|oo|p\-)|sdk\/|se(c(\-|0|1)|47|mc|nd|ri)|sgh\-|shar|sie(\-|m)|sk\-0|sl(45|id)|sm(al|ar|b3|it|t5)|so(ft|ny)|sp(01|h\-|v\-|v )|sy(01|mb)|t2(18|50)|t6(00|10|18)|ta(gt|lk)|tcl\-|tdg\-|tel(i|m)|tim\-|t\-mo|to(pl|sh)|ts(70|m\-|m3|m5)|tx\-9|up(\.b|g1|si)|utst|v400|v750|veri|vi(rg|te)|vk(40|5[0-3]|\-v)|vm40|voda|vulc|vx(52|53|60|61|70|80|81|83|85|98)|w3c(\-| )|webc|whit|wi(g |nc|nw)|wmlb|wonu|x700|yas\-|your|zeto|zte\-/i.test(a.substr(0, 4));
+      const isTablet = /(ipad|tablet|(android(?!.*mobile))|(windows(?!.*phone)(.*touch))|kindle|playbook|silk|(puffin(?!.*(IP|AP|WP))))/i.test(a);
+
+      return isMobile || isTablet;
+    })(navigator.userAgent || navigator.vendor || window.opera);
+  }
+
+  function isDeviceMobile() {
+    let check = false;
+    (function(a){if(/(android|bb\d+|meego).+mobile|avantgo|bada\/|blackberry|blazer|compal|elaine|fennec|hiptop|iemobile|ip(hone|od)|iris|kindle|lge |maemo|midp|mmp|mobile.+firefox|netfront|opera m(ob|in)i|palm( os)?|phone|p(ixi|re)\/|plucker|pocket|psp|series(4|6)0|symbian|treo|up\.(browser|link)|vodafone|wap|windows ce|xda|xiino/i.test(a)||/1207|6310|6590|3gso|4thp|50[1-6]i|770s|802s|a wa|abac|ac(er|oo|s\-)|ai(ko|rn)|al(av|ca|co)|amoi|an(ex|ny|yw)|aptu|ar(ch|go)|as(te|us)|attw|au(di|\-m|r |s )|avan|be(ck|ll|nq)|bi(lb|rd)|bl(ac|az)|br(e|v)w|bumb|bw\-(n|u)|c55\/|capi|ccwa|cdm\-|cell|chtm|cldc|cmd\-|co(mp|nd)|craw|da(it|ll|ng)|dbte|dc\-s|devi|dica|dmob|do(c|p)o|ds(12|\-d)|el(49|ai)|em(l2|ul)|er(ic|k0)|esl8|ez([4-7]0|os|wa|ze)|fetc|fly(\-|_)|g1 u|g560|gene|gf\-5|g\-mo|go(\.w|od)|gr(ad|un)|haie|hcit|hd\-(m|p|t)|hei\-|hi(pt|ta)|hp( i|ip)|hs\-c|ht(c(\-| |_|a|g|p|s|t)|tp)|hu(aw|tc)|i\-(20|go|ma)|i230|iac( |\-|\/)|ibro|idea|ig01|ikom|im1k|inno|ipaq|iris|ja(t|v)a|jbro|jemu|jigs|kddi|keji|kgt( |\/)|klon|kpt |kwc\-|kyo(c|k)|le(no|xi)|lg( g|\/(k|l|u)|50|54|\-[a-w])|libw|lynx|m1\-w|m3ga|m50\/|ma(te|ui|xo)|mc(01|21|ca)|m\-cr|me(rc|ri)|mi(o8|oa|ts)|mmef|mo(01|02|bi|de|do|t(\-| |o|v)|zz)|mt(50|p1|v )|mwbp|mywa|n10[0-2]|n20[2-3]|n30(0|2)|n50(0|2|5)|n7(0(0|1)|10)|ne((c|m)\-|on|tf|wf|wg|wt)|nok(6|i)|nzph|o2im|op(ti|wv)|oran|owg1|p800|pan(a|d|t)|pdxg|pg(13|\-([1-8]|c))|phil|pire|pl(ay|uc)|pn\-2|po(ck|rt|se)|prox|psio|pt\-g|qa\-a|qc(07|12|21|32|60|\-[2-7]|i\-)|qtek|r380|r600|raks|rim9|ro(ve|zo)|s55\/|sa(ge|ma|mm|ms|ny|va)|sc(01|h\-|oo|p\-)|sdk\/|se(c(\-|0|1)|47|mc|nd|ri)|sgh\-|shar|sie(\-|m)|sk\-0|sl(45|id)|sm(al|ar|b3|it|t5)|so(ft|ny)|sp(01|h\-|v\-|v )|sy(01|mb)|t2(18|50)|t6(00|10|18)|ta(gt|lk)|tcl\-|tdg\-|tel(i|m)|tim\-|t\-mo|to(pl|sh)|ts(70|m\-|m3|m5)|tx\-9|up(\.b|g1|si)|utst|v400|v750|veri|vi(rg|te)|vk(40|5[0-3]|\-v)|vm40|voda|vulc|vx(52|53|60|61|70|80|81|83|85|98)|w3c(\-| )|webc|whit|wi(g |nc|nw)|wmlb|wonu|x700|yas\-|your|zeto|zte\-/i.test(a.substr(0,4))) check = true;})(navigator.userAgent||navigator.vendor||window.opera);
+    return check;
+  };
+
+
+  function disableMobileSplashScreen () {
+    const overlayEl = document.getElementById('overlay');
+    overlayEl.classList.remove('enabled');
+    overlayEl.classList.add('disabled');
+    document.body.classList.remove('isMobileSplashScreen')
+  }
+
+  document
+    .querySelector("#back-to-home")
+    .addEventListener("click", () => {
+      console.log('clicked');
+      disableMobileSplashScreen();
+    });
+
+
+  function hideLogoutButton2FAScreen() {
+    const logoutButton = document.querySelectorAll('.logout-button');
+    const isMobile = isDeviceMobile();
+    if (logoutButton && isMobile) {
+      logoutButton.forEach((button) => {
+        button.style.display = "none"
+      })
+    }
+  }
+
+  hideLogoutButton2FAScreen()
+
+  // ref: https://stackoverflow.com/questions/11381673/detecting-a-mobile-browser
+  function renderMobileSplashScreen() {
+    const isMobile = isDeviceMobileOrTablet();
+
+    const overlayEl = document.getElementById('overlay');
+    if (isMobile) {
+      overlayEl.classList.add('enabled');
+      document.body.classList.add('isMobileSplashScreen')
+    } else {
+      overlayEl.classList.add('disabled')
+    }
+  };
+
+  // renderMobileSplashScreen();
+
+  function hideFieldsOnMobile() {
+    const isMobile = isDeviceMobileOrTablet();
+    if (isMobile) {
+      document.body.classList.add('isMobile');
+
+    }
+  }
+
+  hideFieldsOnMobile()
+
+  function configDocuementReferrer() {
+    const hostingDomainKeyword = 'sso' // currently 'https://sso-dev.sf.chat/', 'https://sso-staging.sf.chat/'
+    if (!document.referrer.includes(hostingDomainKeyword) && !document.referrer.includes('sso-staging')) {
+      localStorage.setItem('documentReferrer', document.referrer);
+      return
+    }
+  }
+
+  configDocuementReferrer();
+</script>
+
+
+
+</body></html>

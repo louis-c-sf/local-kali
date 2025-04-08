@@ -1,0 +1,7 @@
+<html lang="en-us"><head>
+    <title>Bad Request</title>
+  </head>
+  <body>
+    HTTP Status: 400 (bad request)
+  
+</body></html>

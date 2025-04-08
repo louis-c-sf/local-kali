@@ -1,0 +1,1777 @@
+<html lang="en" data-powered-by="====  Powered by Beamer - www.getbeamer.com  ===="><head>
+<!-- Metatags -->
+
+
+<meta charset="utf-8">
+
+<meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
+
+<meta http-equiv="CACHE-CONTROL" content="max-age=60, public">
+<title>What's new on SleekFlow</title>
+<meta name="description" content="See our new features, latest releases and relevant news here to help your team sell better on social channels.. Changelog and newsfeed.">
+<meta name="keywords" content="What's, SleekFlow, changelog, newsfeed, feed, news, roadmap">
+<meta name="referrer" content="always">
+<meta lang="en">
+
+
+<link rel="alternate" hreflang="en" href="en">
+
+<link rel="alternate" hreflang="zh" href="zh">
+
+
+<meta http-equiv="content-type" content="text/html; charset=utf-8">
+<meta http-equiv="content-language" content="en">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="canonical" href="https://product.sleekflow.io/en"> 
+
+
+<meta content="index, follow">
+
+
+<!-- Open Graph -->
+<meta property="og:locale" content="en">
+<meta property="og:title" content="What's new on SleekFlow">
+<meta property="og:url" content="https://product.sleekflow.io/en">
+<meta property="og:site_name" content="What's new on SleekFlow">
+<meta property="og:description" content="See our new features, latest releases and relevant news here to help your team sell better on social channels.">
+<meta property="og:type" content="article">
+
+	<meta property="og:image" content="https://static.getbeamer.com/riHhDZAn27585/logo_9902.png">
+
+
+
+	<meta property="article:publisher" content="https://www.getbeamer.com/">
+
+<meta property="fb:app_id" content="213351392791601">
+
+<!-- Twitter Card -->
+
+	<meta name="twitter:card" content="summary_large_image">
+
+
+
+<meta name="twitter:description" content="See our new features, latest releases and relevant news here to help your team sell better on social channels.">
+<meta name="twitter:title" content="What's new on SleekFlow">
+
+	<meta name="twitter:image" content="https://static.getbeamer.com/riHhDZAn27585/logo_9902.png">
+
+
+<link href="https://app.getbeamer.com/styles/styles.css?v=4" rel="stylesheet" type="text/css">
+<style type="text/css">
+	
+
+
+.featureTitle a, .featureAction a, .featureContent a {
+	color: #0066ff !important;
+}
+
+
+
+body:not(.inapp) .header, body:not(.inapp) .news .cover, body:not(.inapp) .modeTab.widgetMode {
+	background-color: #4d4d4f !important;
+}
+
+
+.headerTitle, .headerTitle a, .headerMention a, .headerSubtitle, body:not(.inapp) .modeTab .modeButton {
+	color: #ffffff !important;
+}
+.headerClose svg, .headerNav svg {
+	fill: #ffffff !important;
+}
+.actionlist .subscribeAction a.actionlink, .actionlist .requestAction a.actionlink, .actionList #createButton a.actionlink {
+	color: #ffffff !important;
+	border-color: #ffffff !important;
+}
+.actionlist .subscribeAction a.actionlink:hover, .actionlist .requestAction a.actionlink:hover, .actionList #createButton a.actionlink:hover {
+	background: #ffffff !important;
+	color: #4d4d4f !important;
+}
+
+
+.headerTitle, .headerSubtitle, .featureTitle {
+	font-size: 20px !important;
+}
+
+
+.feature, .feedbackSubmited {
+	color: #3c4257 !important;
+}
+
+
+.feature {
+	background: #ffffff !important;
+}
+.feature.hasReadMore .featureContent:after {
+	background: transparent;
+	background: -webkit-gradient(linear, left top, left bottom, from(rgba(255,255,255,0)), to(#ffffff));
+	background: -webkit-linear-gradient(top, rgba(255,255,255,0), #ffffff);
+	background: -moz-linear-gradient(top, rgba(255,255,255,0), #ffffff);
+	background: -o-linear-gradient(top, rgba(255,255,255,0), #ffffff);
+	background: linear-gradient(top, rgba(255,255,255,0), #ffffff);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#ffffff', GradientType=0);
+	-ms-filter: "filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#ffffff', GradientType=0);";
+}
+
+
+.news, .poweredFooter {
+	background-color: #f7f7f7 !important;
+}
+
+
+.featureTitle a, .featureAction a {
+	color: #0066ff !important;
+}
+.featureAction svg {
+	fill: #0066ff !important;
+}
+
+.backButton {
+	color: #0066ff !important;
+}
+
+.backButtonIcon {
+	fill: #0066ff !important;
+}
+
+
+.featureDate .date, .featureDate span {
+	color: #9aa8bd !important;
+}
+
+
+
+
+.category.categoryNew, .catItem .ico.new {
+	background: #ff5a80 !important;
+}
+
+
+.category.categoryImprovement, .catItem .ico.improvement {
+	background: #71c4ff !important;
+}
+
+
+.category.categoryFix, .catItem .ico.fix {
+	background: #c53aff !important;
+}
+
+
+.category.categoryComingSoon, .catItem .ico.comingsoon {
+	background: #59d457 !important;
+}
+
+
+.category.categoryAnnouncement, .catItem .ico.announcement {
+	background: #ffae1b !important;
+}
+
+
+	
+		
+	
+		
+	
+		
+	
+		
+	
+
+
+
+.featureContent, .featureAction {
+	font-size: 16px !important;
+}
+.featureAction svg {
+	width: 16px !important;
+	height: 16px !important;
+}
+
+
+body.inapp .header, body.inapp .news .cover {
+	background-color: #3c4257 !important;
+}
+
+
+
+.standalone .header .publicLogo.custom {
+	background-image: url('https://static.getbeamer.com/riHhDZAn27585/logo_9902.png')!important;
+}
+
+
+	
+	.feature.boostedAnnouncementPopup .featureAction a {
+		
+		background: #3d50e0 !important;
+		
+		
+		color: #ffffff !important;
+		
+	}
+	
+	.feature.boostedAnnouncementPopup .featureAction a:hover,
+	.feature.boostedAnnouncementPopup .featureAction a:active,
+	.feature.boostedAnnouncementPopup .featureAction a:focus {	
+		
+		background: #3d50e0 !important;
+		filter: brightness(1.15);
+		
+		
+		color: #ffffff !important;
+			
+	}
+
+	.scrollPrompt {
+		
+		background: #3d50e0 !important;
+		
+		
+		color: #ffffff !important;
+		
+	}
+	.scrollPrompt:hover {	
+		
+		background: #3d50e0 !important;
+		filter: brightness(1.15);
+		
+		
+		color: #ffffff !important;
+			
+	}
+
+
+
+	
+
+	
+
+	
+
+	
+
+</style>
+
+
+<link href="https://app.getbeamer.com/styles/public.css?v=f2" rel="stylesheet" type="text/css">
+
+	<link rel="shortcut icon" href="https://static.getbeamer.com/riHhDZAn27585/logo_small_9964.ico" type="image/x-icon">
+
+
+
+
+	<link rel="next" href="https://product.sleekflow.io/en?page=1">
+
+
+<script type="text/javascript" async="" src="https://www.googletagmanager.com/gtag/js?id=G-9JM0PRV97F&amp;cx=c&amp;_slc=1"></script><script async="" src="https://www.google-analytics.com/analytics.js"></script><script src="https://app.getbeamer.com/js/jquery/jquery-3.6.0.min.js" defer=""></script>
+
+	<script src="https://app.getbeamer.com/js/perfect-scrollbar.jquery.min.js" defer=""></script>
+
+<script type="text/javascript" src="https://app.getbeamer.com/js/scroll.jquery.js" defer=""></script>
+
+	<script type="text/javascript" src="https://app.getbeamer.com/js/highlight.pack.js" defer=""></script>
+
+<script type="text/javascript" src="https://app.getbeamer.com/js/emoji.js?v=4" defer=""></script>
+
+<script type="text/javascript" src="https://app.getbeamer.com/js/mark.min.js" defer=""></script>
+<script type="text/javascript" src="https://app.getbeamer.com/js/human.js?v=2" defer=""></script>
+<script type="text/javascript" src="https://app.getbeamer.com/js/beamer.js?v=4" onload="BeamerEmbed.init(true, false);" defer=""></script>
+
+<script>
+	
+	var _changelogView = true;
+	var _roadmapView = false;
+	var _featureRequestsView = false;
+	var _focus = false;
+	var _comment = false;
+	var _preview = "false";
+	var _product_id = "riHhDZAn27585";
+	var _lastViewDate = "2024-03-26T08:40:42.334Z";
+	var _lastFeatureRequestsAccessDate = "";
+	var _lastRoadmapAccessDate = "";
+	var _ignoreUrlParameters = false;
+	var _followLinks = true;
+	
+	
+		var _featureMonth;
+	
+	
+	
+		var _forceFilter;
+	
+	
+	
+		var _theme;
+	
+	
+	
+		var _headerColor;
+	
+	
+		var _standaloneLogoUrl = "https:\/\/static.getbeamer.com\/riHhDZAn27585\/logo_9902.png";
+	
+	
+	
+	
+		var _productName;
+	
+	
+		var _language = "EN";
+	
+	
+	
+		var _userId = 'b9484579-4991-49f3-a378-881ad1598cc6';
+	
+	
+	
+	
+	
+	
+		var _customUserId;
+	
+	
+	
+		var _category;
+	
+	
+		var _publicPage = true;
+	
+	
+	
+		var _post = "false";
+	
+	
+	
+		var _basePath = "//product.sleekflow.io/en";
+	
+	
+	
+		var _featureRequestsBasePath = "//product.sleekflow.io/ideas/en";
+	
+	
+	
+		var _roadmapBasePath = "//product.sleekflow.io/roadmap/en";
+	
+	
+	
+	
+		var _postUrl;
+	
+	
+	
+		var _search;
+	
+	
+	
+		var _sort;
+	
+	var _hasEmail = false;
+	
+	
+		var _noPostsLabel = "No posts to display yet";
+	
+	
+	var _noFeatureRequestsLabel = "No ideas to display yet";
+	var _shouldLoadNews = true;
+	var _page = 0;
+	var _inApp = false;
+	var _addUtmParameters = true;
+	var _feedbackEmpty = "Comment can\'t be empty";
+	var _useCustomPushDomain = false;
+	var _multilineFeedback = false;
+	var _enableAutofocusComments = true;
+
+	var _showEmailPrompt = true;
+	var _accessibilityMode = false;
+	var _forceNativeScroll = false;
+	
+	
+		var _descriptionId;
+	
+	
+	
+	
+		var _shouldInitContainerScroll = true;
+	
+	
+</script>
+
+</head>
+<body class="standalone moz" data-mode="changelog">
+	
+	
+	<div class="header dark standard">
+		<nav class="nav actions">
+			<div class="actionsContent">
+				
+				
+					
+					
+						<a class="publicLogo custom" href="https://v1.sleekflow.io/" aria-label="SleekFlow"></a>
+					
+				
+				<ul class="actionlist">
+					
+						<li class="action searchAction">
+							<div class="headerNav" tabindex="0" onclick="BeamerEmbed.showSearch();" onkeypress="BeamerEmbed.showSearch();" role="button" aria-label="Search">
+								<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="26px" height="26px" viewBox="0 0 26 26" enable-background="new 0 0 26 26" xml:space="preserve">
+									<path d="M23.849,22.147l-5.218-5.217c-0.097-0.099-0.225-0.15-0.365-0.15H17.7c1.354-1.568,2.174-3.609,2.174-5.844
+									C19.874,6,15.874,2,10.937,2C6,2,2,6,2,10.937c0,4.938,4,8.938,8.937,8.938c2.234,0,4.275-0.82,5.844-2.174v0.565
+									c0,0.141,0.058,0.269,0.15,0.365l5.217,5.218c0.2,0.201,0.527,0.201,0.73,0l0.971-0.971C24.05,22.675,24.05,22.348,23.849,22.147z
+									 M10.937,17.812c-3.798,0-6.875-3.076-6.875-6.875c0-3.798,3.077-6.875,6.875-6.875c3.799,0,6.875,3.077,6.875,6.875
+									C17.812,14.735,14.735,17.812,10.937,17.812z"></path>
+								</svg>
+							</div>
+						</li>
+					
+					
+						<li class="action subscribeAction" style="">
+							<a class="actionLink" href="#" onclick="showNotificationsPrompt(false, this);">
+								<svg class="materialIcon notificationsIcon" xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 0 24 24" width="24">
+	<path d="M0 0h24v24H0z" fill="none"></path>
+	<path d="M7.58 4.08L6.15 2.65C3.75 4.48 2.17 7.3 2.03 10.5h2c.15-2.65 1.51-4.97 3.55-6.42zm12.39 6.42h2c-.15-3.2-1.73-6.02-4.12-7.85l-1.42 1.43c2.02 1.45 3.39 3.77 3.54 6.42zM18 11c0-3.07-1.64-5.64-4.5-6.32V4c0-.83-.67-1.5-1.5-1.5s-1.5.67-1.5 1.5v.68C7.63 5.36 6 7.92 6 11v5l-2 2v1h16v-1l-2-2v-5zm-6 11c.14 0 .27-.01.4-.04.65-.14 1.18-.58 1.44-1.18.1-.24.15-.5.15-.78h-4c.01 1.1.9 2 2.01 2z"></path>
+</svg>
+								<span>
+									
+										Subscribe to updates
+									
+									
+								</span>
+							</a>
+						</li>
+					
+					
+					
+						
+							<li class="action">
+								<select name="language" id="language" class="langSelect" onchange="BeamerEmbed.selectLanguage(this);">
+    <option value="EN" selected="selected">EN</option>
+    <option value="ZH">ZH</option>
+
+
+</select>
+
+
+							</li>
+						
+                        
+                        
+						
+					
+					
+				</ul>
+			</div>
+		</nav>
+		<h1 class="headerTitle">
+			
+			
+			
+				
+				
+					<a href="//product.sleekflow.io/en">
+						
+							What's new on
+						
+						
+						
+							
+							
+								 SleekFlow
+							
+						
+					</a>
+				
+				
+			
+		</h1>
+		<h2 class="headerSubtitle">
+			
+				
+					See our new features, latest releases and relevant news here to help your team sell better on social channels.
+				
+				
+				
+			
+		</h2>
+	</div>
+	
+		<div class="streamSearch">
+			<div class="streamSearchBack" onclick="clearSearch();" onkeypress="clearSearch();" tabindex="0" role="button" aria-label="Clear search">
+				<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="26px" height="26px" viewBox="0 0 26 26" enable-background="new 0 0 26 26" xml:space="preserve">
+					<path d="M7.756,1.935L6.75,2.94c-0.238,0.238-0.238,0.624,0,0.861L15.927,13L6.75,22.198
+					c-0.238,0.237-0.238,0.624,0,0.861l1.006,1.006c0.238,0.237,0.624,0.237,0.861,0l10.635-10.634c0.237-0.238,0.237-0.625,0-0.862
+					L8.617,1.935C8.379,1.697,7.994,1.697,7.756,1.935z"></path>
+				</svg>
+			</div>
+			
+			
+				
+					
+				
+				
+			
+	    	<input type="text" class="streamSearchInput" onfocus="BeamerEmbed.showSearch();" placeholder="Search in this feed" aria-label="Search in this feed">
+	    	
+	    		<div class="streamSearchIcon">
+					<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="26px" height="26px" viewBox="0 0 26 26" enable-background="new 0 0 26 26" xml:space="preserve">
+						<path d="M23.849,22.147l-5.218-5.217c-0.097-0.099-0.225-0.15-0.365-0.15H17.7c1.354-1.568,2.174-3.609,2.174-5.844
+						C19.874,6,15.874,2,10.937,2C6,2,2,6,2,10.937c0,4.938,4,8.938,8.937,8.938c2.234,0,4.275-0.82,5.844-2.174v0.565
+						c0,0.141,0.058,0.269,0.15,0.365l5.217,5.218c0.2,0.201,0.527,0.201,0.73,0l0.971-0.971C24.05,22.675,24.05,22.348,23.849,22.147z
+						 M10.937,17.812c-3.798,0-6.875-3.076-6.875-6.875c0-3.798,3.077-6.875,6.875-6.875c3.799,0,6.875,3.077,6.875,6.875
+						C17.812,14.735,14.735,17.812,10.937,17.812z"></path>
+					</svg>
+					<svg onclick="clearSearchInput();" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+						<path d="M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"></path>
+						<path d="M0 0h24v24H0z" fill="none"></path>
+					</svg>
+		    	</div>
+	    	
+	    	
+	    </div>
+	
+	<div class="panel" id="panel-nav">
+		<nav class="nav streamNav">
+			
+			
+				
+
+<div class="streamCats singleCategory">
+    <ul class="streamCatsList">
+    	 
+    		
+    			<li class="catItem">
+			    	<a class="catItemLink active" href="//product.sleekflow.io/en?all&amp;role=s_BbeXSZKk31732%3Bs_sDIWwwod31733%3Bs_huTmMLRS21099%3Bs_APxJZKii32098" "="">
+			    		<i class="ico"></i>
+			    		<span class="catItemName">
+			    			
+				    			All
+				    		
+				    		
+			    		</span>
+			    	</a>
+			    </li>
+    		
+			
+				
+<li class="catItem category_enhancements">
+	
+		<a class="category_enhancements catItemLink" href="//product.sleekflow.io/en?category=enhancements&amp;role=s_BbeXSZKk31732%3Bs_sDIWwwod31733%3Bs_huTmMLRS21099%3Bs_APxJZKii32098">
+	
+	
+		
+			
+		
+		
+		
+			<i class="ico color-3" style="background: #71c4ff;"></i>
+		
+		
+		<span class="catItemName">
+			
+			
+				enhancements
+			
+		</span>
+	</a>
+</li>
+			
+				
+<li class="catItem category_knowledge">
+	
+		<a class="category_knowledge catItemLink" href="//product.sleekflow.io/en?category=knowledge&amp;role=s_BbeXSZKk31732%3Bs_sDIWwwod31733%3Bs_huTmMLRS21099%3Bs_APxJZKii32098">
+	
+	
+		
+			
+		
+		
+		
+			<i class="ico color-2" style="background: #fbae4e;"></i>
+		
+		
+		<span class="catItemName">
+			
+			
+				knowledge
+			
+		</span>
+	</a>
+</li>
+			
+				
+<li class="catItem category_new_features">
+	
+		<a class="category_new_features catItemLink" href="//product.sleekflow.io/en?category=new+features&amp;role=s_BbeXSZKk31732%3Bs_sDIWwwod31733%3Bs_huTmMLRS21099%3Bs_APxJZKii32098">
+	
+	
+		
+			
+		
+		
+		
+			<i class="ico color-9" style="background: #ff5a80;"></i>
+		
+		
+		<span class="catItemName">
+			
+			
+				new features
+			
+		</span>
+	</a>
+</li>
+			
+				
+<li class="catItem category_tutorials">
+	
+		<a class="category_tutorials catItemLink" href="//product.sleekflow.io/en?category=tutorials&amp;role=s_BbeXSZKk31732%3Bs_sDIWwwod31733%3Bs_huTmMLRS21099%3Bs_APxJZKii32098">
+	
+	
+		
+			
+		
+		
+		
+			<i class="ico color-3" style="background: #7fcfac;"></i>
+		
+		
+		<span class="catItemName">
+			
+			
+				tutorials
+			
+		</span>
+	</a>
+</li>
+			
+			
+		
+    	
+    		
+    		<li class="catItem watermark">
+		    	<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="20px" height="20px" viewBox="0 0 20 20" enable-background="new 0 0 20 20" xml:space="preserve"><g><g><path d="M2.012,17.198c-0.537,0-1.047-0.316-1.265-0.841c-0.287-0.693,0.046-1.486,0.744-1.772L17.47,8.05 c0.698-0.285,1.498,0.045,1.785,0.739c0.287,0.694-0.046,1.488-0.743,1.773L2.532,17.097C2.362,17.166,2.186,17.198,2.012,17.198z"></path></g><g><path d="M2.012,12.021c-0.537,0-1.047-0.316-1.265-0.841C0.46,10.487,0.793,9.693,1.491,9.408L17.47,2.873 c0.698-0.286,1.498,0.045,1.785,0.738c0.287,0.694-0.046,1.487-0.743,1.773L2.532,11.919C2.362,11.989,2.186,12.021,2.012,12.021z"></path></g><g><path d="M2.012,6.675c-0.54,0-1.051-0.319-1.267-0.847C0.46,5.133,0.797,4.341,1.497,4.059L11.299,0.1 c0.699-0.283,1.497,0.051,1.781,0.747c0.284,0.694-0.052,1.487-0.752,1.769L2.526,6.575C2.358,6.643,2.184,6.675,2.012,6.675z"></path></g><g><path d="M8.165,20c-0.54,0-1.051-0.32-1.267-0.848c-0.285-0.694,0.052-1.486,0.751-1.77l9.802-3.958 c0.699-0.282,1.497,0.052,1.781,0.746s-0.052,1.487-0.751,1.77l-9.803,3.959C8.51,19.967,8.336,20,8.165,20z"></path></g></g></svg>
+		    	SleekFlow feed by <a class="watermarkLink" target="_blank" rel="follow" href="https://www.getbeamer.com/?ref=watermark_riHhDZAn27585_public&amp;company=SleekFlow&amp;watermarkRef=powered&amp;utm_term=riHhDZAn27585&amp;utm_content=SleekFlow&amp;utm_source=standalone&amp;utm_medium=search&amp;utm_campaign=powered">Beamer</a>
+			</li>
+    	
+    </ul>
+</div>
+
+			
+		</nav>
+	</div>
+	<div class="container" tabindex="-1">
+		<div class="news" style="padding-top: 130px;">
+			<div class="cover header dark"></div>
+			<div class="stream">
+				
+				
+					
+					
+					<div class="streamContent" role="list">
+						
+						
+						<div id="firstResults">
+							
+							
+								
+								
+
+
+								
+								
+							
+						</div>
+					
+
+
+
+	
+	<div role="listitem" data-description-id="55824872" data-post-title="Flow Builder (beta) enhancements " data-redirect-links="false" data-links-in-new-window="true" class="feature category_enhancements november read hasShare" id="feature55282272" data-initialized="true">
+		
+			<div class="featureDate">
+				
+					
+						
+						
+							
+							<div class="category color-3" style="background: #71c4ff;">
+								
+								
+									enhancements
+								
+							</div>
+						
+					
+				
+				
+				
+				
+					<span>November 24, 2023</span>
+				
+			</div>
+		
+		
+		
+			<div class="featureControls">
+				
+					<div class="social featureControl" data-action="share">
+						<div class="socialShare" onclick="BeamerEmbed.showSocialMenu(this)" onkeypress="BeamerEmbed.showSocialMenu(this)" tabindex="0" role="button" title="Share" aria-label="Share ('Flow Builder (beta) enhancements ')"></div>
+						<div class="socialOverlay"></div>
+						<div class="socialList">
+							<ul>
+								<li><a target="_blank" href="https://www.facebook.com/dialog/share?app_id=213351392791601&amp;display=page&amp;href=https%3A%2F%2Fproduct.sleekflow.io%2Fen%2Fsprint-18-_-flow-builder-beta-enhancements-bIQn7hyf" class="shareLink redirected" data-social="facebook">Facebook</a></li>
+								<li><a target="_blank" href="https://twitter.com/intent/tweet?text=Flow+Builder+%28beta%29+enhancements+&amp;url=https%3A%2F%2Fproduct.sleekflow.io%2Fen%2Fsprint-18-_-flow-builder-beta-enhancements-bIQn7hyf" class="shareLink redirected" data-social="twitter">X</a></li>
+								<li><a target="_blank" href="https://www.linkedin.com/shareArticle?source=Beamer&amp;mini=true&amp;title=Flow+Builder+%28beta%29+enhancements+&amp;summary=1. Enhanced Flow Variables Management
+
+Insert Customer Responses Multiple Times Using Flow VariablesYou can now save customer replies as flow variables and use them as dynamic content in subsequent pa&amp;url=https%3A%2F%2Fproduct.sleekflow.io%2Fen%2Fsprint-18-_-flow-builder-beta-enhancements-bIQn7hyf" class="shareLink redirected" data-social="linkedin">LinkedIn</a></li>
+								<li><a target="_blank" href="https://api.whatsapp.com/send?text=https%3A%2F%2Fproduct.sleekflow.io%2Fen%2Fsprint-18-_-flow-builder-beta-enhancements-bIQn7hyf" class="shareLink redirected" data-social="whatsapp">WhatsApp</a></li>
+								<li><div onclick="BeamerEmbed.copyLink(this)" class="shareLink" data-social="copy">
+									<span class="copyLink">
+										
+											Copy link
+										
+										
+									</span>
+									<span class="copiedLink" style="display: none;">
+										
+											Copy link
+										
+										
+										<i></i>
+									</span>
+									<textarea>https://product.sleekflow.io/en/sprint-18-_-flow-builder-beta-enhancements-bIQn7hyf</textarea>
+								</div></li>
+							</ul>
+						</div>
+					</div>
+				
+				
+					
+					
+				
+			</div>
+		
+		<h3 class="featureTitle">
+			
+			
+				
+				
+					
+				
+			
+			
+			
+			
+			
+				
+					
+					
+						<a href="https://product.sleekflow.io/en/sprint-18-_-flow-builder-beta-enhancements-bIQn7hyf" data-user-track="false" class="redirected">
+							Flow Builder (beta) enhancements 
+						</a>
+					
+				
+				
+			
+		</h3>
+	
+	<div class="featureContent">
+		<h3><strong>1. Enhanced Flow Variables Management</strong></h3><p><strong>Insert Customer Responses Multiple Times Using Flow Variables</strong></p><ul><li>You can now save customer replies as flow variables and use them as dynamic content in subsequent paths within the same flow.</li><li class="">These flow variables do not modify any SleekFlow contact fields. They are easily accessible from the variable dropdown list, distinct from contact variables.</li></ul><div class="medium-insert-images" style=""><figure class="">
+    <img src="https://app.getbeamer.com/pictures?id=356268-B--_ve-_ve-_ve-_ve-_vXLvv73vv73vv73vv73vv73vv712QO-_ve-_ve-_vSxK77-977-977-977-977-9aFLvv73vv73vv71IQQ..&amp;v=4" alt="Image #1" class="binded">
+        
+<div class="fullscreen"><svg class="materialIcon" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M0 0h24v24H0z" fill="none"></path><path d="M7 14H5v5h5v-2H7v-3zm-2-4h2V7h3V5H5v5zm12 7h-3v2h5v-5h-2v3zM14 5v2h3v3h2V5h-5z"></path></svg></div></figure></div><p class=""><strong class="" style="font-size: 16px; color: rgb(28, 30, 33);">2. Improved Flow Editing Experience</strong></p><p class=""><strong>Undo and Redo Changes on Node-Level</strong></p><ul class=""><li class="">Gain greater control while editing your flows with the new undo and redo capabilities at the node level, allowing for quick recovery and reversion of unintended actions.</li></ul><h3><strong class="">3. Expanded API Integration</strong></h3><p class=""><strong class="">More Content Types Supported in Body Request for HTTP Requests</strong></p><ul class=""><li class="">The content type support for API HTTP request actions has been broadened. This allows for more versatile data retrieval from external platforms and its incorporation into flow builders.</li></ul><div class="medium-insert-images"><figure class="resized" style="max-width: 170.64222925457102px; max-height: 313px;">
+    <img src="https://app.getbeamer.com/pictures?id=356271-EO-_ve-_ve-_vRRm77-977-977-977-9bSJj77-977-977-9e--_vVzvv73vv712fEwwRU_vv70mUQDvv70.&amp;v=4" alt="Image #2" class="binded">
+        
+<div class="fullscreen"><svg class="materialIcon" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M0 0h24v24H0z" fill="none"></path><path d="M7 14H5v5h5v-2H7v-3zm-2-4h2V7h3V5H5v5zm12 7h-3v2h5v-5h-2v3zM14 5v2h3v3h2V5h-5z"></path></svg></div></figure>
+
+	
+
+	
+
+	
+
+	</div><p class=""><strong class="" style="font-size: 16px; color: rgb(28, 30, 33);">4. Flow Enrollment Safeguards</strong></p><p><strong class="">Block Contact from Over-Enrollment in a Flow</strong></p><ul class=""><li>Contacts enrolling in the same flow excessively (over 30 times in a minute) will be automatically blocked to prevent potential flow configuration issues, like infinite loops.</li><li class="">Blocked contacts and potential flow issues are indicated in the flow log and flow list with a <strong><code>Blocked</code></strong> status and warning icons.</li></ul><div class="medium-insert-images" style=""><figure class="">
+    <img src="https://app.getbeamer.com/pictures?id=356273-77-977-977-977-977-977-977-9de-_ve-_ve-_ve-_ve-_vXXvv73vv73vv73vv73vv73vv73vv73vv73vv71V77-9f--_vVJfZGbvv70.&amp;v=4" alt="Image #3" class="binded" loading="lazy">
+        
+<div class="fullscreen"><svg class="materialIcon" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M0 0h24v24H0z" fill="none"></path><path d="M7 14H5v5h5v-2H7v-3zm-2-4h2V7h3V5H5v5zm12 7h-3v2h5v-5h-2v3zM14 5v2h3v3h2V5h-5z"></path></svg></div></figure></div><div class="medium-insert-images" style=""><figure class="">
+    <img src="https://app.getbeamer.com/pictures?id=356274-77-9a--_ve-_vRY7WQNod--_ve-_ve-_ve-_vXxAISg7VXF9Ne-_ve-_vVbvv70277-9A--_ve-_vQ..&amp;v=4" alt="Image #4" loading="lazy" class="binded">
+        
+<div class="fullscreen"><svg class="materialIcon" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M0 0h24v24H0z" fill="none"></path><path d="M7 14H5v5h5v-2H7v-3zm-2-4h2V7h3V5H5v5zm12 7h-3v2h5v-5h-2v3zM14 5v2h3v3h2V5h-5z"></path></svg></div></figure></div><p class=""><strong class="" style="font-size: 16px; color: rgb(28, 30, 33);">5. Proactive Issue Notification</strong></p><p class=""><strong class="">Notifications for Excessive Flow Enrollment</strong></p><ul><li class="">Admins will receive email notifications when a contact is blocked from a flow due to over-enrollment, along with a link to the problematic flow for quick resolution.</li></ul><div class="medium-insert-images" style=""><figure class="">
+    <img src="https://app.getbeamer.com/pictures?id=356272-77-977-977-977-9EGHvv70wZO-_ve-_vX9L77-977-9cRJM77-9OXfvv70VKe-_vQsrce-_ve-_vXoX&amp;v=4" alt="Image #5" class="binded" loading="lazy">
+        
+<div class="fullscreen"><svg class="materialIcon" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M0 0h24v24H0z" fill="none"></path><path d="M7 14H5v5h5v-2H7v-3zm-2-4h2V7h3V5H5v5zm12 7h-3v2h5v-5h-2v3zM14 5v2h3v3h2V5h-5z"></path></svg></div></figure></div><p class=""><strong class="" style="font-size: 16px; color: rgb(28, 30, 33);">6. Enhanced Flow Management</strong></p><p class=""><strong class="">Manually Remove Enrolled Contacts from Flow</strong></p><ul><li>You can now manually unenroll contacts from a flow, aiding in troubleshooting and managing contacts who are idle or stuck.</li></ul><div class="medium-insert-images" style=""><figure class="">
+    <img src="https://app.getbeamer.com/pictures?id=356275-77-9a--_vUtQGu-_ve-_vXPvv71BWkrvv70lahbvv73vv73vv73vv70hVCTvv70Sf--_vV9z77-9ew..&amp;v=4" alt="Image #6" loading="lazy" class="binded">
+        
+<div class="fullscreen"><svg class="materialIcon" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M0 0h24v24H0z" fill="none"></path><path d="M7 14H5v5h5v-2H7v-3zm-2-4h2V7h3V5H5v5zm12 7h-3v2h5v-5h-2v3zM14 5v2h3v3h2V5h-5z"></path></svg></div></figure></div><p class=""><strong style="font-size: 16px; color: rgb(28, 30, 33);">7. New Pricing Model for Flow Builder</strong></p><p class=""><strong>Usage-Based Pricing Post-Beta</strong></p><ul class=""><li class="">The pricing and usage logic is now based on the number of active flows, nodes per flow, and node runs in a billing month.</li><li><strong>Beta Phase Offer</strong>: Unlimited node runs with specific quotas for active flows and nodes per flow.</li><li><strong>Plans</strong>:<ul><li>Free: 3 active flows, 20 nodes per flow</li><li>Pro: 10 active flows, 100 nodes per flow</li><li>Premium: 25 active flows, 200 nodes per flow</li><li>Enterprise: 50 active flows, 500 nodes per flow</li></ul></li><li>Future adjustments post-beta and additional node run add-ons are planned to cater to high usage needs.</li></ul><div class="medium-insert-images" style=""><figure class="">
+    <img src="https://app.getbeamer.com/pictures?id=356277-77-977-977-9cO-_ve-_ve-_ve-_vX_vv73vv73vv71p77-977-977-977-977-9Qe-_vWbvv73vv73vv70RE--_ve-_ve-_ve-_vQEZ&amp;v=4" alt="Image #7" loading="lazy" class="binded">
+        
+<div class="fullscreen"><svg class="materialIcon" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M0 0h24v24H0z" fill="none"></path><path d="M7 14H5v5h5v-2H7v-3zm-2-4h2V7h3V5H5v5zm12 7h-3v2h5v-5h-2v3zM14 5v2h3v3h2V5h-5z"></path></svg></div></figure></div>
+		
+	</div>
+		
+		
+		
+			<div id="feedback55282272" class="featureFeedback">
+				
+					<div id="reactions" class="emojis">
+						<span class="emojiContainer">
+							<img src="https://app.getbeamer.com/images/emojiNeg.svg" id="negativeemoji55282272" class="emoji" style="padding: 2px;" onclick="BeamerEmbed.reaction(55282272, 'negative')" onkeypress="BeamerEmbed.reaction(55282272, 'negative')" alt="emoji negative reaction for 'Flow Builder (beta) enhancements '" title="Negative" aria-label="Negative reaction for 'Flow Builder (beta) enhancements '" tabindex="0" role="button">
+						</span>
+						<span class="emojiContainer">
+							<img src="https://app.getbeamer.com/images/emojiNeut.svg" id="neutralemoji55282272" class="emoji" style="padding-bottom: 0px;" onclick="BeamerEmbed.reaction(55282272, 'neutral')" onkeypress="BeamerEmbed.reaction(55282272, 'neutral')" alt="emoji neutral reaction for 'Flow Builder (beta) enhancements '" title="Neutral" aria-label="Neutral reaction for 'Flow Builder (beta) enhancements '" tabindex="0" role="button">
+						</span>
+						<span class="emojiContainer">
+							<img src="https://app.getbeamer.com/images/emojiPos.svg" id="positiveemoji55282272" class="emoji" style="padding-bottom: 0px;" onclick="BeamerEmbed.reaction(55282272, 'positive')" onkeypress="BeamerEmbed.reaction(55282272, 'positive')" alt="emoji positive reaction for 'Flow Builder (beta) enhancements '" title="Positive" aria-label="Positive reaction for 'Flow Builder (beta) enhancements '" tabindex="0" role="button">
+						</span>
+					</div>
+				
+				
+					<form onsubmit="return BeamerEmbed.sendFeedback(55282272, false, event)" method="post">
+						<textarea class="feedbackInput binded" id="feedbackText55282272" minlength="1" maxlength="1000" name="feedback" placeholder="Send us your feedback" aria-label="Send us your feedback ('Flow Builder (beta) enhancements ')"></textarea>
+						<svg class="materialIcon feedbackSend binded" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+    <path d="M2.01 21L23 12 2.01 3 2 10l15 2-15 2z"></path>
+    <path d="M0 0h24v24H0z" fill="none"></path>
+</svg>
+
+					</form>
+					
+						<form style="display: none;" onsubmit="return BeamerEmbed.sendFeedbackEmail(55282272, false, event)" class="feedbackEmailForm" method="post">
+							<input type="email" class="feedbackInput binded" id="feedbackEmail55282272" maxlength="300" name="feedbackEmail" placeholder="E-mail (optional)" aria-label="E-mail (optional) ('Flow Builder (beta) enhancements ')">
+							<svg class="materialIcon feedbackSend binded" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+    <path d="M2.01 21L23 12 2.01 3 2 10l15 2-15 2z"></path>
+    <path d="M0 0h24v24H0z" fill="none"></path>
+</svg>
+
+						</form>
+					
+					<div id="thankfeedback55282272" class="feedbackSubmited"><i></i>Thanks for your feedback</div>
+				
+			</div>
+		
+		
+	</div>
+
+	
+	<div role="listitem" data-description-id="27809342" data-post-title="Release Update - June 16, 2022" data-redirect-links="false" data-links-in-new-window="true" class="feature category_new_features june read hasShare" id="feature27537156" data-initialized="true">
+		
+			<div class="featureDate">
+				
+					
+						
+						
+							
+							<div class="category color-9" style="background: #ff5a80;">
+								
+								
+									new features
+								
+							</div>
+						
+					
+				
+				
+				
+				
+					<span>June 16, 2022</span>
+				
+			</div>
+		
+		
+		
+			<div class="featureControls">
+				
+					<div class="social featureControl" data-action="share">
+						<div class="socialShare" onclick="BeamerEmbed.showSocialMenu(this)" onkeypress="BeamerEmbed.showSocialMenu(this)" tabindex="0" role="button" title="Share" aria-label="Share ('Release Update - June 16, 2022')"></div>
+						<div class="socialOverlay"></div>
+						<div class="socialList">
+							<ul>
+								<li><a target="_blank" href="https://www.facebook.com/dialog/share?app_id=213351392791601&amp;display=page&amp;href=https%3A%2F%2Fproduct.sleekflow.io%2Fen%2Frelease-update-_-june-16-2022" class="shareLink redirected" data-social="facebook">Facebook</a></li>
+								<li><a target="_blank" href="https://twitter.com/intent/tweet?text=Release+Update+-+June+16%2C+2022&amp;url=https%3A%2F%2Fproduct.sleekflow.io%2Fen%2Frelease-update-_-june-16-2022" class="shareLink redirected" data-social="twitter">X</a></li>
+								<li><a target="_blank" href="https://www.linkedin.com/shareArticle?source=Beamer&amp;mini=true&amp;title=Release+Update+-+June+16%2C+2022&amp;summary=News &amp; EnhancementsInteractive Message on AutomationWhatsApp onboarding page revamp
+
+Fixes[360 Dialog] Fixes variable properties cannot be shown when it’s quoted by receiver issueFixes username field &amp;url=https%3A%2F%2Fproduct.sleekflow.io%2Fen%2Frelease-update-_-june-16-2022" class="shareLink redirected" data-social="linkedin">LinkedIn</a></li>
+								<li><a target="_blank" href="https://api.whatsapp.com/send?text=https%3A%2F%2Fproduct.sleekflow.io%2Fen%2Frelease-update-_-june-16-2022" class="shareLink redirected" data-social="whatsapp">WhatsApp</a></li>
+								<li><div onclick="BeamerEmbed.copyLink(this)" class="shareLink" data-social="copy">
+									<span class="copyLink">
+										
+											Copy link
+										
+										
+									</span>
+									<span class="copiedLink" style="display: none;">
+										
+											Copy link
+										
+										
+										<i></i>
+									</span>
+									<textarea>https://product.sleekflow.io/en/release-update-_-june-16-2022</textarea>
+								</div></li>
+							</ul>
+						</div>
+					</div>
+				
+				
+					
+					
+				
+			</div>
+		
+		<h3 class="featureTitle">
+			
+			
+				
+				
+					
+				
+			
+			
+			
+			
+			
+				
+					
+					
+						<a href="https://product.sleekflow.io/en/release-update-_-june-16-2022" data-user-track="false" class="redirected">
+							Release Update - June 16, 2022
+						</a>
+					
+				
+				
+			
+		</h3>
+	
+	<div class="featureContent">
+		<h2>News &amp; Enhancements</h2><ul><li>Interactive Message on Automation</li><li>WhatsApp onboarding page revamp</li></ul><p class=""><span style="font-size: 18px; font-weight: 700;">Fixes</span></p><ul><li>[360 Dialog] Fixes variable properties cannot be shown when it’s quoted by receiver issue</li><li>Fixes username field cannot input uppercase issue</li><li>Fixes Automation rule display issue</li><li>Fixes multiple WABAs channel display on Automation’s send message action</li><li>Fixes showing html element in preview message in conversation list</li><li>Fixes scroll to bottom when switching filter and fix select all after clicked reply as didn’t show the all message</li></ul>
+		
+	</div>
+		
+		
+		
+			<div id="feedback27537156" class="featureFeedback">
+				
+					<div id="reactions" class="emojis">
+						<span class="emojiContainer">
+							<img src="https://app.getbeamer.com/images/emojiNeg.svg" id="negativeemoji27537156" class="emoji" style="padding: 2px;" onclick="BeamerEmbed.reaction(27537156, 'negative')" onkeypress="BeamerEmbed.reaction(27537156, 'negative')" alt="emoji negative reaction for 'Release Update - June 16, 2022'" title="Negative" aria-label="Negative reaction for 'Release Update - June 16, 2022'" tabindex="0" role="button">
+						</span>
+						<span class="emojiContainer">
+							<img src="https://app.getbeamer.com/images/emojiNeut.svg" id="neutralemoji27537156" class="emoji" style="padding-bottom: 0px;" onclick="BeamerEmbed.reaction(27537156, 'neutral')" onkeypress="BeamerEmbed.reaction(27537156, 'neutral')" alt="emoji neutral reaction for 'Release Update - June 16, 2022'" title="Neutral" aria-label="Neutral reaction for 'Release Update - June 16, 2022'" tabindex="0" role="button">
+						</span>
+						<span class="emojiContainer">
+							<img src="https://app.getbeamer.com/images/emojiPos.svg" id="positiveemoji27537156" class="emoji" style="padding-bottom: 0px;" onclick="BeamerEmbed.reaction(27537156, 'positive')" onkeypress="BeamerEmbed.reaction(27537156, 'positive')" alt="emoji positive reaction for 'Release Update - June 16, 2022'" title="Positive" aria-label="Positive reaction for 'Release Update - June 16, 2022'" tabindex="0" role="button">
+						</span>
+					</div>
+				
+				
+					<form onsubmit="return BeamerEmbed.sendFeedback(27537156, false, event)" method="post">
+						<textarea class="feedbackInput binded" id="feedbackText27537156" minlength="1" maxlength="1000" name="feedback" placeholder="Send us your feedback" aria-label="Send us your feedback ('Release Update - June 16, 2022')"></textarea>
+						<svg class="materialIcon feedbackSend binded" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+    <path d="M2.01 21L23 12 2.01 3 2 10l15 2-15 2z"></path>
+    <path d="M0 0h24v24H0z" fill="none"></path>
+</svg>
+
+					</form>
+					
+						<form style="display: none;" onsubmit="return BeamerEmbed.sendFeedbackEmail(27537156, false, event)" class="feedbackEmailForm" method="post">
+							<input type="email" class="feedbackInput binded" id="feedbackEmail27537156" maxlength="300" name="feedbackEmail" placeholder="E-mail (optional)" aria-label="E-mail (optional) ('Release Update - June 16, 2022')">
+							<svg class="materialIcon feedbackSend binded" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+    <path d="M2.01 21L23 12 2.01 3 2 10l15 2-15 2z"></path>
+    <path d="M0 0h24v24H0z" fill="none"></path>
+</svg>
+
+						</form>
+					
+					<div id="thankfeedback27537156" class="feedbackSubmited"><i></i>Thanks for your feedback</div>
+				
+			</div>
+		
+		
+	</div>
+
+	
+	<div role="listitem" data-description-id="27418138" data-post-title="Release Update - June 1, 2022" data-redirect-links="false" data-links-in-new-window="true" class="feature category_new_features june read hasShare" id="feature27159237" data-initialized="true">
+		
+			<div class="featureDate">
+				
+					
+						
+						
+							
+							<div class="category color-9" style="background: #ff5a80;">
+								
+								
+									new features
+								
+							</div>
+						
+					
+				
+				
+				
+				
+					<span>June 02, 2022</span>
+				
+			</div>
+		
+		
+		
+			<div class="featureControls">
+				
+					<div class="social featureControl" data-action="share">
+						<div class="socialShare" onclick="BeamerEmbed.showSocialMenu(this)" onkeypress="BeamerEmbed.showSocialMenu(this)" tabindex="0" role="button" title="Share" aria-label="Share ('Release Update - June 1, 2022')"></div>
+						<div class="socialOverlay"></div>
+						<div class="socialList">
+							<ul>
+								<li><a target="_blank" href="https://www.facebook.com/dialog/share?app_id=213351392791601&amp;display=page&amp;href=https%3A%2F%2Fproduct.sleekflow.io%2Fen%2Frelease-update-_-june-1-2022" class="shareLink redirected" data-social="facebook">Facebook</a></li>
+								<li><a target="_blank" href="https://twitter.com/intent/tweet?text=Release+Update+-+June+1%2C+2022&amp;url=https%3A%2F%2Fproduct.sleekflow.io%2Fen%2Frelease-update-_-june-1-2022" class="shareLink redirected" data-social="twitter">X</a></li>
+								<li><a target="_blank" href="https://www.linkedin.com/shareArticle?source=Beamer&amp;mini=true&amp;title=Release+Update+-+June+1%2C+2022&amp;summary=News &amp; EnhancementsShow interactive message UI on inboxFixesFixes switching contact owner&nbsp;issueFixes manual add collaborator, the contact owner will become unassigned&nbsp;issueUpdates amount display for subscription plans&amp;url=https%3A%2F%2Fproduct.sleekflow.io%2Fen%2Frelease-update-_-june-1-2022" class="shareLink redirected" data-social="linkedin">LinkedIn</a></li>
+								<li><a target="_blank" href="https://api.whatsapp.com/send?text=https%3A%2F%2Fproduct.sleekflow.io%2Fen%2Frelease-update-_-june-1-2022" class="shareLink redirected" data-social="whatsapp">WhatsApp</a></li>
+								<li><div onclick="BeamerEmbed.copyLink(this)" class="shareLink" data-social="copy">
+									<span class="copyLink">
+										
+											Copy link
+										
+										
+									</span>
+									<span class="copiedLink" style="display: none;">
+										
+											Copy link
+										
+										
+										<i></i>
+									</span>
+									<textarea>https://product.sleekflow.io/en/release-update-_-june-1-2022</textarea>
+								</div></li>
+							</ul>
+						</div>
+					</div>
+				
+				
+					
+					
+				
+			</div>
+		
+		<h3 class="featureTitle">
+			
+			
+				
+				
+					
+				
+			
+			
+			
+			
+			
+				
+					
+					
+						<a href="https://product.sleekflow.io/en/release-update-_-june-1-2022" data-user-track="false" class="redirected">
+							Release Update - June 1, 2022
+						</a>
+					
+				
+				
+			
+		</h3>
+	
+	<div class="featureContent">
+		<h2>News &amp; Enhancements</h2><ul><li>Show interactive message UI on inbox</li></ul><h2>Fixes</h2><ul><li>Fixes switching contact owner&nbsp;issue</li><li>Fixes manual add collaborator, the contact owner will become unassigned&nbsp;issue</li><li>Updates amount display for subscription plans</li></ul>
+		
+	</div>
+		
+		
+		
+			<div id="feedback27159237" class="featureFeedback">
+				
+					<div id="reactions" class="emojis">
+						<span class="emojiContainer">
+							<img src="https://app.getbeamer.com/images/emojiNeg.svg" id="negativeemoji27159237" class="emoji" style="padding: 2px;" onclick="BeamerEmbed.reaction(27159237, 'negative')" onkeypress="BeamerEmbed.reaction(27159237, 'negative')" alt="emoji negative reaction for 'Release Update - June 1, 2022'" title="Negative" aria-label="Negative reaction for 'Release Update - June 1, 2022'" tabindex="0" role="button">
+						</span>
+						<span class="emojiContainer">
+							<img src="https://app.getbeamer.com/images/emojiNeut.svg" id="neutralemoji27159237" class="emoji" style="padding-bottom: 0px;" onclick="BeamerEmbed.reaction(27159237, 'neutral')" onkeypress="BeamerEmbed.reaction(27159237, 'neutral')" alt="emoji neutral reaction for 'Release Update - June 1, 2022'" title="Neutral" aria-label="Neutral reaction for 'Release Update - June 1, 2022'" tabindex="0" role="button">
+						</span>
+						<span class="emojiContainer">
+							<img src="https://app.getbeamer.com/images/emojiPos.svg" id="positiveemoji27159237" class="emoji" style="padding-bottom: 0px;" onclick="BeamerEmbed.reaction(27159237, 'positive')" onkeypress="BeamerEmbed.reaction(27159237, 'positive')" alt="emoji positive reaction for 'Release Update - June 1, 2022'" title="Positive" aria-label="Positive reaction for 'Release Update - June 1, 2022'" tabindex="0" role="button">
+						</span>
+					</div>
+				
+				
+					<form onsubmit="return BeamerEmbed.sendFeedback(27159237, false, event)" method="post">
+						<textarea class="feedbackInput binded" id="feedbackText27159237" minlength="1" maxlength="1000" name="feedback" placeholder="Send us your feedback" aria-label="Send us your feedback ('Release Update - June 1, 2022')"></textarea>
+						<svg class="materialIcon feedbackSend binded" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+    <path d="M2.01 21L23 12 2.01 3 2 10l15 2-15 2z"></path>
+    <path d="M0 0h24v24H0z" fill="none"></path>
+</svg>
+
+					</form>
+					
+						<form style="display: none;" onsubmit="return BeamerEmbed.sendFeedbackEmail(27159237, false, event)" class="feedbackEmailForm" method="post">
+							<input type="email" class="feedbackInput binded" id="feedbackEmail27159237" maxlength="300" name="feedbackEmail" placeholder="E-mail (optional)" aria-label="E-mail (optional) ('Release Update - June 1, 2022')">
+							<svg class="materialIcon feedbackSend binded" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+    <path d="M2.01 21L23 12 2.01 3 2 10l15 2-15 2z"></path>
+    <path d="M0 0h24v24H0z" fill="none"></path>
+</svg>
+
+						</form>
+					
+					<div id="thankfeedback27159237" class="feedbackSubmited"><i></i>Thanks for your feedback</div>
+				
+			</div>
+		
+		
+	</div>
+
+	
+	<div role="listitem" data-description-id="27054305" data-post-title="Release Update - May 18, 2022" data-redirect-links="false" data-links-in-new-window="true" class="feature category_new_features may read hasShare" id="feature26806069" data-initialized="true">
+		
+			<div class="featureDate">
+				
+					
+						
+						
+							
+							<div class="category color-9" style="background: #ff5a80;">
+								
+								
+									new features
+								
+							</div>
+						
+					
+				
+				
+				
+				
+					<span>May 19, 2022</span>
+				
+			</div>
+		
+		
+		
+			<div class="featureControls">
+				
+					<div class="social featureControl" data-action="share">
+						<div class="socialShare" onclick="BeamerEmbed.showSocialMenu(this)" onkeypress="BeamerEmbed.showSocialMenu(this)" tabindex="0" role="button" title="Share" aria-label="Share ('Release Update - May 18, 2022')"></div>
+						<div class="socialOverlay"></div>
+						<div class="socialList">
+							<ul>
+								<li><a target="_blank" href="https://www.facebook.com/dialog/share?app_id=213351392791601&amp;display=page&amp;href=https%3A%2F%2Fproduct.sleekflow.io%2Fen%2Frelease-update-_-may-18-2022" class="shareLink redirected" data-social="facebook">Facebook</a></li>
+								<li><a target="_blank" href="https://twitter.com/intent/tweet?text=Release+Update+-+May+18%2C+2022&amp;url=https%3A%2F%2Fproduct.sleekflow.io%2Fen%2Frelease-update-_-may-18-2022" class="shareLink redirected" data-social="twitter">X</a></li>
+								<li><a target="_blank" href="https://www.linkedin.com/shareArticle?source=Beamer&amp;mini=true&amp;title=Release+Update+-+May+18%2C+2022&amp;summary=News &amp; EnhancementsMessaging Channel Integration: TelegramShows 360 dialog in Widget settingsFulfilment details section inside customer profile sectionShow error message for 360 dialog conversations36&amp;url=https%3A%2F%2Fproduct.sleekflow.io%2Fen%2Frelease-update-_-may-18-2022" class="shareLink redirected" data-social="linkedin">LinkedIn</a></li>
+								<li><a target="_blank" href="https://api.whatsapp.com/send?text=https%3A%2F%2Fproduct.sleekflow.io%2Fen%2Frelease-update-_-may-18-2022" class="shareLink redirected" data-social="whatsapp">WhatsApp</a></li>
+								<li><div onclick="BeamerEmbed.copyLink(this)" class="shareLink" data-social="copy">
+									<span class="copyLink">
+										
+											Copy link
+										
+										
+									</span>
+									<span class="copiedLink" style="display: none;">
+										
+											Copy link
+										
+										
+										<i></i>
+									</span>
+									<textarea>https://product.sleekflow.io/en/release-update-_-may-18-2022</textarea>
+								</div></li>
+							</ul>
+						</div>
+					</div>
+				
+				
+					
+					
+				
+			</div>
+		
+		<h3 class="featureTitle">
+			
+			
+				
+				
+					
+				
+			
+			
+			
+			
+			
+				
+					
+					
+						<a href="https://product.sleekflow.io/en/release-update-_-may-18-2022" data-user-track="false" class="redirected">
+							Release Update - May 18, 2022
+						</a>
+					
+				
+				
+			
+		</h3>
+	
+	<div class="featureContent">
+		<h2>News &amp; Enhancements</h2><ul><li><a href="https://docs.sleekflow.io/messaging-channels/telegram" target="_blank" rel="noopener" class="redirected">Messaging Channel Integration: Telegram</a></li><li>Shows 360 dialog in Widget settings</li><li>Fulfilment details section inside customer profile section</li><li>Show error message for 360 dialog conversations</li><li>360 dialog opt-in, billing settings</li><li>Shopify Marketplace Listing requirement (OAuth &amp; subscription via Shopfiy)</li></ul><h2>Fixes</h2><ul><li>Reduce file size for LiveChat widget</li><li>Fixes PDF with password field infinity pop-up issue</li><li>Fixes pricing display issue</li><li>Fixes Inbox order and preview issue</li><li>Fixes Chinese typing issue</li><li>Fixes Campaign results display issue</li></ul>
+		
+	</div>
+		
+		
+		
+			<div id="feedback26806069" class="featureFeedback">
+				
+					<div id="reactions" class="emojis">
+						<span class="emojiContainer">
+							<img src="https://app.getbeamer.com/images/emojiNeg.svg" id="negativeemoji26806069" class="emoji" style="padding: 2px;" onclick="BeamerEmbed.reaction(26806069, 'negative')" onkeypress="BeamerEmbed.reaction(26806069, 'negative')" alt="emoji negative reaction for 'Release Update - May 18, 2022'" title="Negative" aria-label="Negative reaction for 'Release Update - May 18, 2022'" tabindex="0" role="button">
+						</span>
+						<span class="emojiContainer">
+							<img src="https://app.getbeamer.com/images/emojiNeut.svg" id="neutralemoji26806069" class="emoji" style="padding-bottom: 0px;" onclick="BeamerEmbed.reaction(26806069, 'neutral')" onkeypress="BeamerEmbed.reaction(26806069, 'neutral')" alt="emoji neutral reaction for 'Release Update - May 18, 2022'" title="Neutral" aria-label="Neutral reaction for 'Release Update - May 18, 2022'" tabindex="0" role="button">
+						</span>
+						<span class="emojiContainer">
+							<img src="https://app.getbeamer.com/images/emojiPos.svg" id="positiveemoji26806069" class="emoji" style="padding-bottom: 0px;" onclick="BeamerEmbed.reaction(26806069, 'positive')" onkeypress="BeamerEmbed.reaction(26806069, 'positive')" alt="emoji positive reaction for 'Release Update - May 18, 2022'" title="Positive" aria-label="Positive reaction for 'Release Update - May 18, 2022'" tabindex="0" role="button">
+						</span>
+					</div>
+				
+				
+					<form onsubmit="return BeamerEmbed.sendFeedback(26806069, false, event)" method="post">
+						<textarea class="feedbackInput binded" id="feedbackText26806069" minlength="1" maxlength="1000" name="feedback" placeholder="Send us your feedback" aria-label="Send us your feedback ('Release Update - May 18, 2022')"></textarea>
+						<svg class="materialIcon feedbackSend binded" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+    <path d="M2.01 21L23 12 2.01 3 2 10l15 2-15 2z"></path>
+    <path d="M0 0h24v24H0z" fill="none"></path>
+</svg>
+
+					</form>
+					
+						<form style="display: none;" onsubmit="return BeamerEmbed.sendFeedbackEmail(26806069, false, event)" class="feedbackEmailForm" method="post">
+							<input type="email" class="feedbackInput binded" id="feedbackEmail26806069" maxlength="300" name="feedbackEmail" placeholder="E-mail (optional)" aria-label="E-mail (optional) ('Release Update - May 18, 2022')">
+							<svg class="materialIcon feedbackSend binded" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+    <path d="M2.01 21L23 12 2.01 3 2 10l15 2-15 2z"></path>
+    <path d="M0 0h24v24H0z" fill="none"></path>
+</svg>
+
+						</form>
+					
+					<div id="thankfeedback26806069" class="feedbackSubmited"><i></i>Thanks for your feedback</div>
+				
+			</div>
+		
+		
+	</div>
+
+	
+	<div role="listitem" data-description-id="26528661" data-post-title="Release Update - May 4, 2022" data-redirect-links="false" data-links-in-new-window="true" class="feature category_new_features may read hasShare" id="feature26290270" data-initialized="true">
+		
+			<div class="featureDate">
+				
+					
+						
+						
+							
+							<div class="category color-9" style="background: #ff5a80;">
+								
+								
+									new features
+								
+							</div>
+						
+					
+				
+				
+				
+				
+					<span>May 05, 2022</span>
+				
+			</div>
+		
+		
+		
+			<div class="featureControls">
+				
+					<div class="social featureControl" data-action="share">
+						<div class="socialShare" onclick="BeamerEmbed.showSocialMenu(this)" onkeypress="BeamerEmbed.showSocialMenu(this)" tabindex="0" role="button" title="Share" aria-label="Share ('Release Update - May 4, 2022')"></div>
+						<div class="socialOverlay"></div>
+						<div class="socialList">
+							<ul>
+								<li><a target="_blank" href="https://www.facebook.com/dialog/share?app_id=213351392791601&amp;display=page&amp;href=https%3A%2F%2Fproduct.sleekflow.io%2Fen%2Frelease-update-_-may-4-2022" class="shareLink redirected" data-social="facebook">Facebook</a></li>
+								<li><a target="_blank" href="https://twitter.com/intent/tweet?text=Release+Update+-+May+4%2C+2022&amp;url=https%3A%2F%2Fproduct.sleekflow.io%2Fen%2Frelease-update-_-may-4-2022" class="shareLink redirected" data-social="twitter">X</a></li>
+								<li><a target="_blank" href="https://www.linkedin.com/shareArticle?source=Beamer&amp;mini=true&amp;title=Release+Update+-+May+4%2C+2022&amp;summary=News &amp; EnhancementsMessaging Channel Integration: ViberDisplays URL in Whatsapp conversation (Twilio)Enables to preview video and PDF in conversationDisplays localised pricing and support plansEnables&amp;url=https%3A%2F%2Fproduct.sleekflow.io%2Fen%2Frelease-update-_-may-4-2022" class="shareLink redirected" data-social="linkedin">LinkedIn</a></li>
+								<li><a target="_blank" href="https://api.whatsapp.com/send?text=https%3A%2F%2Fproduct.sleekflow.io%2Fen%2Frelease-update-_-may-4-2022" class="shareLink redirected" data-social="whatsapp">WhatsApp</a></li>
+								<li><div onclick="BeamerEmbed.copyLink(this)" class="shareLink" data-social="copy">
+									<span class="copyLink">
+										
+											Copy link
+										
+										
+									</span>
+									<span class="copiedLink" style="display: none;">
+										
+											Copy link
+										
+										
+										<i></i>
+									</span>
+									<textarea>https://product.sleekflow.io/en/release-update-_-may-4-2022</textarea>
+								</div></li>
+							</ul>
+						</div>
+					</div>
+				
+				
+					
+					
+				
+			</div>
+		
+		<h3 class="featureTitle">
+			
+			
+				
+				
+					
+				
+			
+			
+			
+			
+			
+				
+					
+					
+						<a href="https://product.sleekflow.io/en/release-update-_-may-4-2022" data-user-track="false" class="redirected">
+							Release Update - May 4, 2022
+						</a>
+					
+				
+				
+			
+		</h3>
+	
+	<div class="featureContent">
+		<h2>News &amp; Enhancements</h2><ul><li><a href="https://docs.sleekflow.io/messaging-channels/viber" target="_blank" rel="noopener" class="redirected">Messaging Channel Integration: Viber</a></li><li>Displays URL in Whatsapp conversation (Twilio)</li><li>Enables to preview video and PDF in conversation</li><li>Displays localised pricing and support plans</li><li>Enables to share order details through Automation</li></ul><p class=""><u>                                                                                                                                                                                                                                         </u></p><h2>Fixes</h2><ul><li>Enables to schedule outbound and internal messages in local time zone</li><li>Fixes showing templates issue in Campaign</li><li>Fixes Automation saving issue</li><li>Fixes instant message displaying issue</li></ul>
+		
+	</div>
+		
+		
+		
+			<div id="feedback26290270" class="featureFeedback">
+				
+					<div id="reactions" class="emojis">
+						<span class="emojiContainer">
+							<img src="https://app.getbeamer.com/images/emojiNeg.svg" id="negativeemoji26290270" class="emoji" style="padding: 2px;" onclick="BeamerEmbed.reaction(26290270, 'negative')" onkeypress="BeamerEmbed.reaction(26290270, 'negative')" alt="emoji negative reaction for 'Release Update - May 4, 2022'" title="Negative" aria-label="Negative reaction for 'Release Update - May 4, 2022'" tabindex="0" role="button">
+						</span>
+						<span class="emojiContainer">
+							<img src="https://app.getbeamer.com/images/emojiNeut.svg" id="neutralemoji26290270" class="emoji" style="padding-bottom: 0px;" onclick="BeamerEmbed.reaction(26290270, 'neutral')" onkeypress="BeamerEmbed.reaction(26290270, 'neutral')" alt="emoji neutral reaction for 'Release Update - May 4, 2022'" title="Neutral" aria-label="Neutral reaction for 'Release Update - May 4, 2022'" tabindex="0" role="button">
+						</span>
+						<span class="emojiContainer">
+							<img src="https://app.getbeamer.com/images/emojiPos.svg" id="positiveemoji26290270" class="emoji" style="padding-bottom: 0px;" onclick="BeamerEmbed.reaction(26290270, 'positive')" onkeypress="BeamerEmbed.reaction(26290270, 'positive')" alt="emoji positive reaction for 'Release Update - May 4, 2022'" title="Positive" aria-label="Positive reaction for 'Release Update - May 4, 2022'" tabindex="0" role="button">
+						</span>
+					</div>
+				
+				
+					<form onsubmit="return BeamerEmbed.sendFeedback(26290270, false, event)" method="post">
+						<textarea class="feedbackInput binded" id="feedbackText26290270" minlength="1" maxlength="1000" name="feedback" placeholder="Send us your feedback" aria-label="Send us your feedback ('Release Update - May 4, 2022')"></textarea>
+						<svg class="materialIcon feedbackSend binded" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+    <path d="M2.01 21L23 12 2.01 3 2 10l15 2-15 2z"></path>
+    <path d="M0 0h24v24H0z" fill="none"></path>
+</svg>
+
+					</form>
+					
+						<form style="display: none;" onsubmit="return BeamerEmbed.sendFeedbackEmail(26290270, false, event)" class="feedbackEmailForm" method="post">
+							<input type="email" class="feedbackInput binded" id="feedbackEmail26290270" maxlength="300" name="feedbackEmail" placeholder="E-mail (optional)" aria-label="E-mail (optional) ('Release Update - May 4, 2022')">
+							<svg class="materialIcon feedbackSend binded" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+    <path d="M2.01 21L23 12 2.01 3 2 10l15 2-15 2z"></path>
+    <path d="M0 0h24v24H0z" fill="none"></path>
+</svg>
+
+						</form>
+					
+					<div id="thankfeedback26290270" class="feedbackSubmited"><i></i>Thanks for your feedback</div>
+				
+			</div>
+		
+		
+	</div>
+
+	
+	<div role="listitem" data-description-id="26082927" data-post-title="Release Update - April 20, 2022" data-redirect-links="false" data-links-in-new-window="true" class="feature category_new_features april read hasShare" id="feature25851417" data-initialized="true">
+		
+			<div class="featureDate">
+				
+					
+						
+						
+							
+							<div class="category color-9" style="background: #ff5a80;">
+								
+								
+									new features
+								
+							</div>
+						
+					
+				
+				
+				
+				
+					<span>April 20, 2022</span>
+				
+			</div>
+		
+		
+		
+			<div class="featureControls">
+				
+					<div class="social featureControl" data-action="share">
+						<div class="socialShare" onclick="BeamerEmbed.showSocialMenu(this)" onkeypress="BeamerEmbed.showSocialMenu(this)" tabindex="0" role="button" title="Share" aria-label="Share ('Release Update - April 20, 2022')"></div>
+						<div class="socialOverlay"></div>
+						<div class="socialList">
+							<ul>
+								<li><a target="_blank" href="https://www.facebook.com/dialog/share?app_id=213351392791601&amp;display=page&amp;href=https%3A%2F%2Fproduct.sleekflow.io%2Fen%2Frelease-update-_-april-20-2022" class="shareLink redirected" data-social="facebook">Facebook</a></li>
+								<li><a target="_blank" href="https://twitter.com/intent/tweet?text=Release+Update+-+April+20%2C+2022&amp;url=https%3A%2F%2Fproduct.sleekflow.io%2Fen%2Frelease-update-_-april-20-2022" class="shareLink redirected" data-social="twitter">X</a></li>
+								<li><a target="_blank" href="https://www.linkedin.com/shareArticle?source=Beamer&amp;mini=true&amp;title=Release+Update+-+April+20%2C+2022&amp;summary=News &amp; EnhancementsNew Whatsapp onboarding pathwayAdds access right on receiving notification/sending messages/modify role within the teamEdit multiple conversation status and collaborators at onceAll&amp;url=https%3A%2F%2Fproduct.sleekflow.io%2Fen%2Frelease-update-_-april-20-2022" class="shareLink redirected" data-social="linkedin">LinkedIn</a></li>
+								<li><a target="_blank" href="https://api.whatsapp.com/send?text=https%3A%2F%2Fproduct.sleekflow.io%2Fen%2Frelease-update-_-april-20-2022" class="shareLink redirected" data-social="whatsapp">WhatsApp</a></li>
+								<li><div onclick="BeamerEmbed.copyLink(this)" class="shareLink" data-social="copy">
+									<span class="copyLink">
+										
+											Copy link
+										
+										
+									</span>
+									<span class="copiedLink" style="display: none;">
+										
+											Copy link
+										
+										
+										<i></i>
+									</span>
+									<textarea>https://product.sleekflow.io/en/release-update-_-april-20-2022</textarea>
+								</div></li>
+							</ul>
+						</div>
+					</div>
+				
+				
+					
+					
+				
+			</div>
+		
+		<h3 class="featureTitle">
+			
+			
+				
+				
+					
+				
+			
+			
+			
+			
+			
+				
+					
+					
+						<a href="https://product.sleekflow.io/en/release-update-_-april-20-2022" data-user-track="false" class="redirected">
+							Release Update - April 20, 2022
+						</a>
+					
+				
+				
+			
+		</h3>
+	
+	<div class="featureContent">
+		<h2>News &amp; Enhancements</h2><ul><li>New Whatsapp onboarding pathway</li><li>Adds access right on receiving notification/sending messages/modify role within the team</li><li>Edit multiple conversation status and collaborators at once</li><li>Allows users to download Sample Form in .xlsx format for contact importing</li><li>Allows to mark email as optional on widget’s lead form</li><li>Supports 360 Dialog WhatsApp templates in Automation</li><li>Shows detail of error code on Campaign</li><li>Updates on Account setting sidebar</li></ul><p class=""><u>                                                                                                                                                                                                                                         </u></p><h2>Fixes</h2><ul><li>Available to use emoji in Schedule message</li><li>Fixes Automation infinity loop</li><li>Fixes unable to close conversations</li><li>Fixes blank inbox after added new contacts issue</li><li>Fixes cannot select Whatsapp templates</li><li>Fixes Campaign status error</li><li>Improves Export File name with date range</li><li>Fixes issue where users are unable to add existing customers</li><li>Fixes issue where users cannot send attachments</li></ul>
+		
+	</div>
+		
+		
+		
+			<div id="feedback25851417" class="featureFeedback">
+				
+					<div id="reactions" class="emojis">
+						<span class="emojiContainer">
+							<img src="https://app.getbeamer.com/images/emojiNeg.svg" id="negativeemoji25851417" class="emoji" style="padding: 2px;" onclick="BeamerEmbed.reaction(25851417, 'negative')" onkeypress="BeamerEmbed.reaction(25851417, 'negative')" alt="emoji negative reaction for 'Release Update - April 20, 2022'" title="Negative" aria-label="Negative reaction for 'Release Update - April 20, 2022'" tabindex="0" role="button">
+						</span>
+						<span class="emojiContainer">
+							<img src="https://app.getbeamer.com/images/emojiNeut.svg" id="neutralemoji25851417" class="emoji" style="padding-bottom: 0px;" onclick="BeamerEmbed.reaction(25851417, 'neutral')" onkeypress="BeamerEmbed.reaction(25851417, 'neutral')" alt="emoji neutral reaction for 'Release Update - April 20, 2022'" title="Neutral" aria-label="Neutral reaction for 'Release Update - April 20, 2022'" tabindex="0" role="button">
+						</span>
+						<span class="emojiContainer">
+							<img src="https://app.getbeamer.com/images/emojiPos.svg" id="positiveemoji25851417" class="emoji" style="padding-bottom: 0px;" onclick="BeamerEmbed.reaction(25851417, 'positive')" onkeypress="BeamerEmbed.reaction(25851417, 'positive')" alt="emoji positive reaction for 'Release Update - April 20, 2022'" title="Positive" aria-label="Positive reaction for 'Release Update - April 20, 2022'" tabindex="0" role="button">
+						</span>
+					</div>
+				
+				
+					<form onsubmit="return BeamerEmbed.sendFeedback(25851417, false, event)" method="post">
+						<textarea class="feedbackInput binded" id="feedbackText25851417" minlength="1" maxlength="1000" name="feedback" placeholder="Send us your feedback" aria-label="Send us your feedback ('Release Update - April 20, 2022')"></textarea>
+						<svg class="materialIcon feedbackSend binded" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+    <path d="M2.01 21L23 12 2.01 3 2 10l15 2-15 2z"></path>
+    <path d="M0 0h24v24H0z" fill="none"></path>
+</svg>
+
+					</form>
+					
+						<form style="display: none;" onsubmit="return BeamerEmbed.sendFeedbackEmail(25851417, false, event)" class="feedbackEmailForm" method="post">
+							<input type="email" class="feedbackInput binded" id="feedbackEmail25851417" maxlength="300" name="feedbackEmail" placeholder="E-mail (optional)" aria-label="E-mail (optional) ('Release Update - April 20, 2022')">
+							<svg class="materialIcon feedbackSend binded" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+    <path d="M2.01 21L23 12 2.01 3 2 10l15 2-15 2z"></path>
+    <path d="M0 0h24v24H0z" fill="none"></path>
+</svg>
+
+						</form>
+					
+					<div id="thankfeedback25851417" class="feedbackSubmited"><i></i>Thanks for your feedback</div>
+				
+			</div>
+		
+		
+	</div>
+</div>	
+					<nav class="nav streamNav sticky sticker" style="margin-top:-35px;">
+						
+						
+						
+						    <div class="streamSearch">
+						    	<input type="text" class="streamSearchInput" placeholder="Search in this feed">
+						    	<div class="streamSearchIcon">
+									<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="40px" height="40px" viewBox="460 260 40 40" enable-background="new 460 260 40 40" xml:space="preserve"><path d="M499.738,297.637l-10.077-10.077c-0.18-0.18-0.414-0.273-0.664-0.273h-0.805c2.679-2.898,4.319-6.766,4.319-11.023 c0-8.976-7.272-16.249-16.249-16.249c-8.976,0-16.249,7.273-16.249,16.249c0,8.977,7.273,16.249,16.249,16.249 c4.258,0,8.125-1.641,11.023-4.312v0.797c0,0.25,0.102,0.484,0.273,0.663l10.077,10.078c0.367,0.367,0.961,0.367,1.328,0 l0.773-0.773C500.105,298.598,500.105,298.004,499.738,297.637z M476.263,290.012c-7.601,0-13.749-6.147-13.749-13.749 c0-7.601,6.148-13.749,13.749-13.749c7.602,0,13.749,6.148,13.749,13.749C490.012,283.864,483.864,290.012,476.263,290.012z"></path></svg>
+						    	</div>
+						    </div>
+						    
+
+<div class="streamCats singleCategory">
+    <ul class="streamCatsList">
+    	 
+    		
+    			<li class="catItem">
+			    	<a class="catItemLink active" href="//product.sleekflow.io/en?all&amp;role=s_BbeXSZKk31732%3Bs_sDIWwwod31733%3Bs_huTmMLRS21099%3Bs_APxJZKii32098" "="">
+			    		<i class="ico"></i>
+			    		<span class="catItemName">
+			    			
+				    			All
+				    		
+				    		
+			    		</span>
+			    	</a>
+			    </li>
+    		
+			
+				
+<li class="catItem category_enhancements">
+	
+		<a class="category_enhancements catItemLink" href="//product.sleekflow.io/en?category=enhancements&amp;role=s_BbeXSZKk31732%3Bs_sDIWwwod31733%3Bs_huTmMLRS21099%3Bs_APxJZKii32098">
+	
+	
+		
+			
+		
+		
+		
+			<i class="ico color-3" style="background: #71c4ff;"></i>
+		
+		
+		<span class="catItemName">
+			
+			
+				enhancements
+			
+		</span>
+	</a>
+</li>
+			
+				
+<li class="catItem category_knowledge">
+	
+		<a class="category_knowledge catItemLink" href="//product.sleekflow.io/en?category=knowledge&amp;role=s_BbeXSZKk31732%3Bs_sDIWwwod31733%3Bs_huTmMLRS21099%3Bs_APxJZKii32098">
+	
+	
+		
+			
+		
+		
+		
+			<i class="ico color-2" style="background: #fbae4e;"></i>
+		
+		
+		<span class="catItemName">
+			
+			
+				knowledge
+			
+		</span>
+	</a>
+</li>
+			
+				
+<li class="catItem category_new_features">
+	
+		<a class="category_new_features catItemLink" href="//product.sleekflow.io/en?category=new+features&amp;role=s_BbeXSZKk31732%3Bs_sDIWwwod31733%3Bs_huTmMLRS21099%3Bs_APxJZKii32098">
+	
+	
+		
+			
+		
+		
+		
+			<i class="ico color-9" style="background: #ff5a80;"></i>
+		
+		
+		<span class="catItemName">
+			
+			
+				new features
+			
+		</span>
+	</a>
+</li>
+			
+				
+<li class="catItem category_tutorials">
+	
+		<a class="category_tutorials catItemLink" href="//product.sleekflow.io/en?category=tutorials&amp;role=s_BbeXSZKk31732%3Bs_sDIWwwod31733%3Bs_huTmMLRS21099%3Bs_APxJZKii32098">
+	
+	
+		
+			
+		
+		
+		
+			<i class="ico color-3" style="background: #7fcfac;"></i>
+		
+		
+		<span class="catItemName">
+			
+			
+				tutorials
+			
+		</span>
+	</a>
+</li>
+			
+			
+		
+    	
+    		
+    		<li class="catItem watermark">
+		    	<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="20px" height="20px" viewBox="0 0 20 20" enable-background="new 0 0 20 20" xml:space="preserve"><g><g><path d="M2.012,17.198c-0.537,0-1.047-0.316-1.265-0.841c-0.287-0.693,0.046-1.486,0.744-1.772L17.47,8.05 c0.698-0.285,1.498,0.045,1.785,0.739c0.287,0.694-0.046,1.488-0.743,1.773L2.532,17.097C2.362,17.166,2.186,17.198,2.012,17.198z"></path></g><g><path d="M2.012,12.021c-0.537,0-1.047-0.316-1.265-0.841C0.46,10.487,0.793,9.693,1.491,9.408L17.47,2.873 c0.698-0.286,1.498,0.045,1.785,0.738c0.287,0.694-0.046,1.487-0.743,1.773L2.532,11.919C2.362,11.989,2.186,12.021,2.012,12.021z"></path></g><g><path d="M2.012,6.675c-0.54,0-1.051-0.319-1.267-0.847C0.46,5.133,0.797,4.341,1.497,4.059L11.299,0.1 c0.699-0.283,1.497,0.051,1.781,0.747c0.284,0.694-0.052,1.487-0.752,1.769L2.526,6.575C2.358,6.643,2.184,6.675,2.012,6.675z"></path></g><g><path d="M8.165,20c-0.54,0-1.051-0.32-1.267-0.848c-0.285-0.694,0.052-1.486,0.751-1.77l9.802-3.958 c0.699-0.282,1.497,0.052,1.781,0.746s-0.052,1.487-0.751,1.77l-9.803,3.959C8.51,19.967,8.336,20,8.165,20z"></path></g></g></svg>
+		    	SleekFlow feed by <a class="watermarkLink" target="_blank" rel="follow" href="https://www.getbeamer.com/?ref=watermark_riHhDZAn27585_public&amp;company=SleekFlow&amp;watermarkRef=powered&amp;utm_term=riHhDZAn27585&amp;utm_content=SleekFlow&amp;utm_source=standalone&amp;utm_medium=search&amp;utm_campaign=powered">Beamer</a>
+			</li>
+    	
+    </ul>
+</div>
+
+						
+					</nav>
+				
+			</div>
+		</div>
+		
+			
+			<div class="poweredFooter">
+				<a target="_blank" href="https://www.getbeamer.com/?ref=watermark_riHhDZAn27585_public&amp;company=SleekFlow&amp;watermarkRef=powered&amp;utm_term=riHhDZAn27585&amp;utm_content=SleekFlow&amp;utm_source=standalone&amp;utm_medium=footer&amp;utm_campaign=powered">
+					We are ⚡by Beamer
+				</a>
+			</div>
+		
+	</div>
+	
+	
+
+	<div class="top notificationsPrompt" style="display: none;" data-prompt="email">
+		<div class="promptContent">
+			<div class="promptContentText">
+				<svg class="materialIcon notificationsIcon" xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 0 24 24" width="24">
+	<path d="M0 0h24v24H0z" fill="none"></path>
+	<path d="M7.58 4.08L6.15 2.65C3.75 4.48 2.17 7.3 2.03 10.5h2c.15-2.65 1.51-4.97 3.55-6.42zm12.39 6.42h2c-.15-3.2-1.73-6.02-4.12-7.85l-1.42 1.43c2.02 1.45 3.39 3.77 3.54 6.42zM18 11c0-3.07-1.64-5.64-4.5-6.32V4c0-.83-.67-1.5-1.5-1.5s-1.5.67-1.5 1.5v.68C7.63 5.36 6 7.92 6 11v5l-2 2v1h16v-1l-2-2v-5zm-6 11c.14 0 .27-.01.4-.04.65-.14 1.18-.58 1.44-1.18.1-.24.15-.5.15-.78h-4c.01 1.1.9 2 2.01 2z"></path>
+</svg>
+				
+				
+					
+						Subscribe to get email updates
+					
+					
+				
+			</div>
+			<div class="promptContentText subscribed">
+				<svg class="materialIcon emailIcon" xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 0 24 24" width="24">
+	<path d="M20 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z"></path>
+	<path d="M0 0h24v24H0z" fill="none"></path>
+</svg>
+				<div class="innerPromptContentText">
+					<p>
+						
+							Thanks for subscribing!
+						
+						
+					</p>
+					<p>
+						
+							Check your inbox to verify your email
+						
+						
+					</p>
+				</div>
+			</div>
+			<div class="promptClose">
+				<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+    <path d="M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"></path>
+    <path d="M0 0h24v24H0z" fill="none"></path>
+</svg>
+
+			</div>
+		</div>
+
+		
+		
+			<div class="promptInput">
+				<form onsubmit="return BeamerEmbed.subscribeToEmail(event)" method="post">
+					<input type="email" class="emailSubscriptionInput" minlength="1" maxlength="1000" name="emailSubscription" placeholder="Enter your email address" value="" required="">
+					<input type="hidden" name="code" value="OlhBUZKrqrdBCbDfWnq0T0kHNO8=" id="code">
+					<svg class="materialIcon feedbackSend" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+    <path d="M2.01 21L23 12 2.01 3 2 10l15 2-15 2z"></path>
+    <path d="M0 0h24v24H0z" fill="none"></path>
+</svg>
+
+				</form>
+			</div>
+		
+	</div>
+
+	
+	
+
+	
+		
+	
+	
+
+	
+	
+	
+		
+		
+			<script>
+				(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+				(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+				m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+				})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+				
+				
+					ga('create', 'UA-135216830-2', 'auto', 'clientTracker');
+				
+				
+				ga('clientTracker.send', 'pageview');
+				
+					ga('clientTracker.send', 'event', 'Beamer', 'open', 'SleekFlow');
+				
+
+				var _isUsingGoogleAnalytics = true;
+			</script>
+		
+	
+	
+	
+		<link href="https://app.getbeamer.com/styles/highlight-js.css" rel="stylesheet" type="text/css">
+	
+
+
+</body></html>
