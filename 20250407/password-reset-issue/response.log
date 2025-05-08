@@ -138,3 +138,39 @@ louis.c+sf00_v1staging@sleekflow.io|{"message":"We've just sent you an email to 
 invalid@sleekflow.io|{"message":"Object reference not set to an instance of an object."} HTTP_CODE:400
 louis.c+sf00_staging-revamp@sleekflow.io|{"message":"We've just sent you an email to reset your password."} HTTP_CODE:200
 louis.c+sf00_v1staging@sleekflow.io|{"message":"We've just sent you an email to reset your password."} HTTP_CODE:200
+louis.c+sf00_staging-revamp@sleekflow.io|{"message":"We've just sent you an email to reset your password."} HTTP_CODE:200
+louis.c+sf00_v1staging@sleekflow.io|{"message":"We've just sent you an email to reset your password."} HTTP_CODE:200
+invalid@sleekflow.io|{"message":"Object reference not set to an instance of an object."} HTTP_CODE:400
+louis.c+sf00_staging-revamp@sleekflow.io|{"message":"We've just sent you an email to reset your password."} HTTP_CODE:200
+louis.c+sf00_v1staging@sleekflow.io|{"message":"We've just sent you an email to reset your password."} HTTP_CODE:200
+louis.c+sf00_v1staging@sleekflow.io|{"message":"We've just sent you an email to reset your password."} HTTP_CODE:200
+invalid@sleekflow.io|{"message":"Object reference not set to an instance of an object."} HTTP_CODE:400
+louis.c+sf00_staging-revamp@sleekflow.io|{"message":"We've just sent you an email to reset your password."} HTTP_CODE:200
+louis.c+sf00_v1staging@sleekflow.io|{"message":"We've just sent you an email to reset your password."} HTTP_CODE:200
+louis.c+sf00_v1staging@sleekflow.io|{"message":"We've just sent you an email to reset your password."} HTTP_CODE:200
+invalid@sleekflow.io|{"message":"Object reference not set to an instance of an object."} HTTP_CODE:400
+louis.c+sf00_staging-revamp@sleekflow.io|{"message":"We've just sent you an email to reset your password."} HTTP_CODE:200
+louis.c+sf00_v1staging@sleekflow.io|{"message":"We've just sent you an email to reset your password."} HTTP_CODE:200
+louis.c+sf00_v1staging@sleekflow.io|{"message":"We've just sent you an email to reset your password."} HTTP_CODE:200
+invalid@sleekflow.io|{"message":"Object reference not set to an instance of an object."} HTTP_CODE:400
+louis.c+sf00_staging-revamp@sleekflow.io|{"message":"We've just sent you an email to reset your password."} HTTP_CODE:200
+louis.c+sf00_v1staging@sleekflow.io|{"message":"We've just sent you an email to reset your password."} HTTP_CODE:200
+louis.c+sf00_v1staging@sleekflow.io|{"message":"We've just sent you an email to reset your password."} HTTP_CODE:200
+louis.c+sf00_staging-revamp@sleekflow.io|{"message":"We've just sent you an email to reset your password."} HTTP_CODE:200
+louis.c+sf00_v1staging@sleekflow.io|{"message":"We've just sent you an email to reset your password."} HTTP_CODE:200
+invalid@sleekflow.io|{"message":"Object reference not set to an instance of an object."} HTTP_CODE:400
+louis.c+sf00_staging-revamp@sleekflow.io|{"message":"We've just sent you an email to reset your password."} HTTP_CODE:200
+louis.c+sf00_v1staging@sleekflow.io|{"message":"Rate limits exceeded"} HTTP_CODE:400
+louis.c+sf00_v1staging@sleekflow.io|{"message":"Rate limits exceeded"} HTTP_CODE:400
+invalid@sleekflow.io|{"message":"Object reference not set to an instance of an object."} HTTP_CODE:400
+louis.c+sf00_staging-revamp@sleekflow.io|{"message":"We've just sent you an email to reset your password."} HTTP_CODE:200
+louis.c+sf00_v1staging@sleekflow.io|{"message":"Rate limits exceeded"} HTTP_CODE:400
+louis.c+sf00_v1staging@sleekflow.io|{"message":"Rate limits exceeded"} HTTP_CODE:400
+invalid@sleekflow.io|{"message":"Object reference not set to an instance of an object."} HTTP_CODE:400
+louis.c+sf00_staging-revamp@sleekflow.io|{"message":"We've just sent you an email to reset your password."} HTTP_CODE:200
+louis.c+sf00_v1staging@sleekflow.io|{"message":"Rate limits exceeded"} HTTP_CODE:400
+louis.c+sf00_v1staging@sleekflow.io|{"message":"Rate limits exceeded"} HTTP_CODE:400
+invalid@sleekflow.io|{"message":"Object reference not set to an instance of an object."} HTTP_CODE:400
+louis.c+sf00_staging-revamp@sleekflow.io|{"message":"We've just sent you an email to reset your password."} HTTP_CODE:200
+louis.c+sf00_v1staging@sleekflow.io|{"message":"Rate limits exceeded"} HTTP_CODE:400
+louis.c+sf00_v1staging@sleekflow.io|{"message":"Rate limits exceeded"} HTTP_CODE:400
